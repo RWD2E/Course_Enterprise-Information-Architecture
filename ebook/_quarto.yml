@@ -1,5 +1,6 @@
 project:
   type: book
+  output-dir: docs
 
 book:
   title: "Enterprise Information Architecture"
@@ -18,8 +19,6 @@ format:
     theme:
       - cosmo
       - brand
-  pdf:
-    documentclass: scrreprt
 
 editor: visual
 

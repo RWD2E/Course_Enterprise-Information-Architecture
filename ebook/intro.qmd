@@ -1,9 +1,9 @@
 # Introduction
 
-This is a book created from markdown and executable code.
+## Architecture
 
-See @knuth84 for additional discussion of literate programming.
+## Information Architecture
 
-```{r}
-1 + 1
-```
+## Enterprise Information Architecture
+
+## Enterprise Information Architecture in Healthcare

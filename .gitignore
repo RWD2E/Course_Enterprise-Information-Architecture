@@ -1,4 +1,7 @@
+# hidden files
 .Rproj.user
 .Rhistory
 .RData
 .Ruserdata
+*/.quarto/
+
