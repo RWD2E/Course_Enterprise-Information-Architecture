@@ -2,7 +2,6 @@ project:
   type: book
   output-dir: docs
 
-
 book:
   title: "Enterprise Information Architecture"
   author: "Xing Song"
@@ -17,18 +16,6 @@ book:
     - pbl5_ai.qmd
     - pbl6_open.qmd
     - references.qmd
-  sidebar: 
-    title: ""    
-    contents:       
-      - index.qmd
-      - intro.qmd
-      - pbl1_ls.qmd
-      - pbl2_ds.qmd
-      - pbl3_hb.qmd
-      - pbl4_dq.qmd
-      - pbl5_ai.qmd
-      - pbl6_open.qmd
-      - references.qmd
 
 bibliography: references.bib
 
