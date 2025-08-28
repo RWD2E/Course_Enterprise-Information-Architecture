@@ -9,7 +9,12 @@ book:
   chapters:
     - index.qmd
     - intro.qmd
-    - summary.qmd
+    - pbl1_ls.qmd
+    - pbl2_ds.qmd
+    - pbl3_hb.qmd
+    - pbl4_dq.qmd
+    - pbl5_ai.qmd
+    - pbl6_open.qmd
     - references.qmd
 
 bibliography: references.bib

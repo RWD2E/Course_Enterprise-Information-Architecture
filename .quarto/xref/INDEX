@@ -10,5 +10,23 @@
   },
   "references.qmd": {
     "references.html": "b2b4b8db"
+  },
+  "pbl1_ls.qmd": {
+    "pbl1_ls.html": "93123146"
+  },
+  "pbl2_ds.qmd": {
+    "pbl2_ds.html": "cfd1b204"
+  },
+  "pbl3_hb.qmd": {
+    "pbl3_hb.html": "1bdb2b53"
+  },
+  "pbl4_dq.qmd": {
+    "pbl4_dq.html": "e8c0ddbd"
+  },
+  "pbl5_ai.qmd": {
+    "pbl5_ai.html": "3fd3f752"
+  },
+  "pbl6_open.qmd": {
+    "pbl6_open.html": "3f1a92e7"
   }
 }
