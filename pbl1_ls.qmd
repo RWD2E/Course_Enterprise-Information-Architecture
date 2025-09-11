@@ -1,4 +1,3 @@
----
-title: "PBL1 - Architectural Analysis of A Healthcare Information System"
----
+# PBL1 - Architectural Analysis of A Healthcare Information System
+
 

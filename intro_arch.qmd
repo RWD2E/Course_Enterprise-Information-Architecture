@@ -153,16 +153,25 @@ There are in general five architectural styles: Centralized, Decentralized, Fede
 
 -   **Hybrid**: A hybrid architecture is a composite structural style that integrates elements of centralized, decentralized, and distributed models, typically centralizing critical components while allowing distributed or decentralized autonomy in selected functions, to balance control, scalability, and resilience under contextual constraints.
 
-| **Aspect** | **Centralized** | **Decentralized** | **Distributed** | **Federated** | **Hybrid** |
-|----|----|----|----|----|----|
-| **Control** | Central hub authority. | Fully local authority per node. | Shared control under system-wide governance. | Local authority + shared agreements. | Mixed (central for some functions, local for others). |
-| **Coordination** | Top-down, fully centralized. | None or ad hoc between nodes. | Protocol-driven, inherent in design. | Standards-driven, negotiated agreements. | Context-dependent; combines multiple coordination modes. |
-| **System Behavior** | Appears as one system, controlled centrally. | Each node behaves independently. | Appears as one logical system to users, coordinated internally. | Appears as many systems cooperating, each autonomous but interoperable. | Varies by design — some centralized, some federated, some distributed. |
-| **Homogeneity** | Homogeneous by design. | Heterogeneous — each node can differ. | Typically homogeneous (nodes use same software/protocols). | Heterogeneous — nodes may use different tech stacks. | Mixed — some subsystems homogeneous, others heterogeneous. |
-| **Interoperability** | Not needed (everything is inside one system). | Not guaranteed; integration is ad hoc. | Built-in by design. | Achieved through agreed standards (e.g., FHIR, SAML, OAuth). | Selective; interoperability mechanisms applied where needed. |
-| **Failure Impact** | Failure of the hub can bring down the whole system. | Failure isolated to one node, others unaffected. | Node failures can impact system but mitigated by redundancy. | Failure isolated to one member; federation continues. | Depends on which part fails; mitigated by redundancy in design. |
-| **Strengths** | Simplicity, consistency, easy governance. | Robust autonomy, local optimization, resilience to central failure. | Scalability, performance, transparency to users. | Autonomy + interoperability, scales across organizations. | Balances tradeoffs; adaptable to diverse requirements. |
-| **Weaknesses** | Single point of failure, poor scalability. | Fragmentation, duplication, lack of global view. | Synchronization complexity, latency, consistency tradeoffs. | Governance complexity, requires trust and alignment. | Added complexity, governance challenges, risk of unclear |
++----------------------+-----------------------------------------------------+---------------------------------------------------------------------+-----------------------------------------------------------------+-------------------------------------------------------------------------+------------------------------------------------------------------------+
+| **Aspect**           | **Centralized**                                     | **Decentralized**                                                   | **Distributed**                                                 | **Federated**                                                           | **Hybrid**                                                             |
++======================+=====================================================+=====================================================================+=================================================================+=========================================================================+========================================================================+
+| **Control**          | Central hub authority.                              | Fully local authority per node.                                     | Shared control under system-wide governance.                    | Local authority + shared agreements.                                    | Mixed (central for some functions, local for others).                  |
++----------------------+-----------------------------------------------------+---------------------------------------------------------------------+-----------------------------------------------------------------+-------------------------------------------------------------------------+------------------------------------------------------------------------+
+| **Coordination**     | Top-down, fully centralized.                        | None or ad hoc between nodes.                                       | Protocol-driven, inherent in design.                            | Standards-driven, negotiated agreements.                                | Context-dependent; combines multiple coordination modes.               |
++----------------------+-----------------------------------------------------+---------------------------------------------------------------------+-----------------------------------------------------------------+-------------------------------------------------------------------------+------------------------------------------------------------------------+
+| **System Behavior**  | Appears as one system, controlled centrally.        | Each node behaves independently.                                    | Appears as one logical system to users, coordinated internally. | Appears as many systems cooperating, each autonomous but interoperable. | Varies by design — some centralized, some federated, some distributed. |
++----------------------+-----------------------------------------------------+---------------------------------------------------------------------+-----------------------------------------------------------------+-------------------------------------------------------------------------+------------------------------------------------------------------------+
+| **Homogeneity**      | Homogeneous by design.                              | Heterogeneous — each node can differ.                               | Typically homogeneous (nodes use same software/protocols).      | Heterogeneous — nodes may use different tech stacks.                    | Mixed — some subsystems homogeneous, others heterogeneous.             |
++----------------------+-----------------------------------------------------+---------------------------------------------------------------------+-----------------------------------------------------------------+-------------------------------------------------------------------------+------------------------------------------------------------------------+
+| **Interoperability** | Not needed (everything is inside one system).       | Not guaranteed; integration is ad hoc.                              | Built-in by design.                                             | Achieved through agreed standards (e.g., FHIR, SAML, OAuth).            | Selective; interoperability mechanisms applied where needed.           |
++----------------------+-----------------------------------------------------+---------------------------------------------------------------------+-----------------------------------------------------------------+-------------------------------------------------------------------------+------------------------------------------------------------------------+
+| **Failure Impact**   | Failure of the hub can bring down the whole system. | Failure isolated to one node, others unaffected.                    | Node failures can impact system but mitigated by redundancy.    | Failure isolated to one member; federation continues.                   | Depends on which part fails; mitigated by redundancy in design.        |
++----------------------+-----------------------------------------------------+---------------------------------------------------------------------+-----------------------------------------------------------------+-------------------------------------------------------------------------+------------------------------------------------------------------------+
+| **Strengths**        | Simplicity, consistency, easy governance.           | Robust autonomy, local optimization, resilience to central failure. | Scalability, performance, transparency to users.                | Autonomy + interoperability, scales across organizations.               | Balances tradeoffs; adaptable to diverse requirements.                 |
++----------------------+-----------------------------------------------------+---------------------------------------------------------------------+-----------------------------------------------------------------+-------------------------------------------------------------------------+------------------------------------------------------------------------+
+| **Weaknesses**       | Single point of failure, poor scalability.          | Fragmentation, duplication, lack of global view.                    | Synchronization complexity, latency, consistency tradeoffs.     | Governance complexity, requires trust and alignment.                    | Added complexity, governance challenges, risk of unclear               |
++----------------------+-----------------------------------------------------+---------------------------------------------------------------------+-----------------------------------------------------------------+-------------------------------------------------------------------------+------------------------------------------------------------------------+
 
 : **Table 1. Comparison of Architectural Styles**
 
@@ -197,7 +206,7 @@ There are in general five architectural styles: Centralized, Decentralized, Fede
 
 ## 4-Quadrant Decision Matrix
 
--   Sensitivity: does this decision strongly influence metrics (?
+-   Sensitivity: does this decision strongly influence metrics (e.g., value, profit, efficiency)?
 
 -   Connectivity: would substantial rework be required to change this decision? Could we make this decision downstream without regards for other decisions?
 
@@ -207,18 +216,26 @@ There are in general five architectural styles: Centralized, Decentralized, Fede
 
 ## Six Patterns of Architectural Decisions
 
-| **Pattern** | **Description** |
-|----|----|
-| **DECISION-OPTION** | A group of decisions where each decision has its own discrete set of options. |
-| **DOWN-SELECTING** | A group of binary decisions representing a subset from a set of candidate entities. |
-| **ASSIGNING** | Given two different sets of entities, a group of decisions assigning each element from one set to any subset of entities from the other set. |
-| **PARTITIONING** | A group of decisions representing a partitioning of a set of entities into subsets that are mutually exclusive and exhaustive. |
-| **PERMUTING** | A group of decisions representing a one-to-one mapping between a set of entities and a set of positions. |
-| **CONNECTING** | Given a set of entities that are nodes in a graph, a group of decisions representing the connections between those nodes. |
++---------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
+| **Pattern**         | **Description**                                                                                                                              |
++=====================+==============================================================================================================================================+
+| **DECISION-OPTION** | A group of decisions where each decision has its own discrete set of options.                                                                |
++---------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
+| **DOWN-SELECTING**  | A group of binary decisions representing a subset from a set of candidate entities.                                                          |
++---------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
+| **ASSIGNING**       | Given two different sets of entities, a group of decisions assigning each element from one set to any subset of entities from the other set. |
++---------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
+| **PARTITIONING**    | A group of decisions representing a partitioning of a set of entities into subsets that are mutually exclusive and exhaustive.               |
++---------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
+| **PERMUTING**       | A group of decisions representing a one-to-one mapping between a set of entities and a set of positions.                                     |
++---------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
+| **CONNECTING**      | Given a set of entities that are nodes in a graph, a group of decisions representing the connections between those nodes.                    |
++---------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
 
 ------------------------------------------------------------------------
 
-# Readings
+# References
 
 -   [@Crawley2016SystemArchitecture]
+
 -   [@MIT2007SystemArchitecture]

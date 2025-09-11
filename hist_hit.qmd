@@ -1,10 +1,8 @@
----
-title: "History of Health Information Technology in the US"
----
+# History of Health Information Technology in the US {.unnumbered}
 
 The history of Health Information Technology (HIT) in the United States is marked by gradual adoption, policy-driven acceleration, and ongoing challenges in interoperability. Early computing in healthcare began in the 1960s with mainframe-based hospital information systems. By the 1980s, academic centers such as Regenstrief Institute pioneered computerized medical records. The 1990s saw the rise of electronic billing and early electronic health records (EHRs), influenced by managed care and regulatory requirements. After 2000, federal initiatives—culminating in the Health Information Technology for Economic and Clinical Health (HITECH) Act of 2009—catalyzed widespread adoption, transforming HIT into a central pillar of U.S. healthcare delivery.
 
-# Evolution of Health IT: The Early Years {.unnumbered}
+## Evolution of Health IT: The Early Years
 
 In the early years (1960s–1980s), HIT primarily supported administrative and financial tasks rather than clinical workflows. The Massachusetts General Hospital Utility Multi-Programming System (MUMPS) and the Regenstrief Medical Record System were pioneering platforms. Data storage was limited and proprietary, and clinical systems lacked interoperability. During this period, the focus was proof-of-concept—demonstrating that computers could store, retrieve, and manage patient data.
 
@@ -14,7 +12,7 @@ In the early years (1960s–1980s), HIT primarily supported administrative and f
 
 ------------------------------------------------------------------------
 
-# Evolution of Health IT: The Modern Era
+## Evolution of Health IT: The Modern Era
 
 The modern era of HIT (1990s–present) is defined by digitization, standardization, and integration into clinical practice. Innovations include the widespread deployment of EHRs, the emergence of clinical decision support (CDS), and the adoption of standards like HL7 (Health Level 7) and SNOMED CT (Systematized Nomenclature of Medicine–Clinical Terms). The 21st Century Cures Act (2016) reinforced interoperability mandates and information-blocking prohibitions, pushing HIT towards greater transparency, patient access, and data exchange across systems.
 
@@ -24,7 +22,7 @@ The modern era of HIT (1990s–present) is defined by digitization, standardizat
 
 ------------------------------------------------------------------------
 
-# Evolution of Health IT: The HITECH Act
+## Evolution of Health IT: The HITECH Act
 
 The HITECH Act (Health Information Technology for Economic and Clinical Health Act) of 2009 was a turning point, allocating \$30+ billion for EHR adoption through the Meaningful Use (MU) program. Hospitals and providers received incentives for implementing certified EHR technology that met defined standards for electronic prescribing, structured data capture, and patient engagement. This act not only drove adoption rates above 80% in hospitals but also introduced the foundation for modern health information exchange (HIE) and quality reporting systems.
 
@@ -34,7 +32,7 @@ The HITECH Act (Health Information Technology for Economic and Clinical Health A
 
 ------------------------------------------------------------------------
 
-# Evolution of Public Health Informatics
+## Evolution of Public Health Informatics
 
 Public Health Informatics emerged in the 1990s, combining epidemiology with information science. Systems like the National Electronic Disease Surveillance System (NEDSS) and immunization registries provided data for outbreak monitoring, chronic disease tracking, and bioterrorism preparedness. With COVID-19, public health informatics gained renewed visibility, as EHR-linked reporting and real-time dashboards became essential for situational awareness, reinforcing the need for integrated HIT and public health infrastructure.
 
@@ -44,7 +42,7 @@ Public Health Informatics emerged in the 1990s, combining epidemiology with info
 
 ------------------------------------------------------------------------
 
-# Evolution of Nursing Informatics and HIT Tools Used By Nursing
+## Evolution of Nursing Informatics and HIT Tools Used By Nursing
 
 Nursing informatics grew from documentation systems in the 1980s to sophisticated clinical decision support tools today. Early efforts included standardized nursing terminologies (NANDA-North American Nursing Diagnosis Association International, NIC-Nursing Interventions Classification, NOC-Nursing Outcomes Classification) and computerized charting. By the 2000s, tools like barcode medication administration (BCMA) and mobile documentation systems reduced errors and enhanced efficiency. Today, nursing informatics integrates predictive analytics, mobile apps, and workflow optimization to improve patient safety and evidence-based care.
 
@@ -54,7 +52,7 @@ Nursing informatics grew from documentation systems in the 1980s to sophisticate
 
 ------------------------------------------------------------------------
 
-# History of Electronic Health Records (EHRs)
+## History of Electronic Health Records (EHRs)
 
 The EHR traces back to academic prototypes like the Regenstrief system (1970s). Commercial vendors entered in the 1990s (e.g., Epic, Cerner, MEDITECH), offering enterprise solutions. Initially, adoption was slow due to cost and workflow disruption. Post-HITECH Act, adoption surged, transforming EHRs into the backbone of care coordination, billing, and compliance. Challenges persist in usability, clinician burnout, and achieving full interoperability.
 
@@ -64,7 +62,7 @@ The EHR traces back to academic prototypes like the Regenstrief system (1970s). 
 
 ------------------------------------------------------------------------
 
-# History of Clinical Decision Support Systems
+## History of Clinical Decision Support Systems
 
 Clinical Decision Support System, or CDSS development began in the 1970s with systems like MYCIN, which provided antibiotic recommendations. Early CDSS were rule-based and limited by computational power. In the 1990s and 2000s, CDSS became embedded in EHRs, offering drug–drug interaction alerts, reminders, and order sets. Today, CDSS integrates artificial intelligence (AI), machine learning, and natural language processing, expanding into predictive analytics and precision medicine.
 
@@ -74,7 +72,7 @@ Clinical Decision Support System, or CDSS development began in the 1970s with sy
 
 ------------------------------------------------------------------------
 
-# History of CPOE and E-Prescribing
+## History of CPOE and E-Prescribing
 
 Computerized Provider Order Entry (CPOE) originated in the 1970s at academic centers but gained traction in the 1990s with improved interfaces. By the 2000s, regulatory pressures and safety concerns (e.g., reducing medication errors) drove adoption. E-prescribing, formalized under the Medicare Modernization Act (2003), became widespread with incentives for electronic medication transmission, improving accuracy, and enabling real-time formulary checks.
 
@@ -84,7 +82,7 @@ Computerized Provider Order Entry (CPOE) originated in the 1970s at academic cen
 
 ------------------------------------------------------------------------
 
-# History of Health Information Exchange
+## History of Health Information Exchange
 
 Health Information Exchange, or HIE began in the late 1990s as community-based health information networks (CHINs), but most failed due to sustainability challenges. The 2000s saw renewed federal support through Regional Health Information Organizations (RHIOs). The HITECH Act further accelerated HIE adoption by funding state-level initiatives. Today, networks like eHealth Exchange and CommonWell enable nationwide data exchange, though interoperability challenges remain.
 
@@ -94,7 +92,7 @@ Health Information Exchange, or HIE began in the late 1990s as community-based h
 
 ------------------------------------------------------------------------
 
-# History of Privacy and Security Legislation
+## History of Privacy and Security Legislation
 
 Key milestones include:
 
@@ -110,7 +108,7 @@ Key milestones include:
 
 ------------------------------------------------------------------------
 
-# Software Certification and Regulation
+## Software Certification and Regulation
 
 The Office of the National Coordinator (ONC) oversees EHR certification through the ONC Health IT Certification Program, ensuring software meets standards for interoperability, security, and clinical quality measures. Certification requirements evolved from Meaningful Use to the Promoting Interoperability program. Additionally, the FDA regulates certain software as medical devices (SaMD), particularly clinical decision-support systems that influence patient care.
 
@@ -120,7 +118,7 @@ The Office of the National Coordinator (ONC) oversees EHR certification through 
 
 ------------------------------------------------------------------------
 
-# History of Mobile Computing
+## History of Mobile Computing
 
 Mobile computing in healthcare started with laptops and personal digital assistants (PDAs) in the 1990s (e.g., Palm Pilots for drug references). The 2007 launch of the iPhone and subsequent Android platforms revolutionized access to health apps, telemonitoring, and mobile EHR interfaces. Today, mobile computing underpins patient engagement tools, wearable device integration, and remote patient monitoring.
 
@@ -130,7 +128,7 @@ Mobile computing in healthcare started with laptops and personal digital assista
 
 ------------------------------------------------------------------------
 
-# History of Telemedicine
+## History of Telemedicine
 
 Telemedicine dates back to NASA’s space medicine experiments in the 1960s and early telepsychiatry projects. By the 1990s, rural telehealth pilots expanded specialty access. In the 2000s, broadband expansion facilitated wider adoption. The COVID-19 pandemic (2020) triggered unprecedented telemedicine growth, supported by temporary reimbursement flexibilities and HIPAA enforcement discretion. Telemedicine is now integral to hybrid care models.
 
@@ -140,7 +138,7 @@ Telemedicine dates back to NASA’s space medicine experiments in the 1960s and 
 
 ------------------------------------------------------------------------
 
-# History of Quality Improvement and Patient Safety
+## History of Quality Improvement and Patient Safety
 
 Quality improvement in healthcare predates HIT, rooted in Florence Nightingale’s 19th-century statistical work. In the U.S., the Institute of Medicine’s reports—To Err is Human (1999) and Crossing the Quality Chasm (2001)—spotlighted safety failures, catalyzing HIT adoption. Tools like EHRs, CPOE, and clinical decision support became central to reducing adverse events, enabling measurement, and advancing evidence-based care.
 
@@ -150,7 +148,7 @@ Quality improvement in healthcare predates HIT, rooted in Florence Nightingale�
 
 ------------------------------------------------------------------------
 
-# History of Health IT Organizations
+## History of Health IT Organizations
 
 Professional and policy organizations shaped the trajectory of HIT:
 

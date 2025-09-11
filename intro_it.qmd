@@ -1,22 +1,20 @@
----
-title: "Introduction to Information Technology"
----
+# Introduction to Information Technology {.unnumbered}
 
-# Basic Computing Concepts, Including History
+## Basic Computing Concepts, Including History
 
-## Definitions, Descriptions, and Elements
+### Definitions, Descriptions, and Elements
 
 Computing refers to the use of electronic devices and algorithms to process, store, and transmit information. At its core, a computer system consists of hardware (physical components), software (instructions and programs), and data (the information being processed). Key elements include input, processing, storage, and output, which together define the flow of information in digital systems.
 
-## Selecting a New Computer
+### Selecting a New Computer
 
 Selecting a computer involves evaluating performance factors (CPU speed, RAM capacity, storage type), form factors (desktop, laptop, tablet, server), and intended use cases (general office work, scientific computing, gaming, data analysis). Criteria such as battery life, expandability, operating system compatibility, and budget also shape the decision.
 
-## History of Computers
+### History of Computers
 
 The history of computers can be divided into generations: - First Generation (1940s–1950s): Vacuum tubes, large mainframes, limited reliability. - Second Generation (1950s–1960s): Transistors replaced tubes, smaller and more efficient. - Third Generation (1960s–1970s): Integrated circuits allowed miniaturization. - Fourth Generation (1970s–1980s): Microprocessors enabled personal computers. - Fifth Generation (1980s–present): Parallel processing, networking, and AI-enabled systems.
 
-## The Growth of Personal Computers and the Internet
+### The Growth of Personal Computers and the Internet
 
 The 1980s marked the rise of personal computers (PCs) through companies like Apple, IBM, and Microsoft. The 1990s saw the commercial expansion of the Internet, revolutionizing communication, commerce, and research. The transition from dial-up modems to broadband, and later to wireless networking, underpinned the global digital economy.
 
@@ -26,17 +24,17 @@ The 1980s marked the rise of personal computers (PCs) through companies like App
 
 ------------------------------------------------------------------------
 
-# Computer Hardware
+## Computer Hardware
 
-## Components and Peripherals
+### Components and Peripherals
 
 Core components include the central processing unit (CPU), memory (RAM), motherboard, power supply, and storage devices. Peripherals—such as keyboards, mice, monitors, and printers—extend usability. External devices like scanners and external drives provide additional input/output functionality.
 
-## Ports, Memory, and Secondary Storage
+### Ports, Memory, and Secondary Storage
 
 Ports (USB, HDMI, Ethernet) serve as physical interfaces for connectivity. Primary memory (RAM) provides temporary data storage during processing, while secondary storage (hard drives, SSDs, optical discs) provides long-term data retention. Modern trends emphasize solid-state storage for speed and reliability.
 
-## Data Types, Data Addresses, and the CPU, GPU
+### Data Types, Data Addresses, and the CPU, GPU
 
 Computers process data types such as integers, floating-point numbers, characters, and logical values. Memory addressing allows precise data retrieval. The CPU performs general-purpose processing, while the GPU accelerates parallel computations, crucial for graphics rendering, AI, and scientific simulations.
 
@@ -46,17 +44,17 @@ Computers process data types such as integers, floating-point numbers, character
 
 ------------------------------------------------------------------------
 
-# Computer Software
+## Computer Software
 
-## Identify major classifications of software
+### Identify major classifications of software
 
 Software is classified into system software (operating systems, utilities), application software (word processors, databases, web browsers), and middleware (tools facilitating communication between applications and operating systems).
 
-## What an operating system is and what it does
+### What an operating system is and what it does
 
 An operating system (OS) manages hardware resources, provides a user interface, and enables application execution. Functions include process scheduling, memory management, file system organization, and device driver support.
 
-## Files and file management
+### Files and file management
 
 Files represent structured units of data stored on secondary devices. File management involves naming, organizing, accessing, and securing files, often within a hierarchical directory system. Modern systems support file compression, encryption, and metadata tagging.
 
@@ -66,25 +64,25 @@ Files represent structured units of data stored on secondary devices. File manag
 
 ------------------------------------------------------------------------
 
-# Computer Programming
+## Computer Programming
 
-## Programming Languages
+### Programming Languages
 
 Programming languages (e.g., Python, Java, C++) provide structured syntax for expressing algorithms. They are categorized into low-level languages (assembly, machine code) and high-level languages (object-oriented, scripting, functional).
 
-## Compiling and Interpreting Process for Computer Programs
+### Compiling and Interpreting Process for Computer Programs
 
 Compilers translate high-level code into machine code before execution, while interpreters translate line-by-line during execution. Hybrid approaches (e.g., Java with bytecode and the Java Virtual Machine \[JVM\]) combine both strategies.
 
-## Programming Language Constructs
+### Programming Language Constructs
 
 Constructs include variables, data types, control structures (loops, conditionals), functions, and classes. Together, they form the building blocks of software development.
 
-## Basic Programming Concepts
+### Basic Programming Concepts
 
 Basic concepts include syntax versus semantics, modularity, debugging, and algorithmic thinking. Emphasis is placed on clarity, maintainability, and correctness of code.
 
-## Advanced Programming Concepts
+### Advanced Programming Concepts
 
 Advanced concepts cover concurrency, recursion, memory management, error handling, and design patterns. Contemporary trends include functional programming paradigms and parallel programming for high-performance computing (HPC).
 
@@ -94,21 +92,21 @@ Advanced concepts cover concurrency, recursion, memory management, error handlin
 
 ------------------------------------------------------------------------
 
-# Database Management System
+## Database Management System
 
-## How Databases Store Data
+### How Databases Store Data
 
 Databases organize data into tables (rows and columns), with relational models dominating. Data is stored using indexes for fast retrieval, often supported by transaction management systems for consistency.
 
-## Data Modeling and Normalization
+### Data Modeling and Normalization
 
 Data modeling uses Entity-Relationship Diagrams (ERD) to represent data structures. Normalization ensures data integrity by minimizing redundancy, typically through First Normal Form (1NF), Second Normal Form (2NF), and Third Normal Form (3NF).
 
-## Structured Query Language
+### Structured Query Language
 
 Structured Query Language (SQL) is the standard language for managing relational databases, supporting data definition (DDL), data manipulation (DML), and data control (DCL) operations.
 
-## Structure of Clinical Databases
+### Structure of Clinical Databases
 
 Clinical databases integrate patient records, laboratory results, imaging data, and genomic information. They must comply with Health Insurance Portability and Accountability Act (HIPAA), General Data Protection Regulation (GDPR), and Institutional Review Board (IRB) requirements for security and privacy.
 
@@ -118,25 +116,25 @@ Clinical databases integrate patient records, laboratory results, imaging data, 
 
 ------------------------------------------------------------------------
 
-# Networks
+## Networks
 
-## Introduction to Networks and the Internet
+### Introduction to Networks and the Internet
 
 A network is a set of interconnected devices that exchange data. The Internet is the global network of networks built on the Transmission Control Protocol/Internet Protocol (TCP/IP) suite.
 
-## Basics of Internet Addressing and Network Classification
+### Basics of Internet Addressing and Network Classification
 
 Internet addressing includes Internet Protocol (IP) addresses (Internet Protocol version 4 \[IPv4\], Internet Protocol version 6 \[IPv6\]), domain names, and Media Access Control (MAC) addresses. Networks are classified into Local Area Networks (LANs), Metropolitan Area Networks (MANs), Wide Area Networks (WANs), and Personal Area Networks (PANs) based on geographic scope.
 
-## Network Topologies, Protocols, and Standards
+### Network Topologies, Protocols, and Standards
 
 Internet addressing includes Internet Protocol (IP) addresses (Internet Protocol version 4 \[IPv4\], Internet Protocol version 6 \[IPv6\]), domain names, and Media Access Control (MAC) addresses. Networks are classified into Local Area Networks (LANs), Metropolitan Area Networks (MANs), Wide Area Networks (WANs), and Personal Area Networks (PANs) based on geographic scope.
 
-## Wireless Communication and Network Hardware
+### Wireless Communication and Network Hardware
 
 Wireless communication uses radio frequencies, Wi-Fi (Wireless Fidelity), Bluetooth, and cellular technologies. Essential hardware includes routers, switches, access points, and modems.
 
-## Networking Logical Models and the Open Systems Interconnection Model
+### Networking Logical Models and the Open Systems Interconnection Model
 
 The Open Systems Interconnection (OSI) model defines seven layers (physical to application) for networking functions. The Transmission Control Protocol/Internet Protocol (TCP/IP) model simplifies this into four layers (network interface, internet, transport, and application).
 
@@ -146,25 +144,25 @@ The Open Systems Interconnection (OSI) model defines seven layers (physical to a
 
 ------------------------------------------------------------------------
 
-# Security and Privacy
+## Security and Privacy
 
-## Cybercrime and IT Security
+### Cybercrime and IT Security
 
 Cybercrime involves unauthorized access, data theft, fraud, and disruption of services. Information Technology (IT) security encompasses technical, administrative, and physical controls to prevent such threats.
 
-## Hackers Methods
+### Hackers Methods
 
 Methods include phishing, malware (malicious software), denial-of-service (DoS) attacks, Structured Query Language (SQL) injection, and social engineering.
 
-## Protecting Against Cybercrime
+### Protecting Against Cybercrime
 
 Defensive strategies include firewalls, intrusion detection systems (IDS), multifactor authentication (MFA), and regular patching.
 
-## Minimizing Risk of a Successful cyberattack
+### Minimizing Risk of a Successful cyberattack
 
 Organizations employ risk assessments, employee training, encryption, and incident response planning to reduce vulnerabilities.
 
-## Health Insurance Portability and Accountability Act (HIPAA)
+### Health Insurance Portability and Accountability Act (HIPAA)
 
 -   Purpose and Scope
 
@@ -190,17 +188,17 @@ Organizations employ risk assessments, employee training, encryption, and incide
 
 ------------------------------------------------------------------------
 
-# Information Systems
+## Information Systems
 
-## What is an Information System?
+### What is an Information System?
 
 An information system integrates people, technology, processes, and data to support decision-making, coordination, and analysis.
 
-## The Systems Development Process
+### The Systems Development Process
 
 Development follows structured models such as waterfall, agile, or Development and Operations (DevOps). Core stages include requirements analysis, design, implementation, testing, deployment, and maintenance.
 
-## Specialized Information Systems
+### Specialized Information Systems
 
 Examples include Decision Support Systems (DSS), expert systems, Geographic Information Systems (GIS), and Clinical Decision Support Systems (CDSS). These are tailored for domain-specific applications.
 
