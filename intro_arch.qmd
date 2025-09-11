@@ -18,7 +18,7 @@
 > The embodiment of concept, and the allocation of physical/informational function to elements of form, and definition of interfaces among the elements and with the surrounding context\
 > - *Edward Crawley, et al.*
 
-------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------
 
 ## Architecture as Function-Form Mapping
 
@@ -70,9 +70,14 @@ Decompositional View uses tree structure to decompose a system into sub-systems 
 
 The structural view represents the static, enduring aspects of a system—its components, relationships, and organization—independent of how those components behave over time. There are two typical representations:
 
--   Graphical representation: **Object-Process Modeling (OPM)**
+-   Graphical representation: **Object-Process Modeling (OPM)** (will expand in later chapters)
 
--   List representation: **Design Structure Matrix (DSM)**
+-   List representation: **Design Structure Matrix (DSM)** (will expand in later chapters)
+
+### Design vs. Reverse Engineering
+
+
+![Figure 2. Form-Function Sequence](img/form-function.png)
 
 ------------------------------------------------------------------------
 
@@ -112,7 +117,7 @@ An **architect** works by applying:
 
 -   **Management complexity**: so that the system is comprehensible to all during its design, implementation, and evolution
 
-## ------------------------------------------------------------------------
+------------------------------------------------------------------------
 
 # Types of Architectures
 
@@ -128,7 +133,7 @@ There are many different types of architectures, depending on the context—rang
 
 -   **Software Architecture (SwA)**: is the high-level design of a software system that defines its structural elements, the relationships and interactions among those elements, and the guiding principles that ensure the system meets functional requirements and quality attributes such as performance, security, and maintainability.
 
-## ------------------------------------------------------------------------
+------------------------------------------------------------------------
 
 # Styles of Architecture
 
@@ -166,7 +171,7 @@ There are in general five architectural styles: Centralized, Decentralized, Fede
 
 : **Table 1. Comparison of Architectural Styles**
 
-## ------------------------------------------------------------------------
+------------------------------------------------------------------------
 
 # Architectural Decisions
 
@@ -201,7 +206,7 @@ There are in general five architectural styles: Centralized, Decentralized, Fede
 
 -   Connectivity: would substantial rework be required to change this decision? Could we make this decision downstream without regards for other decisions?
 
-![Figure 3. Architectural Decision Matrix](img/arch_decision_matrix)
+![Figure 3. Architectural Decision Matrix](img/arch_decision_matrix.png)
 
 ------------------------------------------------------------------------
 
@@ -223,7 +228,7 @@ There are in general five architectural styles: Centralized, Decentralized, Fede
 | **CONNECTING**      | Given a set of entities that are nodes in a graph, a group of decisions representing the connections between those nodes.                    |
 +---------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
 
-## ------------------------------------------------------------------------
+------------------------------------------------------------------------
 
 # Readings
 

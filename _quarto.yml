@@ -8,11 +8,11 @@ book:
   date: "8/20/2025"
   chapters:
     - index.qmd
-    - glossary.qmd
     - intro_arch.qmd
     - intro_it.qmd
     - hist_hit.qmd
     - hmis.qmd
+    - glossary.qmd
 
 bibliography: references.bib
 

@@ -20,11 +20,11 @@ The history of computers can be divided into generations: - First Generation (19
 
 The 1980s marked the rise of personal computers (PCs) through companies like Apple, IBM, and Microsoft. The 1990s saw the commercial expansion of the Internet, revolutionizing communication, commerce, and research. The transition from dial-up modems to broadband, and later to wireless networking, underpinned the global digital economy.
 
-Readings:
+**Readings:**
 
 -   [Health IT Curriculum Resources for Educators - 4.1](https://files.healthit.gov/Component_4/Comp4_Unit1.zip)
 
---------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------
 
 # Computer Hardware
 
@@ -40,106 +40,167 @@ Ports (USB, HDMI, Ethernet) serve as physical interfaces for connectivity. Prima
 
 Computers process data types such as integers, floating-point numbers, characters, and logical values. Memory addressing allows precise data retrieval. The CPU performs general-purpose processing, while the GPU accelerates parallel computations, crucial for graphics rendering, AI, and scientific simulations.
 
-Readings:
+**Readings:**
 
 -   [Health IT Curriculum Resources for Educators - 4.2](https://files.healthit.gov/Component_4/Comp4_Unit2.zip)
 
---------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------
 
 # Computer Software
 
 ## Identify major classifications of software
 
+Software is classified into system software (operating systems, utilities), application software (word processors, databases, web browsers), and middleware (tools facilitating communication between applications and operating systems).
+
 ## What an operating system is and what it does
+
+An operating system (OS) manages hardware resources, provides a user interface, and enables application execution. Functions include process scheduling, memory management, file system organization, and device driver support.
 
 ## Files and file management
 
-Readings:
+Files represent structured units of data stored on secondary devices. File management involves naming, organizing, accessing, and securing files, often within a hierarchical directory system. Modern systems support file compression, encryption, and metadata tagging.
 
--   \[\]
+**Readings:**
 
--   \[\]
+-   [Health IT Curriculum Resources for Educators - 4.3](https://files.healthit.gov/Component_4/comp4_unit3.zip)
+
+------------------------------------------------------------------------
 
 # Computer Programming
 
 ## Programming Languages
 
+Programming languages (e.g., Python, Java, C++) provide structured syntax for expressing algorithms. They are categorized into low-level languages (assembly, machine code) and high-level languages (object-oriented, scripting, functional).
+
 ## Compiling and Interpreting Process for Computer Programs
+
+Compilers translate high-level code into machine code before execution, while interpreters translate line-by-line during execution. Hybrid approaches (e.g., Java with bytecode and the Java Virtual Machine \[JVM\]) combine both strategies.
 
 ## Programming Language Constructs
 
+Constructs include variables, data types, control structures (loops, conditionals), functions, and classes. Together, they form the building blocks of software development.
+
 ## Basic Programming Concepts
+
+Basic concepts include syntax versus semantics, modularity, debugging, and algorithmic thinking. Emphasis is placed on clarity, maintainability, and correctness of code.
 
 ## Advanced Programming Concepts
 
-Readings:
+Advanced concepts cover concurrency, recursion, memory management, error handling, and design patterns. Contemporary trends include functional programming paradigms and parallel programming for high-performance computing (HPC).
 
--   \[\]
+**Readings:**
 
--   \[\]
+-   [Health IT Curriculum Resources for Educators - 4.4](https://files.healthit.gov/Component_4/Comp4_Unit4.zip)
+
+------------------------------------------------------------------------
 
 # Database Management System
 
 ## How Databases Store Data
 
+Databases organize data into tables (rows and columns), with relational models dominating. Data is stored using indexes for fast retrieval, often supported by transaction management systems for consistency.
+
 ## Data Modeling and Normalization
+
+Data modeling uses Entity-Relationship Diagrams (ERD) to represent data structures. Normalization ensures data integrity by minimizing redundancy, typically through First Normal Form (1NF), Second Normal Form (2NF), and Third Normal Form (3NF).
 
 ## Structured Query Language
 
+Structured Query Language (SQL) is the standard language for managing relational databases, supporting data definition (DDL), data manipulation (DML), and data control (DCL) operations.
+
 ## Structure of Clinical Databases
 
-Readings:
+Clinical databases integrate patient records, laboratory results, imaging data, and genomic information. They must comply with Health Insurance Portability and Accountability Act (HIPAA), General Data Protection Regulation (GDPR), and Institutional Review Board (IRB) requirements for security and privacy.
 
--   \[\]
+**Readings:**
 
--   \[\]
+-   [Health IT Curriculum Resources for Educators - 4.5](https://files.healthit.gov/Component_4/Comp4_Unit5.zip)
+
+------------------------------------------------------------------------
 
 # Networks
 
 ## Introduction to Networks and the Internet
 
+A network is a set of interconnected devices that exchange data. The Internet is the global network of networks built on the Transmission Control Protocol/Internet Protocol (TCP/IP) suite.
+
 ## Basics of Internet Addressing and Network Classification
+
+Internet addressing includes Internet Protocol (IP) addresses (Internet Protocol version 4 \[IPv4\], Internet Protocol version 6 \[IPv6\]), domain names, and Media Access Control (MAC) addresses. Networks are classified into Local Area Networks (LANs), Metropolitan Area Networks (MANs), Wide Area Networks (WANs), and Personal Area Networks (PANs) based on geographic scope.
 
 ## Network Topologies, Protocols, and Standards
 
+Internet addressing includes Internet Protocol (IP) addresses (Internet Protocol version 4 \[IPv4\], Internet Protocol version 6 \[IPv6\]), domain names, and Media Access Control (MAC) addresses. Networks are classified into Local Area Networks (LANs), Metropolitan Area Networks (MANs), Wide Area Networks (WANs), and Personal Area Networks (PANs) based on geographic scope.
+
 ## Wireless Communication and Network Hardware
+
+Wireless communication uses radio frequencies, Wi-Fi (Wireless Fidelity), Bluetooth, and cellular technologies. Essential hardware includes routers, switches, access points, and modems.
 
 ## Networking Logical Models and the Open Systems Interconnection Model
 
-Readings:
+The Open Systems Interconnection (OSI) model defines seven layers (physical to application) for networking functions. The Transmission Control Protocol/Internet Protocol (TCP/IP) model simplifies this into four layers (network interface, internet, transport, and application).
 
--   \[\]
+**Readings:**
 
--   \[\]
+-   [Health IT Curriculum Resources for Educators - 4.6](https://files.healthit.gov/Component_4/comp4_unit6.zip)
+
+------------------------------------------------------------------------
 
 # Security and Privacy
 
 ## Cybercrime and IT Security
 
+Cybercrime involves unauthorized access, data theft, fraud, and disruption of services. Information Technology (IT) security encompasses technical, administrative, and physical controls to prevent such threats.
+
 ## Hackers Methods
+
+Methods include phishing, malware (malicious software), denial-of-service (DoS) attacks, Structured Query Language (SQL) injection, and social engineering.
 
 ## Protecting Against Cybercrime
 
+Defensive strategies include firewalls, intrusion detection systems (IDS), multifactor authentication (MFA), and regular patching.
+
 ## Minimizing Risk of a Successful cyberattack
 
-## Cybercrime and Electronic Health Records, including Ethical Online Behavior Concepts
+Organizations employ risk assessments, employee training, encryption, and incident response planning to reduce vulnerabilities.
 
-Readings:
+## Health Insurance Portability and Accountability Act (HIPAA)
 
--   \[\]
+-   Purpose and Scope
 
--   \[\]
+    -   U.S. law enacted in 1996
+
+    -   Protecting privacy and security of PHI (Protected Health Information)
+
+    -   Regulations to streamline administrative processes within healthcare organizations
+
+-   HIPAA Privacy Rule (2003)
+
+    -   Use/disclosure of PHI in research
+
+    -   De-identification methods
+
+    -   Limited Data Set & Data Use Agreements
+
+-   HIPAA Security Rule (2005) Safeguards for electronic PHI (ePHI)
+
+**Readings:**
+
+-   [Health IT Curriculum Resources for Educators - 4.7](https://files.healthit.gov/Component_4/comp4_unit7.zip)
+
+------------------------------------------------------------------------
 
 # Information Systems
 
 ## What is an Information System?
+An information system integrates people, technology, processes, and data to support decision-making, coordination, and analysis.
 
 ## The Systems Development Process
+Development follows structured models such as waterfall, agile, or Development and Operations (DevOps). Core stages include requirements analysis, design, implementation, testing, deployment, and maintenance.
 
 ## Specialized Information Systems
+Examples include Decision Support Systems (DSS), expert systems, Geographic Information Systems (GIS), and Clinical Decision Support Systems (CDSS). These are tailored for domain-specific applications.
 
-Readings:
+**Readings:**
 
--   \[\]
-
--   \[\]
+-   [Health IT Curriculum Resources for Educators - 4.8](https://files.healthit.gov/Component_4/comp4_unit8.zip)
