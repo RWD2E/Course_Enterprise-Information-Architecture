@@ -62,431 +62,431 @@
   {
     "objectID": "intro_arch.html",
     "href": "intro_arch.html",
-    "title": "1  Architecture",
+    "title": "Architecture",
     "section": "",
-    "text": "1.1 Architecture as Function-Form Mapping\nDespite the varying definitions of “Architectures”, they all consist of “Function”, related by “Concept”, and maps to “Form”",
+    "text": "Architecture as Function-Form Mapping\nDespite the varying definitions of “Architectures”, they all consist of “Function”, related by “Concept”, and maps to “Form”",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Architecture</span>"
+      "Architecture"
     ]
   },
   {
     "objectID": "intro_arch.html#architecture-as-function-form-mapping",
     "href": "intro_arch.html#architecture-as-function-form-mapping",
-    "title": "1  Architecture",
+    "title": "Architecture",
     "section": "",
-    "text": "1.1.1 Form = Elements/Objects + Structure\n\n\n\n\n\n\n\nForm - Defined\nForm - Described\n\n\n\n\n\nThe physical/informational embodiment which exists, or has the potential to exist;\nIt is what the system “is”\nThe sum of the elements, which are segments (of the whole of) the form\nThe elements of form - smallest useful “atomic unit”\nThe structure of form - the formal relationships among the elements\n\nspatial/topological structural connections\nassembly/implementation structural connections\n\nIt is a system/product attribute created by the architect\n\n\nIs created by the architect\nIs in a solution specific domain\nCan be decomposed into physical/informational elements -the decompositional view\nElements are connected at interfaces. The interfaces define the structure -the structural view\nIs the thing that executes function\nIs the thing that is eventually implemented (built, written, composed, manufactured, etc.)\nIs the thing that is eventually operated (run, repaired, updated, retired, etc.)\n\n\n\n\n\n\n1.1.2 Decompositional View\nDecompositional View uses tree structure to decompose a system into sub-systems and evetually elements (in leaf nodes). It is a useful representation to place a particular system of interests (SoI) within Use Context, which defines the architectural vision that informs: a) the core function of the SoI; b) the Boundaries separating the SoI from other supporting systems; and c) the interfaces connecting the SoI to other supporting systems. Take “a pad of paper” as an example,\n\n\n\nFigure 1. Decompositional View of a Pad of Paper\n\n\n\n\n1.1.3 Function = Process + Operand/Object\n\n\n\n\n\n\n\nFunction - Defined\nFunction - Described\n\n\n\n\n\nThe activities, operations and transformations that cause, create or contribute to performance (i.e. meeting goals)\nThe actions for which a thing exists or is employed\nIs a product/system attribute\nSystem defined as: “A set of interrelated elements that perform a function, whose functionality is greater than the sum of the parts”\n\n\nIs conceived by the architect\nMust be conceived so that goalscan be achieved\nIs what the system eventually does, the activities and transformations which emergeas sub-function aggregate (i.e., Emergence)\nShould initially be stated in solution neutral language\n\n\n\n\n\n\n1.1.4 Structural View\nThe structural view represents the static, enduring aspects of a system—its components, relationships, and organization—independent of how those components behave over time. There are two typical representations:\n\nGraphical representation: Object-Process Modeling (OPM) (will expand in later chapters)\nList representation: Design Structure Matrix (DSM) (will expand in later chapters)\n\n\n\n1.1.5 Design vs. Reverse Engineering\n\n\n\nFigure 2. Form-Function Sequence",
+    "text": "Form = Elements/Objects + Structure\n\n\n\n\n\n\n\nForm - Defined\nForm - Described\n\n\n\n\n\nThe physical/informational embodiment which exists, or has the potential to exist;\nIt is what the system “is”\nThe sum of the elements, which are segments (of the whole of) the form\nThe elements of form - smallest useful “atomic unit”\nThe structure of form - the formal relationships among the elements\n\nspatial/topological structural connections\nassembly/implementation structural connections\n\nIt is a system/product attribute created by the architect\n\n\nIs created by the architect\nIs in a solution specific domain\nCan be decomposed into physical/informational elements -the decompositional view\nElements are connected at interfaces. The interfaces define the structure -the structural view\nIs the thing that executes function\nIs the thing that is eventually implemented (built, written, composed, manufactured, etc.)\nIs the thing that is eventually operated (run, repaired, updated, retired, etc.)\n\n\n\n\n\n\nDecompositional View\nDecompositional View uses tree structure to decompose a system into sub-systems and evetually elements (in leaf nodes). It is a useful representation to place a particular system of interests (SoI) within Use Context, which defines the architectural vision that informs: a) the core function of the SoI; b) the Boundaries separating the SoI from other supporting systems; and c) the interfaces connecting the SoI to other supporting systems. Take “a pad of paper” as an example,\n\n\n\nFigure 1. Decompositional View of a Pad of Paper\n\n\n\n\nFunction = Process + Operand/Object\n\n\n\n\n\n\n\nFunction - Defined\nFunction - Described\n\n\n\n\n\nThe activities, operations and transformations that cause, create or contribute to performance (i.e. meeting goals)\nThe actions for which a thing exists or is employed\nIs a product/system attribute\nSystem defined as: “A set of interrelated elements that perform a function, whose functionality is greater than the sum of the parts”\n\n\nIs conceived by the architect\nMust be conceived so that goalscan be achieved\nIs what the system eventually does, the activities and transformations which emergeas sub-function aggregate (i.e., Emergence)\nShould initially be stated in solution neutral language\n\n\n\n\n\n\nStructural View\nThe structural view represents the static, enduring aspects of a system—its components, relationships, and organization—independent of how those components behave over time. There are two typical representations:\n\nGraphical representation: Object-Process Modeling (OPM) (will expand in later chapters)\nList representation: Design Structure Matrix (DSM) (will expand in later chapters)\n\n\n\nDesign vs. Reverse Engineering\n\nIn (conventional, top down) design, you know the functions (and presumably the goals) and try to create the form to deliver the function\nIn reverse engineering, you know the form, and are trying to infer the function (and presumably eventually the goals)\nIn bottom up design, you build elements and discover what emerges as they come together\nIn design knowledge capture, you record the function along with the design of form\n\n\n\n\nFigure 2. Form-Function Sequence",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Architecture</span>"
+      "Architecture"
     ]
   },
   {
     "objectID": "intro_arch.html#architect-and-architecting",
     "href": "intro_arch.html#architect-and-architecting",
-    "title": "1  Architecture",
-    "section": "1.2 Architect and Architecting",
-    "text": "1.2 Architect and Architecting\nAn architect works by applying:\n\nRelevant modes of thought, including creative and critical thinking\nThe approaches of architecting, including holism, reductionism, heuristic, agile, ecosystem, etc.\n\nHolism: emphasizes the design of systems based on the interrelationships, interactions, and emergent properties of all elements considered as a whole, rather than optimizing isolated components, with the objective of ensuring systemic coherence, resilience, and alignment with the broader environment.\nReductionism: decomposes a system into its constituent parts for analysis and optimization, based on the assumption that the behavior and performance of the whole system can be explained and engineered through the aggregation of its individual components.\nHeuristic: or pattern-based approach, which applies established architectural patterns, reference models, and heuristics as reusable design abstractions, with the intent of leveraging proven structural solutions to recurrent problems while reducing design risk and accelerating development.\nAgile: or incremental approach, which is an iterative and adaptive method that incrementally evolves architectural structures in synchrony with system development cycles, emphasizing responsiveness to emergent requirements, stakeholder feedback, and evolving environmental conditions.\nEcosystem: or service-dominant approach, which is to structure systems around modular services and value exchanges, prioritizing interoperability, composability, and ecosystem growth through well-defined interfaces, contracts, and governance mechanisms.\n\nThe principles, processes and tools of architecting\n\nPrinciples: are the underlying and long enduring fundamentals that are always (or almost always) valid.\nMethods: are the organization of approaches and tasks to achieve a concrete end, which should be solidly grounded on principles, and which are usually or often applicable.\nTools: are the contemporary ways to facilitate process, and sometimes applicable\n\nAnd a lot of wisdom and experience!\n\n\n1.2.1 Three Roles of the Architect\n\nReduce ambiguity: to incorporate strategy and technology insertion by defining the context and boundaries of the system\nEmploy creativity: to create the concept for the system, managing in the spectrum of solution neutral thinking\nManagement complexity: so that the system is comprehensible to all during its design, implementation, and evolution",
+    "title": "Architecture",
+    "section": "Architect and Architecting",
+    "text": "Architect and Architecting\nAn architect works by applying:\n\nRelevant modes of thought, including creative and critical thinking\nThe approaches of architecting, including holism, reductionism, heuristic, agile, ecosystem, etc.\n\nHolism: emphasizes the design of systems based on the interrelationships, interactions, and emergent properties of all elements considered as a whole, rather than optimizing isolated components, with the objective of ensuring systemic coherence, resilience, and alignment with the broader environment.\nReductionism: decomposes a system into its constituent parts for analysis and optimization, based on the assumption that the behavior and performance of the whole system can be explained and engineered through the aggregation of its individual components.\nHeuristic: or pattern-based approach, which applies established architectural patterns, reference models, and heuristics as reusable design abstractions, with the intent of leveraging proven structural solutions to recurrent problems while reducing design risk and accelerating development.\nAgile: or incremental approach, which is an iterative and adaptive method that incrementally evolves architectural structures in synchrony with system development cycles, emphasizing responsiveness to emergent requirements, stakeholder feedback, and evolving environmental conditions.\nEcosystem: or service-dominant approach, which is to structure systems around modular services and value exchanges, prioritizing interoperability, composability, and ecosystem growth through well-defined interfaces, contracts, and governance mechanisms.\n\nThe principles, processes and tools of architecting\n\nPrinciples: are the underlying and long enduring fundamentals that are always (or almost always) valid.\nMethods: are the organization of approaches and tasks to achieve a concrete end, which should be solidly grounded on principles, and which are usually or often applicable.\nTools: are the contemporary ways to facilitate process, and sometimes applicable\n\nAnd a lot of wisdom and experience!\n\n\nThree Roles of the Architect\n\nReduce ambiguity: to incorporate strategy and technology insertion by defining the context and boundaries of the system\nEmploy creativity: to create the concept for the system, managing in the spectrum of solution neutral thinking\nManagement complexity: so that the system is comprehensible to all during its design, implementation, and evolution",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Architecture</span>"
+      "Architecture"
     ]
   },
   {
     "objectID": "intro_arch.html#programmed-vs.-non-programmed-decisions",
     "href": "intro_arch.html#programmed-vs.-non-programmed-decisions",
-    "title": "1  Architecture",
-    "section": "4.1 Programmed vs. Non-programmed decisions",
-    "text": "4.1 Programmed vs. Non-programmed decisions\n\nProgrammed decisions: routine, structured, and repetitive decisions made by applying established rules, procedures, or standard operating policies\nNon-programmed decisions: unique, unstructured, and non-routine decisions that require judgment, creativity, or problem-solving because no pre-established procedures exist.",
+    "title": "Architecture",
+    "section": "Programmed vs. Non-programmed decisions",
+    "text": "Programmed vs. Non-programmed decisions\n\nProgrammed decisions: routine, structured, and repetitive decisions made by applying established rules, procedures, or standard operating policies\nNon-programmed decisions: unique, unstructured, and non-routine decisions that require judgment, creativity, or problem-solving because no pre-established procedures exist.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Architecture</span>"
+      "Architecture"
     ]
   },
   {
     "objectID": "intro_arch.html#quadrant-decision-matrix",
     "href": "intro_arch.html#quadrant-decision-matrix",
-    "title": "1  Architecture",
-    "section": "4.2 4-Quadrant Decision Matrix",
-    "text": "4.2 4-Quadrant Decision Matrix\n\nSensitivity: does this decision strongly influence metrics (?\nConnectivity: would substantial rework be required to change this decision? Could we make this decision downstream without regards for other decisions?\n\n\n\n\nFigure 3. Architectural Decision Matrix",
+    "title": "Architecture",
+    "section": "4-Quadrant Decision Matrix",
+    "text": "4-Quadrant Decision Matrix\n\nSensitivity: does this decision strongly influence metrics (?\nConnectivity: would substantial rework be required to change this decision? Could we make this decision downstream without regards for other decisions?\n\n\n\n\nFigure 3. Architectural Decision Matrix",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Architecture</span>"
+      "Architecture"
     ]
   },
   {
     "objectID": "intro_arch.html#six-patterns-of-architectural-decisions",
     "href": "intro_arch.html#six-patterns-of-architectural-decisions",
-    "title": "1  Architecture",
-    "section": "4.3 Six Patterns of Architectural Decisions",
-    "text": "4.3 Six Patterns of Architectural Decisions\n\n\n\n\n\n\n\nPattern\nDescription\n\n\n\n\nDECISION-OPTION\nA group of decisions where each decision has its own discrete set of options.\n\n\nDOWN-SELECTING\nA group of binary decisions representing a subset from a set of candidate entities.\n\n\nASSIGNING\nGiven two different sets of entities, a group of decisions assigning each element from one set to any subset of entities from the other set.\n\n\nPARTITIONING\nA group of decisions representing a partitioning of a set of entities into subsets that are mutually exclusive and exhaustive.\n\n\nPERMUTING\nA group of decisions representing a one-to-one mapping between a set of entities and a set of positions.\n\n\nCONNECTING\nGiven a set of entities that are nodes in a graph, a group of decisions representing the connections between those nodes.",
+    "title": "Architecture",
+    "section": "Six Patterns of Architectural Decisions",
+    "text": "Six Patterns of Architectural Decisions\n\n\n\n\n\n\n\nPattern\nDescription\n\n\n\n\nDECISION-OPTION\nA group of decisions where each decision has its own discrete set of options.\n\n\nDOWN-SELECTING\nA group of binary decisions representing a subset from a set of candidate entities.\n\n\nASSIGNING\nGiven two different sets of entities, a group of decisions assigning each element from one set to any subset of entities from the other set.\n\n\nPARTITIONING\nA group of decisions representing a partitioning of a set of entities into subsets that are mutually exclusive and exhaustive.\n\n\nPERMUTING\nA group of decisions representing a one-to-one mapping between a set of entities and a set of positions.\n\n\nCONNECTING\nGiven a set of entities that are nodes in a graph, a group of decisions representing the connections between those nodes.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Architecture</span>"
+      "Architecture"
     ]
   },
   {
     "objectID": "intro_it.html",
     "href": "intro_it.html",
-    "title": "2  Introduction to Information Technology",
+    "title": "1  Introduction to Information Technology",
     "section": "",
-    "text": "3 Basic Computing Concepts, Including History",
+    "text": "2 Basic Computing Concepts, Including History",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
     ]
   },
   {
     "objectID": "intro_it.html#definitions-descriptions-and-elements",
     "href": "intro_it.html#definitions-descriptions-and-elements",
-    "title": "2  Introduction to Information Technology",
-    "section": "3.1 Definitions, Descriptions, and Elements",
-    "text": "3.1 Definitions, Descriptions, and Elements\nComputing refers to the use of electronic devices and algorithms to process, store, and transmit information. At its core, a computer system consists of hardware (physical components), software (instructions and programs), and data (the information being processed). Key elements include input, processing, storage, and output, which together define the flow of information in digital systems.",
+    "title": "1  Introduction to Information Technology",
+    "section": "2.1 Definitions, Descriptions, and Elements",
+    "text": "2.1 Definitions, Descriptions, and Elements\nComputing refers to the use of electronic devices and algorithms to process, store, and transmit information. At its core, a computer system consists of hardware (physical components), software (instructions and programs), and data (the information being processed). Key elements include input, processing, storage, and output, which together define the flow of information in digital systems.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
     ]
   },
   {
     "objectID": "intro_it.html#selecting-a-new-computer",
     "href": "intro_it.html#selecting-a-new-computer",
-    "title": "2  Introduction to Information Technology",
-    "section": "3.2 Selecting a New Computer",
-    "text": "3.2 Selecting a New Computer\nSelecting a computer involves evaluating performance factors (CPU speed, RAM capacity, storage type), form factors (desktop, laptop, tablet, server), and intended use cases (general office work, scientific computing, gaming, data analysis). Criteria such as battery life, expandability, operating system compatibility, and budget also shape the decision.",
+    "title": "1  Introduction to Information Technology",
+    "section": "2.2 Selecting a New Computer",
+    "text": "2.2 Selecting a New Computer\nSelecting a computer involves evaluating performance factors (CPU speed, RAM capacity, storage type), form factors (desktop, laptop, tablet, server), and intended use cases (general office work, scientific computing, gaming, data analysis). Criteria such as battery life, expandability, operating system compatibility, and budget also shape the decision.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
     ]
   },
   {
     "objectID": "intro_it.html#history-of-computers",
     "href": "intro_it.html#history-of-computers",
-    "title": "2  Introduction to Information Technology",
-    "section": "3.3 History of Computers",
-    "text": "3.3 History of Computers\nThe history of computers can be divided into generations: - First Generation (1940s–1950s): Vacuum tubes, large mainframes, limited reliability. - Second Generation (1950s–1960s): Transistors replaced tubes, smaller and more efficient. - Third Generation (1960s–1970s): Integrated circuits allowed miniaturization. - Fourth Generation (1970s–1980s): Microprocessors enabled personal computers. - Fifth Generation (1980s–present): Parallel processing, networking, and AI-enabled systems.",
+    "title": "1  Introduction to Information Technology",
+    "section": "2.3 History of Computers",
+    "text": "2.3 History of Computers\nThe history of computers can be divided into generations: - First Generation (1940s–1950s): Vacuum tubes, large mainframes, limited reliability. - Second Generation (1950s–1960s): Transistors replaced tubes, smaller and more efficient. - Third Generation (1960s–1970s): Integrated circuits allowed miniaturization. - Fourth Generation (1970s–1980s): Microprocessors enabled personal computers. - Fifth Generation (1980s–present): Parallel processing, networking, and AI-enabled systems.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
     ]
   },
   {
     "objectID": "intro_it.html#the-growth-of-personal-computers-and-the-internet",
     "href": "intro_it.html#the-growth-of-personal-computers-and-the-internet",
-    "title": "2  Introduction to Information Technology",
-    "section": "3.4 The Growth of Personal Computers and the Internet",
-    "text": "3.4 The Growth of Personal Computers and the Internet\nThe 1980s marked the rise of personal computers (PCs) through companies like Apple, IBM, and Microsoft. The 1990s saw the commercial expansion of the Internet, revolutionizing communication, commerce, and research. The transition from dial-up modems to broadband, and later to wireless networking, underpinned the global digital economy.\nReadings:\n\nHealth IT Curriculum Resources for Educators - 4.1",
+    "title": "1  Introduction to Information Technology",
+    "section": "2.4 The Growth of Personal Computers and the Internet",
+    "text": "2.4 The Growth of Personal Computers and the Internet\nThe 1980s marked the rise of personal computers (PCs) through companies like Apple, IBM, and Microsoft. The 1990s saw the commercial expansion of the Internet, revolutionizing communication, commerce, and research. The transition from dial-up modems to broadband, and later to wireless networking, underpinned the global digital economy.\nReadings:\n\nHealth IT Curriculum Resources for Educators - 4.1",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
     ]
   },
   {
     "objectID": "intro_it.html#components-and-peripherals",
     "href": "intro_it.html#components-and-peripherals",
-    "title": "2  Introduction to Information Technology",
-    "section": "4.1 Components and Peripherals",
-    "text": "4.1 Components and Peripherals\nCore components include the central processing unit (CPU), memory (RAM), motherboard, power supply, and storage devices. Peripherals—such as keyboards, mice, monitors, and printers—extend usability. External devices like scanners and external drives provide additional input/output functionality.",
+    "title": "1  Introduction to Information Technology",
+    "section": "3.1 Components and Peripherals",
+    "text": "3.1 Components and Peripherals\nCore components include the central processing unit (CPU), memory (RAM), motherboard, power supply, and storage devices. Peripherals—such as keyboards, mice, monitors, and printers—extend usability. External devices like scanners and external drives provide additional input/output functionality.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
     ]
   },
   {
     "objectID": "intro_it.html#ports-memory-and-secondary-storage",
     "href": "intro_it.html#ports-memory-and-secondary-storage",
-    "title": "2  Introduction to Information Technology",
-    "section": "4.2 Ports, Memory, and Secondary Storage",
-    "text": "4.2 Ports, Memory, and Secondary Storage\nPorts (USB, HDMI, Ethernet) serve as physical interfaces for connectivity. Primary memory (RAM) provides temporary data storage during processing, while secondary storage (hard drives, SSDs, optical discs) provides long-term data retention. Modern trends emphasize solid-state storage for speed and reliability.",
+    "title": "1  Introduction to Information Technology",
+    "section": "3.2 Ports, Memory, and Secondary Storage",
+    "text": "3.2 Ports, Memory, and Secondary Storage\nPorts (USB, HDMI, Ethernet) serve as physical interfaces for connectivity. Primary memory (RAM) provides temporary data storage during processing, while secondary storage (hard drives, SSDs, optical discs) provides long-term data retention. Modern trends emphasize solid-state storage for speed and reliability.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
     ]
   },
   {
     "objectID": "intro_it.html#data-types-data-addresses-and-the-cpu-gpu",
     "href": "intro_it.html#data-types-data-addresses-and-the-cpu-gpu",
-    "title": "2  Introduction to Information Technology",
-    "section": "4.3 Data Types, Data Addresses, and the CPU, GPU",
-    "text": "4.3 Data Types, Data Addresses, and the CPU, GPU\nComputers process data types such as integers, floating-point numbers, characters, and logical values. Memory addressing allows precise data retrieval. The CPU performs general-purpose processing, while the GPU accelerates parallel computations, crucial for graphics rendering, AI, and scientific simulations.\nReadings:\n\nHealth IT Curriculum Resources for Educators - 4.2",
+    "title": "1  Introduction to Information Technology",
+    "section": "3.3 Data Types, Data Addresses, and the CPU, GPU",
+    "text": "3.3 Data Types, Data Addresses, and the CPU, GPU\nComputers process data types such as integers, floating-point numbers, characters, and logical values. Memory addressing allows precise data retrieval. The CPU performs general-purpose processing, while the GPU accelerates parallel computations, crucial for graphics rendering, AI, and scientific simulations.\nReadings:\n\nHealth IT Curriculum Resources for Educators - 4.2",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
     ]
   },
   {
     "objectID": "intro_it.html#identify-major-classifications-of-software",
     "href": "intro_it.html#identify-major-classifications-of-software",
-    "title": "2  Introduction to Information Technology",
-    "section": "5.1 Identify major classifications of software",
-    "text": "5.1 Identify major classifications of software\nSoftware is classified into system software (operating systems, utilities), application software (word processors, databases, web browsers), and middleware (tools facilitating communication between applications and operating systems).",
+    "title": "1  Introduction to Information Technology",
+    "section": "4.1 Identify major classifications of software",
+    "text": "4.1 Identify major classifications of software\nSoftware is classified into system software (operating systems, utilities), application software (word processors, databases, web browsers), and middleware (tools facilitating communication between applications and operating systems).",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
     ]
   },
   {
     "objectID": "intro_it.html#what-an-operating-system-is-and-what-it-does",
     "href": "intro_it.html#what-an-operating-system-is-and-what-it-does",
-    "title": "2  Introduction to Information Technology",
-    "section": "5.2 What an operating system is and what it does",
-    "text": "5.2 What an operating system is and what it does\nAn operating system (OS) manages hardware resources, provides a user interface, and enables application execution. Functions include process scheduling, memory management, file system organization, and device driver support.",
+    "title": "1  Introduction to Information Technology",
+    "section": "4.2 What an operating system is and what it does",
+    "text": "4.2 What an operating system is and what it does\nAn operating system (OS) manages hardware resources, provides a user interface, and enables application execution. Functions include process scheduling, memory management, file system organization, and device driver support.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
     ]
   },
   {
     "objectID": "intro_it.html#files-and-file-management",
     "href": "intro_it.html#files-and-file-management",
-    "title": "2  Introduction to Information Technology",
-    "section": "5.3 Files and file management",
-    "text": "5.3 Files and file management\nFiles represent structured units of data stored on secondary devices. File management involves naming, organizing, accessing, and securing files, often within a hierarchical directory system. Modern systems support file compression, encryption, and metadata tagging.\nReadings:\n\nHealth IT Curriculum Resources for Educators - 4.3",
+    "title": "1  Introduction to Information Technology",
+    "section": "4.3 Files and file management",
+    "text": "4.3 Files and file management\nFiles represent structured units of data stored on secondary devices. File management involves naming, organizing, accessing, and securing files, often within a hierarchical directory system. Modern systems support file compression, encryption, and metadata tagging.\nReadings:\n\nHealth IT Curriculum Resources for Educators - 4.3",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
     ]
   },
   {
     "objectID": "intro_it.html#programming-languages",
     "href": "intro_it.html#programming-languages",
-    "title": "2  Introduction to Information Technology",
-    "section": "6.1 Programming Languages",
-    "text": "6.1 Programming Languages\nProgramming languages (e.g., Python, Java, C++) provide structured syntax for expressing algorithms. They are categorized into low-level languages (assembly, machine code) and high-level languages (object-oriented, scripting, functional).",
+    "title": "1  Introduction to Information Technology",
+    "section": "5.1 Programming Languages",
+    "text": "5.1 Programming Languages\nProgramming languages (e.g., Python, Java, C++) provide structured syntax for expressing algorithms. They are categorized into low-level languages (assembly, machine code) and high-level languages (object-oriented, scripting, functional).",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
     ]
   },
   {
     "objectID": "intro_it.html#compiling-and-interpreting-process-for-computer-programs",
     "href": "intro_it.html#compiling-and-interpreting-process-for-computer-programs",
-    "title": "2  Introduction to Information Technology",
-    "section": "6.2 Compiling and Interpreting Process for Computer Programs",
-    "text": "6.2 Compiling and Interpreting Process for Computer Programs\nCompilers translate high-level code into machine code before execution, while interpreters translate line-by-line during execution. Hybrid approaches (e.g., Java with bytecode and the Java Virtual Machine [JVM]) combine both strategies.",
+    "title": "1  Introduction to Information Technology",
+    "section": "5.2 Compiling and Interpreting Process for Computer Programs",
+    "text": "5.2 Compiling and Interpreting Process for Computer Programs\nCompilers translate high-level code into machine code before execution, while interpreters translate line-by-line during execution. Hybrid approaches (e.g., Java with bytecode and the Java Virtual Machine [JVM]) combine both strategies.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
     ]
   },
   {
     "objectID": "intro_it.html#programming-language-constructs",
     "href": "intro_it.html#programming-language-constructs",
-    "title": "2  Introduction to Information Technology",
-    "section": "6.3 Programming Language Constructs",
-    "text": "6.3 Programming Language Constructs\nConstructs include variables, data types, control structures (loops, conditionals), functions, and classes. Together, they form the building blocks of software development.",
+    "title": "1  Introduction to Information Technology",
+    "section": "5.3 Programming Language Constructs",
+    "text": "5.3 Programming Language Constructs\nConstructs include variables, data types, control structures (loops, conditionals), functions, and classes. Together, they form the building blocks of software development.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
     ]
   },
   {
     "objectID": "intro_it.html#basic-programming-concepts",
     "href": "intro_it.html#basic-programming-concepts",
-    "title": "2  Introduction to Information Technology",
-    "section": "6.4 Basic Programming Concepts",
-    "text": "6.4 Basic Programming Concepts\nBasic concepts include syntax versus semantics, modularity, debugging, and algorithmic thinking. Emphasis is placed on clarity, maintainability, and correctness of code.",
+    "title": "1  Introduction to Information Technology",
+    "section": "5.4 Basic Programming Concepts",
+    "text": "5.4 Basic Programming Concepts\nBasic concepts include syntax versus semantics, modularity, debugging, and algorithmic thinking. Emphasis is placed on clarity, maintainability, and correctness of code.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
     ]
   },
   {
     "objectID": "intro_it.html#advanced-programming-concepts",
     "href": "intro_it.html#advanced-programming-concepts",
-    "title": "2  Introduction to Information Technology",
-    "section": "6.5 Advanced Programming Concepts",
-    "text": "6.5 Advanced Programming Concepts\nAdvanced concepts cover concurrency, recursion, memory management, error handling, and design patterns. Contemporary trends include functional programming paradigms and parallel programming for high-performance computing (HPC).\nReadings:\n\nHealth IT Curriculum Resources for Educators - 4.4",
+    "title": "1  Introduction to Information Technology",
+    "section": "5.5 Advanced Programming Concepts",
+    "text": "5.5 Advanced Programming Concepts\nAdvanced concepts cover concurrency, recursion, memory management, error handling, and design patterns. Contemporary trends include functional programming paradigms and parallel programming for high-performance computing (HPC).\nReadings:\n\nHealth IT Curriculum Resources for Educators - 4.4",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
     ]
   },
   {
     "objectID": "intro_it.html#how-databases-store-data",
     "href": "intro_it.html#how-databases-store-data",
-    "title": "2  Introduction to Information Technology",
-    "section": "7.1 How Databases Store Data",
-    "text": "7.1 How Databases Store Data\nDatabases organize data into tables (rows and columns), with relational models dominating. Data is stored using indexes for fast retrieval, often supported by transaction management systems for consistency.",
+    "title": "1  Introduction to Information Technology",
+    "section": "6.1 How Databases Store Data",
+    "text": "6.1 How Databases Store Data\nDatabases organize data into tables (rows and columns), with relational models dominating. Data is stored using indexes for fast retrieval, often supported by transaction management systems for consistency.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
     ]
   },
   {
     "objectID": "intro_it.html#data-modeling-and-normalization",
     "href": "intro_it.html#data-modeling-and-normalization",
-    "title": "2  Introduction to Information Technology",
-    "section": "7.2 Data Modeling and Normalization",
-    "text": "7.2 Data Modeling and Normalization\nData modeling uses Entity-Relationship Diagrams (ERD) to represent data structures. Normalization ensures data integrity by minimizing redundancy, typically through First Normal Form (1NF), Second Normal Form (2NF), and Third Normal Form (3NF).",
+    "title": "1  Introduction to Information Technology",
+    "section": "6.2 Data Modeling and Normalization",
+    "text": "6.2 Data Modeling and Normalization\nData modeling uses Entity-Relationship Diagrams (ERD) to represent data structures. Normalization ensures data integrity by minimizing redundancy, typically through First Normal Form (1NF), Second Normal Form (2NF), and Third Normal Form (3NF).",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
     ]
   },
   {
     "objectID": "intro_it.html#structured-query-language",
     "href": "intro_it.html#structured-query-language",
-    "title": "2  Introduction to Information Technology",
-    "section": "7.3 Structured Query Language",
-    "text": "7.3 Structured Query Language\nStructured Query Language (SQL) is the standard language for managing relational databases, supporting data definition (DDL), data manipulation (DML), and data control (DCL) operations.",
+    "title": "1  Introduction to Information Technology",
+    "section": "6.3 Structured Query Language",
+    "text": "6.3 Structured Query Language\nStructured Query Language (SQL) is the standard language for managing relational databases, supporting data definition (DDL), data manipulation (DML), and data control (DCL) operations.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
     ]
   },
   {
     "objectID": "intro_it.html#structure-of-clinical-databases",
     "href": "intro_it.html#structure-of-clinical-databases",
-    "title": "2  Introduction to Information Technology",
-    "section": "7.4 Structure of Clinical Databases",
-    "text": "7.4 Structure of Clinical Databases\nClinical databases integrate patient records, laboratory results, imaging data, and genomic information. They must comply with Health Insurance Portability and Accountability Act (HIPAA), General Data Protection Regulation (GDPR), and Institutional Review Board (IRB) requirements for security and privacy.\nReadings:\n\nHealth IT Curriculum Resources for Educators - 4.5",
+    "title": "1  Introduction to Information Technology",
+    "section": "6.4 Structure of Clinical Databases",
+    "text": "6.4 Structure of Clinical Databases\nClinical databases integrate patient records, laboratory results, imaging data, and genomic information. They must comply with Health Insurance Portability and Accountability Act (HIPAA), General Data Protection Regulation (GDPR), and Institutional Review Board (IRB) requirements for security and privacy.\nReadings:\n\nHealth IT Curriculum Resources for Educators - 4.5",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
     ]
   },
   {
     "objectID": "intro_it.html#introduction-to-networks-and-the-internet",
     "href": "intro_it.html#introduction-to-networks-and-the-internet",
-    "title": "2  Introduction to Information Technology",
-    "section": "8.1 Introduction to Networks and the Internet",
-    "text": "8.1 Introduction to Networks and the Internet\nA network is a set of interconnected devices that exchange data. The Internet is the global network of networks built on the Transmission Control Protocol/Internet Protocol (TCP/IP) suite.",
+    "title": "1  Introduction to Information Technology",
+    "section": "7.1 Introduction to Networks and the Internet",
+    "text": "7.1 Introduction to Networks and the Internet\nA network is a set of interconnected devices that exchange data. The Internet is the global network of networks built on the Transmission Control Protocol/Internet Protocol (TCP/IP) suite.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
     ]
   },
   {
     "objectID": "intro_it.html#basics-of-internet-addressing-and-network-classification",
     "href": "intro_it.html#basics-of-internet-addressing-and-network-classification",
-    "title": "2  Introduction to Information Technology",
-    "section": "8.2 Basics of Internet Addressing and Network Classification",
-    "text": "8.2 Basics of Internet Addressing and Network Classification\nInternet addressing includes Internet Protocol (IP) addresses (Internet Protocol version 4 [IPv4], Internet Protocol version 6 [IPv6]), domain names, and Media Access Control (MAC) addresses. Networks are classified into Local Area Networks (LANs), Metropolitan Area Networks (MANs), Wide Area Networks (WANs), and Personal Area Networks (PANs) based on geographic scope.",
+    "title": "1  Introduction to Information Technology",
+    "section": "7.2 Basics of Internet Addressing and Network Classification",
+    "text": "7.2 Basics of Internet Addressing and Network Classification\nInternet addressing includes Internet Protocol (IP) addresses (Internet Protocol version 4 [IPv4], Internet Protocol version 6 [IPv6]), domain names, and Media Access Control (MAC) addresses. Networks are classified into Local Area Networks (LANs), Metropolitan Area Networks (MANs), Wide Area Networks (WANs), and Personal Area Networks (PANs) based on geographic scope.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
     ]
   },
   {
     "objectID": "intro_it.html#network-topologies-protocols-and-standards",
     "href": "intro_it.html#network-topologies-protocols-and-standards",
-    "title": "2  Introduction to Information Technology",
-    "section": "8.3 Network Topologies, Protocols, and Standards",
-    "text": "8.3 Network Topologies, Protocols, and Standards\nInternet addressing includes Internet Protocol (IP) addresses (Internet Protocol version 4 [IPv4], Internet Protocol version 6 [IPv6]), domain names, and Media Access Control (MAC) addresses. Networks are classified into Local Area Networks (LANs), Metropolitan Area Networks (MANs), Wide Area Networks (WANs), and Personal Area Networks (PANs) based on geographic scope.",
+    "title": "1  Introduction to Information Technology",
+    "section": "7.3 Network Topologies, Protocols, and Standards",
+    "text": "7.3 Network Topologies, Protocols, and Standards\nInternet addressing includes Internet Protocol (IP) addresses (Internet Protocol version 4 [IPv4], Internet Protocol version 6 [IPv6]), domain names, and Media Access Control (MAC) addresses. Networks are classified into Local Area Networks (LANs), Metropolitan Area Networks (MANs), Wide Area Networks (WANs), and Personal Area Networks (PANs) based on geographic scope.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
     ]
   },
   {
     "objectID": "intro_it.html#wireless-communication-and-network-hardware",
     "href": "intro_it.html#wireless-communication-and-network-hardware",
-    "title": "2  Introduction to Information Technology",
-    "section": "8.4 Wireless Communication and Network Hardware",
-    "text": "8.4 Wireless Communication and Network Hardware\nWireless communication uses radio frequencies, Wi-Fi (Wireless Fidelity), Bluetooth, and cellular technologies. Essential hardware includes routers, switches, access points, and modems.",
+    "title": "1  Introduction to Information Technology",
+    "section": "7.4 Wireless Communication and Network Hardware",
+    "text": "7.4 Wireless Communication and Network Hardware\nWireless communication uses radio frequencies, Wi-Fi (Wireless Fidelity), Bluetooth, and cellular technologies. Essential hardware includes routers, switches, access points, and modems.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
     ]
   },
   {
     "objectID": "intro_it.html#networking-logical-models-and-the-open-systems-interconnection-model",
     "href": "intro_it.html#networking-logical-models-and-the-open-systems-interconnection-model",
-    "title": "2  Introduction to Information Technology",
-    "section": "8.5 Networking Logical Models and the Open Systems Interconnection Model",
-    "text": "8.5 Networking Logical Models and the Open Systems Interconnection Model\nThe Open Systems Interconnection (OSI) model defines seven layers (physical to application) for networking functions. The Transmission Control Protocol/Internet Protocol (TCP/IP) model simplifies this into four layers (network interface, internet, transport, and application).\nReadings:\n\nHealth IT Curriculum Resources for Educators - 4.6",
+    "title": "1  Introduction to Information Technology",
+    "section": "7.5 Networking Logical Models and the Open Systems Interconnection Model",
+    "text": "7.5 Networking Logical Models and the Open Systems Interconnection Model\nThe Open Systems Interconnection (OSI) model defines seven layers (physical to application) for networking functions. The Transmission Control Protocol/Internet Protocol (TCP/IP) model simplifies this into four layers (network interface, internet, transport, and application).\nReadings:\n\nHealth IT Curriculum Resources for Educators - 4.6",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
     ]
   },
   {
     "objectID": "intro_it.html#cybercrime-and-it-security",
     "href": "intro_it.html#cybercrime-and-it-security",
-    "title": "2  Introduction to Information Technology",
-    "section": "9.1 Cybercrime and IT Security",
-    "text": "9.1 Cybercrime and IT Security\nCybercrime involves unauthorized access, data theft, fraud, and disruption of services. Information Technology (IT) security encompasses technical, administrative, and physical controls to prevent such threats.",
+    "title": "1  Introduction to Information Technology",
+    "section": "8.1 Cybercrime and IT Security",
+    "text": "8.1 Cybercrime and IT Security\nCybercrime involves unauthorized access, data theft, fraud, and disruption of services. Information Technology (IT) security encompasses technical, administrative, and physical controls to prevent such threats.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
     ]
   },
   {
     "objectID": "intro_it.html#hackers-methods",
     "href": "intro_it.html#hackers-methods",
-    "title": "2  Introduction to Information Technology",
-    "section": "9.2 Hackers Methods",
-    "text": "9.2 Hackers Methods\nMethods include phishing, malware (malicious software), denial-of-service (DoS) attacks, Structured Query Language (SQL) injection, and social engineering.",
+    "title": "1  Introduction to Information Technology",
+    "section": "8.2 Hackers Methods",
+    "text": "8.2 Hackers Methods\nMethods include phishing, malware (malicious software), denial-of-service (DoS) attacks, Structured Query Language (SQL) injection, and social engineering.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
     ]
   },
   {
     "objectID": "intro_it.html#protecting-against-cybercrime",
     "href": "intro_it.html#protecting-against-cybercrime",
-    "title": "2  Introduction to Information Technology",
-    "section": "9.3 Protecting Against Cybercrime",
-    "text": "9.3 Protecting Against Cybercrime\nDefensive strategies include firewalls, intrusion detection systems (IDS), multifactor authentication (MFA), and regular patching.",
+    "title": "1  Introduction to Information Technology",
+    "section": "8.3 Protecting Against Cybercrime",
+    "text": "8.3 Protecting Against Cybercrime\nDefensive strategies include firewalls, intrusion detection systems (IDS), multifactor authentication (MFA), and regular patching.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
     ]
   },
   {
     "objectID": "intro_it.html#minimizing-risk-of-a-successful-cyberattack",
     "href": "intro_it.html#minimizing-risk-of-a-successful-cyberattack",
-    "title": "2  Introduction to Information Technology",
-    "section": "9.4 Minimizing Risk of a Successful cyberattack",
-    "text": "9.4 Minimizing Risk of a Successful cyberattack\nOrganizations employ risk assessments, employee training, encryption, and incident response planning to reduce vulnerabilities.",
+    "title": "1  Introduction to Information Technology",
+    "section": "8.4 Minimizing Risk of a Successful cyberattack",
+    "text": "8.4 Minimizing Risk of a Successful cyberattack\nOrganizations employ risk assessments, employee training, encryption, and incident response planning to reduce vulnerabilities.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
     ]
   },
   {
     "objectID": "intro_it.html#health-insurance-portability-and-accountability-act-hipaa",
     "href": "intro_it.html#health-insurance-portability-and-accountability-act-hipaa",
-    "title": "2  Introduction to Information Technology",
-    "section": "9.5 Health Insurance Portability and Accountability Act (HIPAA)",
-    "text": "9.5 Health Insurance Portability and Accountability Act (HIPAA)\n\nPurpose and Scope\n\nU.S. law enacted in 1996\nProtecting privacy and security of PHI (Protected Health Information)\nRegulations to streamline administrative processes within healthcare organizations\n\nHIPAA Privacy Rule (2003)\n\nUse/disclosure of PHI in research\nDe-identification methods\nLimited Data Set & Data Use Agreements\n\nHIPAA Security Rule (2005) Safeguards for electronic PHI (ePHI)\n\nReadings:\n\nHealth IT Curriculum Resources for Educators - 4.7",
+    "title": "1  Introduction to Information Technology",
+    "section": "8.5 Health Insurance Portability and Accountability Act (HIPAA)",
+    "text": "8.5 Health Insurance Portability and Accountability Act (HIPAA)\n\nPurpose and Scope\n\nU.S. law enacted in 1996\nProtecting privacy and security of PHI (Protected Health Information)\nRegulations to streamline administrative processes within healthcare organizations\n\nHIPAA Privacy Rule (2003)\n\nUse/disclosure of PHI in research\nDe-identification methods\nLimited Data Set & Data Use Agreements\n\nHIPAA Security Rule (2005) Safeguards for electronic PHI (ePHI)\n\nReadings:\n\nHealth IT Curriculum Resources for Educators - 4.7",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
     ]
   },
   {
     "objectID": "intro_it.html#what-is-an-information-system",
     "href": "intro_it.html#what-is-an-information-system",
-    "title": "2  Introduction to Information Technology",
-    "section": "10.1 What is an Information System?",
-    "text": "10.1 What is an Information System?\nAn information system integrates people, technology, processes, and data to support decision-making, coordination, and analysis.",
+    "title": "1  Introduction to Information Technology",
+    "section": "9.1 What is an Information System?",
+    "text": "9.1 What is an Information System?\nAn information system integrates people, technology, processes, and data to support decision-making, coordination, and analysis.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
     ]
   },
   {
     "objectID": "intro_it.html#the-systems-development-process",
     "href": "intro_it.html#the-systems-development-process",
-    "title": "2  Introduction to Information Technology",
-    "section": "10.2 The Systems Development Process",
-    "text": "10.2 The Systems Development Process\nDevelopment follows structured models such as waterfall, agile, or Development and Operations (DevOps). Core stages include requirements analysis, design, implementation, testing, deployment, and maintenance.",
+    "title": "1  Introduction to Information Technology",
+    "section": "9.2 The Systems Development Process",
+    "text": "9.2 The Systems Development Process\nDevelopment follows structured models such as waterfall, agile, or Development and Operations (DevOps). Core stages include requirements analysis, design, implementation, testing, deployment, and maintenance.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
     ]
   },
   {
     "objectID": "intro_it.html#specialized-information-systems",
     "href": "intro_it.html#specialized-information-systems",
-    "title": "2  Introduction to Information Technology",
-    "section": "10.3 Specialized Information Systems",
-    "text": "10.3 Specialized Information Systems\nExamples include Decision Support Systems (DSS), expert systems, Geographic Information Systems (GIS), and Clinical Decision Support Systems (CDSS). These are tailored for domain-specific applications.\nReadings:\n\nHealth IT Curriculum Resources for Educators - 4.8",
+    "title": "1  Introduction to Information Technology",
+    "section": "9.3 Specialized Information Systems",
+    "text": "9.3 Specialized Information Systems\nExamples include Decision Support Systems (DSS), expert systems, Geographic Information Systems (GIS), and Clinical Decision Support Systems (CDSS). These are tailored for domain-specific applications.\nReadings:\n\nHealth IT Curriculum Resources for Educators - 4.8",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
     ]
   },
   {
     "objectID": "hist_hit.html",
     "href": "hist_hit.html",
-    "title": "3  History of Health Information Technology in the US",
+    "title": "2  History of Health Information Technology in the US",
     "section": "",
-    "text": "4 Evolution of Health IT: The Early Years\n\n\n5 Evolution of Health IT: The Modern Era\n\n\n6 Evolution of Health IT: The HITECH Act\n\n\n7 Evolution of Public Health Informatics\n\n\n8 Evolution of Nursing Informatics and HIT Tools Used By Nursing\n\n\n9 History of Electronic Health Records (EHRs)\n\n\n10 History of Clinical Decision Support Systems\n\n\n11 History of CPOE and E-Prescribing\n\n\n12 History of Health Information Exchange\n\n\n13 History of Privacy and Security Legislation\n\n\n14 Software Certification and Regulation\n\n\n15 History of Mobile Computing\n\n\n16 History of Telemedicine\n\n\n17 History of Quality Improvement and Patient Safety\n\n\n18 History of Health IT Organizations",
+    "text": "The history of Health Information Technology (HIT) in the United States is marked by gradual adoption, policy-driven acceleration, and ongoing challenges in interoperability. Early computing in healthcare began in the 1960s with mainframe-based hospital information systems. By the 1980s, academic centers such as Regenstrief Institute pioneered computerized medical records. The 1990s saw the rise of electronic billing and early electronic health records (EHRs), influenced by managed care and regulatory requirements. After 2000, federal initiatives—culminating in the Health Information Technology for Economic and Clinical Health (HITECH) Act of 2009—catalyzed widespread adoption, transforming HIT into a central pillar of U.S. healthcare delivery.\n\nEvolution of Health IT: The Early Years\nIn the early years (1960s–1980s), HIT primarily supported administrative and financial tasks rather than clinical workflows. The Massachusetts General Hospital Utility Multi-Programming System (MUMPS) and the Regenstrief Medical Record System were pioneering platforms. Data storage was limited and proprietary, and clinical systems lacked interoperability. During this period, the focus was proof-of-concept—demonstrating that computers could store, retrieve, and manage patient data.\nReadings:\n\nHealth IT Curriculum Resources for Educators - 5.1\n\n\n\n\n3 Evolution of Health IT: The Modern Era\nThe modern era of HIT (1990s–present) is defined by digitization, standardization, and integration into clinical practice. Innovations include the widespread deployment of EHRs, the emergence of clinical decision support (CDS), and the adoption of standards like HL7 (Health Level 7) and SNOMED CT (Systematized Nomenclature of Medicine–Clinical Terms). The 21st Century Cures Act (2016) reinforced interoperability mandates and information-blocking prohibitions, pushing HIT towards greater transparency, patient access, and data exchange across systems.\nReadings:\n\nHealth IT Curriculum Resources for Educators - 5.2\n\n\n\n\n4 Evolution of Health IT: The HITECH Act\nThe HITECH Act (Health Information Technology for Economic and Clinical Health Act) of 2009 was a turning point, allocating $30+ billion for EHR adoption through the Meaningful Use (MU) program. Hospitals and providers received incentives for implementing certified EHR technology that met defined standards for electronic prescribing, structured data capture, and patient engagement. This act not only drove adoption rates above 80% in hospitals but also introduced the foundation for modern health information exchange (HIE) and quality reporting systems.\nReadings:\n\nHealth IT Curriculum Resources for Educators - 5.3\n\n\n\n\n5 Evolution of Public Health Informatics\nPublic Health Informatics emerged in the 1990s, combining epidemiology with information science. Systems like the National Electronic Disease Surveillance System (NEDSS) and immunization registries provided data for outbreak monitoring, chronic disease tracking, and bioterrorism preparedness. With COVID-19, public health informatics gained renewed visibility, as EHR-linked reporting and real-time dashboards became essential for situational awareness, reinforcing the need for integrated HIT and public health infrastructure.\nReadings:\n\nHealth IT Curriculum Resources for Educators - 5.4\n\n\n\n\n6 Evolution of Nursing Informatics and HIT Tools Used By Nursing\nNursing informatics grew from documentation systems in the 1980s to sophisticated clinical decision support tools today. Early efforts included standardized nursing terminologies (NANDA-North American Nursing Diagnosis Association International, NIC-Nursing Interventions Classification, NOC-Nursing Outcomes Classification) and computerized charting. By the 2000s, tools like barcode medication administration (BCMA) and mobile documentation systems reduced errors and enhanced efficiency. Today, nursing informatics integrates predictive analytics, mobile apps, and workflow optimization to improve patient safety and evidence-based care.\nReadings:\n\nHealth IT Curriculum Resources for Educators - 5.5\n\n\n\n\n7 History of Electronic Health Records (EHRs)\nThe EHR traces back to academic prototypes like the Regenstrief system (1970s). Commercial vendors entered in the 1990s (e.g., Epic, Cerner, MEDITECH), offering enterprise solutions. Initially, adoption was slow due to cost and workflow disruption. Post-HITECH Act, adoption surged, transforming EHRs into the backbone of care coordination, billing, and compliance. Challenges persist in usability, clinician burnout, and achieving full interoperability.\nReadings:\n\nHealth IT Curriculum Resources for Educators - 5.6\n\n\n\n\n8 History of Clinical Decision Support Systems\nClinical Decision Support System, or CDSS development began in the 1970s with systems like MYCIN, which provided antibiotic recommendations. Early CDSS were rule-based and limited by computational power. In the 1990s and 2000s, CDSS became embedded in EHRs, offering drug–drug interaction alerts, reminders, and order sets. Today, CDSS integrates artificial intelligence (AI), machine learning, and natural language processing, expanding into predictive analytics and precision medicine.\nReadings:\n\nHealth IT Curriculum Resources for Educators - 5.7\n\n\n\n\n9 History of CPOE and E-Prescribing\nComputerized Provider Order Entry (CPOE) originated in the 1970s at academic centers but gained traction in the 1990s with improved interfaces. By the 2000s, regulatory pressures and safety concerns (e.g., reducing medication errors) drove adoption. E-prescribing, formalized under the Medicare Modernization Act (2003), became widespread with incentives for electronic medication transmission, improving accuracy, and enabling real-time formulary checks.\nReadings:\n\nHealth IT Curriculum Resources for Educators - 5.8\n\n\n\n\n10 History of Health Information Exchange\nHealth Information Exchange, or HIE began in the late 1990s as community-based health information networks (CHINs), but most failed due to sustainability challenges. The 2000s saw renewed federal support through Regional Health Information Organizations (RHIOs). The HITECH Act further accelerated HIE adoption by funding state-level initiatives. Today, networks like eHealth Exchange and CommonWell enable nationwide data exchange, though interoperability challenges remain.\nReadings:\n\nHealth IT Curriculum Resources for Educators - 5.9\n\n\n\n\n11 History of Privacy and Security Legislation\nKey milestones include:\n\nHIPAA (1996): Established national standards for privacy, security, and electronic transactions.\nHITECH Act (2009): Introduced breach notification requirements and extended HIPAA provisions to business associates.\n21st Century Cures Act (2016): Prohibited information blocking and mandated API-based data sharing. Collectively, these laws shaped the balance between innovation, patient privacy, and data security in HIT.\n\nReadings:\n\nHealth IT Curriculum Resources for Educators - 5.10\n\n\n\n\n12 Software Certification and Regulation\nThe Office of the National Coordinator (ONC) oversees EHR certification through the ONC Health IT Certification Program, ensuring software meets standards for interoperability, security, and clinical quality measures. Certification requirements evolved from Meaningful Use to the Promoting Interoperability program. Additionally, the FDA regulates certain software as medical devices (SaMD), particularly clinical decision-support systems that influence patient care.\nReadings:\n\nHealth IT Curriculum Resources for Educators - 5.11\n\n\n\n\n13 History of Mobile Computing\nMobile computing in healthcare started with laptops and personal digital assistants (PDAs) in the 1990s (e.g., Palm Pilots for drug references). The 2007 launch of the iPhone and subsequent Android platforms revolutionized access to health apps, telemonitoring, and mobile EHR interfaces. Today, mobile computing underpins patient engagement tools, wearable device integration, and remote patient monitoring.\nReadings:\n\nHealth IT Curriculum Resources for Educators - 5.12\n\n\n\n\n14 History of Telemedicine\nTelemedicine dates back to NASA’s space medicine experiments in the 1960s and early telepsychiatry projects. By the 1990s, rural telehealth pilots expanded specialty access. In the 2000s, broadband expansion facilitated wider adoption. The COVID-19 pandemic (2020) triggered unprecedented telemedicine growth, supported by temporary reimbursement flexibilities and HIPAA enforcement discretion. Telemedicine is now integral to hybrid care models.\nReadings:\n\nHealth IT Curriculum Resources for Educators - 5.13\n\n\n\n\n15 History of Quality Improvement and Patient Safety\nQuality improvement in healthcare predates HIT, rooted in Florence Nightingale’s 19th-century statistical work. In the U.S., the Institute of Medicine’s reports—To Err is Human (1999) and Crossing the Quality Chasm (2001)—spotlighted safety failures, catalyzing HIT adoption. Tools like EHRs, CPOE, and clinical decision support became central to reducing adverse events, enabling measurement, and advancing evidence-based care.\nReadings:\n\nHealth IT Curriculum Resources for Educators - 5.14\n\n\n\n\n16 History of Health IT Organizations\nProfessional and policy organizations shaped the trajectory of HIT:\n\nAMIA (American Medical Informatics Association): Established in 1989 to advance biomedical informatics research and education.\nHIMSS (Healthcare Information and Management Systems Society): Founded in 1961, now a global convener for HIT standards and conferences.\nONC (Office of the National Coordinator for Health IT): Established in 2004, it sets federal HIT policy and certification standards.\nNCVHS (National Committee on Vital and Health Statistics): Provides advisory recommendations on health data policy. Together, these organizations influence governance, research, and adoption of HIT nationwide.\n\nReadings:\n\nHealth IT Curriculum Resources for Educators - 5.15",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>History of Health Information Technology in the US</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>History of Health Information Technology in the US</span>"
     ]
   },
   {
     "objectID": "glossary.html",
     "href": "glossary.html",
-    "title": "5  Glossary",
+    "title": "4  Glossary",
     "section": "",
-    "text": "5.1 Objects",
+    "text": "4.1 Objects",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Glossary</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Glossary</span>"
     ]
   },
   {
     "objectID": "glossary.html#objects",
     "href": "glossary.html#objects",
-    "title": "5  Glossary",
+    "title": "4  Glossary",
     "section": "",
     "text": "An object is that which has the potential of stable, unconditional existence for some positive duration of time\nCan be physical (visible or tangible and stable in form) or informational (anything that can be apprehended intellectually)\nObjects have states (can be changed by processes)\nExample: system objects vs. element objects vs. attribute object",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Glossary</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Glossary</span>"
     ]
   },
   {
     "objectID": "glossary.html#abstraction",
     "href": "glossary.html#abstraction",
-    "title": "5  Glossary",
-    "section": "5.2 Abstraction",
-    "text": "5.2 Abstraction\n\nDefined as: a) expression of quality apart from the object; b) having only the intrinsic nature rather than the form\nAbstraction can be used in both function and form\nAbstraction can be used to characterize and hide non-essential details, allowing simpler representation\nExample: “cup” can be an abstraction while “a red cup with MU logo” is an object",
+    "title": "4  Glossary",
+    "section": "4.2 Abstraction",
+    "text": "4.2 Abstraction\n\nDefined as: a) expression of quality apart from the object; b) having only the intrinsic nature rather than the form\nAbstraction can be used in both function and form\nAbstraction can be used to characterize and hide non-essential details, allowing simpler representation\nExample: “cup” can be an abstraction while “a red cup with MU logo” is an object",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Glossary</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Glossary</span>"
     ]
   }
 ]

@@ -193,12 +193,15 @@ Organizations employ risk assessments, employee training, encryption, and incide
 # Information Systems
 
 ## What is an Information System?
+
 An information system integrates people, technology, processes, and data to support decision-making, coordination, and analysis.
 
 ## The Systems Development Process
+
 Development follows structured models such as waterfall, agile, or Development and Operations (DevOps). Core stages include requirements analysis, design, implementation, testing, deployment, and maintenance.
 
 ## Specialized Information Systems
+
 Examples include Decision Support Systems (DSS), expert systems, Geographic Information Systems (GIS), and Clinical Decision Support Systems (CDSS). These are tailored for domain-specific applications.
 
 **Readings:**
