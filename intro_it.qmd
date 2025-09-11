@@ -1,0 +1,145 @@
+---
+title: "Introduction to Information Technology"
+---
+
+# Basic Computing Concepts, Including History
+
+## Definitions, Descriptions, and Elements
+
+Computing refers to the use of electronic devices and algorithms to process, store, and transmit information. At its core, a computer system consists of hardware (physical components), software (instructions and programs), and data (the information being processed). Key elements include input, processing, storage, and output, which together define the flow of information in digital systems.
+
+## Selecting a New Computer
+
+Selecting a computer involves evaluating performance factors (CPU speed, RAM capacity, storage type), form factors (desktop, laptop, tablet, server), and intended use cases (general office work, scientific computing, gaming, data analysis). Criteria such as battery life, expandability, operating system compatibility, and budget also shape the decision.
+
+## History of Computers
+
+The history of computers can be divided into generations: - First Generation (1940s–1950s): Vacuum tubes, large mainframes, limited reliability. - Second Generation (1950s–1960s): Transistors replaced tubes, smaller and more efficient. - Third Generation (1960s–1970s): Integrated circuits allowed miniaturization. - Fourth Generation (1970s–1980s): Microprocessors enabled personal computers. - Fifth Generation (1980s–present): Parallel processing, networking, and AI-enabled systems.
+
+## The Growth of Personal Computers and the Internet
+
+The 1980s marked the rise of personal computers (PCs) through companies like Apple, IBM, and Microsoft. The 1990s saw the commercial expansion of the Internet, revolutionizing communication, commerce, and research. The transition from dial-up modems to broadband, and later to wireless networking, underpinned the global digital economy.
+
+Readings:
+
+-   [Health IT Curriculum Resources for Educators - 4.1](https://files.healthit.gov/Component_4/Comp4_Unit1.zip)
+
+--------------------------------------------------------------------------------------------------------------------------
+
+# Computer Hardware
+
+## Components and Peripherals
+
+Core components include the central processing unit (CPU), memory (RAM), motherboard, power supply, and storage devices. Peripherals—such as keyboards, mice, monitors, and printers—extend usability. External devices like scanners and external drives provide additional input/output functionality.
+
+## Ports, Memory, and Secondary Storage
+
+Ports (USB, HDMI, Ethernet) serve as physical interfaces for connectivity. Primary memory (RAM) provides temporary data storage during processing, while secondary storage (hard drives, SSDs, optical discs) provides long-term data retention. Modern trends emphasize solid-state storage for speed and reliability.
+
+## Data Types, Data Addresses, and the CPU, GPU
+
+Computers process data types such as integers, floating-point numbers, characters, and logical values. Memory addressing allows precise data retrieval. The CPU performs general-purpose processing, while the GPU accelerates parallel computations, crucial for graphics rendering, AI, and scientific simulations.
+
+Readings:
+
+-   [Health IT Curriculum Resources for Educators - 4.2](https://files.healthit.gov/Component_4/Comp4_Unit2.zip)
+
+--------------------------------------------------------------------------------------------------------------------------
+
+# Computer Software
+
+## Identify major classifications of software
+
+## What an operating system is and what it does
+
+## Files and file management
+
+Readings:
+
+-   \[\]
+
+-   \[\]
+
+# Computer Programming
+
+## Programming Languages
+
+## Compiling and Interpreting Process for Computer Programs
+
+## Programming Language Constructs
+
+## Basic Programming Concepts
+
+## Advanced Programming Concepts
+
+Readings:
+
+-   \[\]
+
+-   \[\]
+
+# Database Management System
+
+## How Databases Store Data
+
+## Data Modeling and Normalization
+
+## Structured Query Language
+
+## Structure of Clinical Databases
+
+Readings:
+
+-   \[\]
+
+-   \[\]
+
+# Networks
+
+## Introduction to Networks and the Internet
+
+## Basics of Internet Addressing and Network Classification
+
+## Network Topologies, Protocols, and Standards
+
+## Wireless Communication and Network Hardware
+
+## Networking Logical Models and the Open Systems Interconnection Model
+
+Readings:
+
+-   \[\]
+
+-   \[\]
+
+# Security and Privacy
+
+## Cybercrime and IT Security
+
+## Hackers Methods
+
+## Protecting Against Cybercrime
+
+## Minimizing Risk of a Successful cyberattack
+
+## Cybercrime and Electronic Health Records, including Ethical Online Behavior Concepts
+
+Readings:
+
+-   \[\]
+
+-   \[\]
+
+# Information Systems
+
+## What is an Information System?
+
+## The Systems Development Process
+
+## Specialized Information Systems
+
+Readings:
+
+-   \[\]
+
+-   \[\]

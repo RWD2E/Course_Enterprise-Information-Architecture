@@ -34,7 +34,7 @@
     "href": "index.html#textbook",
     "title": "Enterprise Information Architecture",
     "section": "Textbook",
-    "text": "Textbook\nWe will primarily use this living eBook which evolves over time. This eBook integrates content adapted from both public and proprietary sources, including but not limited to: (Office of the National Coordinator for Health Information Technology (ONC) 2023), (National Aeronautics and Space Administration 2017), (Mark W. Maier and (eds.) 2000), and (Ulrich and Eppinger 2015), among others.",
+    "text": "Textbook\nWe will primarily use this living eBook which evolves over time. This eBook integrates content adapted from both public and proprietary sources, including but not limited to: (Office of the National Coordinator for Health Information Technology (ONC) 2023), (National Aeronautics and Space Administration 2017), (Mark W. Maier and (eds.) 2000),(Ulrich and Eppinger 2015), (INCOSE2017ArtSystems?), and among others.",
     "crumbs": [
       "Syllabus"
     ]
@@ -44,59 +44,489 @@
     "href": "index.html#class-format",
     "title": "Enterprise Information Architecture",
     "section": "Class Format",
-    "text": "Class Format\n\nSynchronous and Asynchronous participation\nThis course does not have a fixed meeting time or location and will be conducted entirely online. Most participation will be asynchronous, particularly for group discussions focused on developing solutions to the real-world problems assigned every 2–3 weeks. To track progress, students are strongly encouraged to maintain journals or meeting logs. Project management tools and platforms (e.g., GitHub, Jira) may also be used and will be introduced during the first two weeks of the course. Periodic synchronous meetings may be scheduled as needed to address common topics.\n\n\nPBL Solution Artifacts\nEvery 2–3 weeks, students will be randomly assigned to teams to identify or develop solutions to a real-world problem related to healthcare information systems or architecture. Each team will submit one deliverable artifact per project, with the contributions of all team members clearly documented. Projects will be scheduled to align closely with the course material, and at least five projects will be assigned over the semester. Each student is expected to take the lead in project management for at least one project.\n\n\nFinal Project Design Brief\nAt the end of the semester, students will be assigned an open-ended EIA problem. Each student will propose a potential solution in the form of a Design Brief—a two-page executive summary of their design project. The brief should be written for a multi-disciplinary audience of engineers, policy makers, clinicians, executives, and etc., who may not be as familiar as you are with your clinical and solution space.\n\n\n\n\nMark W. Maier, and Eberhardt Rechtin (eds.). 2000. The Art of Systems Architecting, 2nd Edition. 2nd ed. https://sdincose.org/wp-content/uploads/2017/10/TheArtOfSystemsEngineering_inaugural.pdf; CRC Press.\n\n\nNational Aeronautics and Space Administration. 2017. NASA Systems Engineering Handbook, Revision 2 (NASA SP-2016-6105 Rev 2). https://www.nasa.gov/wp-content/uploads/2018/09/nasa_systems_engineering_handbook_0.pdf.\n\n\nOffice of the National Coordinator for Health Information Technology (ONC). 2023. “Health IT Curriculum Resources for Educators.” https://www.healthit.gov/topic/health-it-resources/health-it-curriculum-resources-educators.\n\n\nUlrich, Karl T., and Steven D. Eppinger. 2015. Product Design and Development. 6th ed. https://industri.fatek.unpatti.ac.id/wp-content/uploads/2019/03/202-Product-Design-and-Development-Karl-T.-Ulrich-Steven-D.-Eppinger-Edisi-6-2015.pdf; McGraw-Hill Education.",
+    "text": "Class Format\n\nSynchronous and Asynchronous participation\nThis course does not have a fixed meeting time or location and will be conducted entirely online. Most participation will be asynchronous, particularly for group discussions focused on developing solutions to the real-world problems assigned every 2–3 weeks. To track progress, students are strongly encouraged to maintain journals or meeting logs. Project management tools and platforms (e.g., GitHub, Jira) may also be used and will be introduced during the first two weeks of the course. Periodic synchronous meetings may be scheduled as needed to address common topics.\n\n\nPBL Solution Artifacts\nEvery 2–3 weeks, students will be randomly assigned to teams to identify or develop solutions to a real-world problem related to healthcare information systems or architecture. Each team will submit one deliverable artifact per project, with the contributions of all team members clearly documented. Projects will be scheduled to align closely with the course material, and at least five projects will be assigned over the semester. Each student is expected to take the lead in project management for at least one project.\n\n\nFinal Project Design Brief\nAt the end of the semester, students will be assigned an open-ended EIA problem. Each student will propose a potential solution in the form of a Design Brief—a two-page executive summary of their design project. The brief should be written for a multi-disciplinary audience of engineers, policy makers, clinicians, executives, and etc., who may not be as familiar as you are with your clinical and solution space.",
     "crumbs": [
       "Syllabus"
     ]
   },
   {
-    "objectID": "intro.html",
-    "href": "intro.html",
-    "title": "1  Introduction",
+    "objectID": "index.html#disclaimer-of-genai-use",
+    "href": "index.html#disclaimer-of-genai-use",
+    "title": "Enterprise Information Architecture",
+    "section": "Disclaimer of GenAI Use",
+    "text": "Disclaimer of GenAI Use\nPortions of the course content were developed with the assistance of GenAI tools (ChatGPT 5.0). These tools were used to support tasks such as drafting, summarizing, reformatting, or suggesting examples. All materials have been subsequently reviewed, edited, and validated by the course instructor for accuracy, appropriateness, and alignment with the intended learning objectives. The use of GenAI tools in content creation does not substitute for faculty expertise, academic rigor, or the responsibility of the instructor. Any errors, omissions, or limitations are the responsibility of the instructor, not the GenAI tool provider.\n\n\n\n\nMark W. Maier, and Eberhardt Rechtin (eds.). 2000. The Art of Systems Architecting, 2nd Edition. 2nd ed. https://sdincose.org/wp-content/uploads/2017/10/TheArtOfSystemsEngineering_inaugural.pdf; CRC Press.\n\n\nNational Aeronautics and Space Administration. 2017. NASA Systems Engineering Handbook, Revision 2 (NASA SP-2016-6105 Rev 2). https://www.nasa.gov/wp-content/uploads/2018/09/nasa_systems_engineering_handbook_0.pdf.\n\n\nOffice of the National Coordinator for Health Information Technology (ONC). 2023. “Health IT Curriculum Resources for Educators.” https://www.healthit.gov/topic/health-it-resources/health-it-curriculum-resources-educators.\n\n\nUlrich, Karl T., and Steven D. Eppinger. 2015. Product Design and Development. 6th ed. https://industri.fatek.unpatti.ac.id/wp-content/uploads/2019/03/202-Product-Design-and-Development-Karl-T.-Ulrich-Steven-D.-Eppinger-Edisi-6-2015.pdf; McGraw-Hill Education.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "glossary.html",
+    "href": "glossary.html",
+    "title": "1  Glossary",
     "section": "",
-    "text": "1.1 Architecture",
+    "text": "1.1 Objects",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Glossary</span>"
     ]
   },
   {
-    "objectID": "intro.html#information-architecture",
-    "href": "intro.html#information-architecture",
-    "title": "1  Introduction",
-    "section": "1.2 Information Architecture",
-    "text": "1.2 Information Architecture",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
-    ]
-  },
-  {
-    "objectID": "intro.html#enterprise-information-architecture",
-    "href": "intro.html#enterprise-information-architecture",
-    "title": "1  Introduction",
-    "section": "1.3 Enterprise Information Architecture",
-    "text": "1.3 Enterprise Information Architecture",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
-    ]
-  },
-  {
-    "objectID": "intro.html#enterprise-information-architecture-in-healthcare",
-    "href": "intro.html#enterprise-information-architecture-in-healthcare",
-    "title": "1  Introduction",
-    "section": "1.4 Enterprise Information Architecture in Healthcare",
-    "text": "1.4 Enterprise Information Architecture in Healthcare",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
-    ]
-  },
-  {
-    "objectID": "references.html",
-    "href": "references.html",
-    "title": "References",
+    "objectID": "glossary.html#objects",
+    "href": "glossary.html#objects",
+    "title": "1  Glossary",
     "section": "",
-    "text": "Mark W. Maier, and Eberhardt Rechtin (eds.). 2000. The Art of\nSystems Architecting, 2nd Edition. 2nd ed. https://sdincose.org/wp-content/uploads/2017/10/TheArtOfSystemsEngineering_inaugural.pdf;\nCRC Press.\n\n\nNational Aeronautics and Space Administration. 2017. NASA Systems\nEngineering Handbook, Revision 2 (NASA SP-2016-6105 Rev 2). https://www.nasa.gov/wp-content/uploads/2018/09/nasa_systems_engineering_handbook_0.pdf.\n\n\nOffice of the National Coordinator for Health Information Technology\n(ONC). 2023. “Health IT Curriculum Resources for\nEducators.” https://www.healthit.gov/topic/health-it-resources/health-it-curriculum-resources-educators.\n\n\nUlrich, Karl T., and Steven D. Eppinger. 2015. Product Design and\nDevelopment. 6th ed. https://industri.fatek.unpatti.ac.id/wp-content/uploads/2019/03/202-Product-Design-and-Development-Karl-T.-Ulrich-Steven-D.-Eppinger-Edisi-6-2015.pdf;\nMcGraw-Hill Education.",
+    "text": "An object is that which has the potential of stable, unconditional existence for some positive duration of time\nCan be physical (visible or tangible and stable in form) or informational (anything that can be apprehended intellectually)\nObjects have states (can be changed by processes)\nExample: system objects vs. element objects vs. attribute object",
     "crumbs": [
-      "References"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Glossary</span>"
+    ]
+  },
+  {
+    "objectID": "glossary.html#abstraction",
+    "href": "glossary.html#abstraction",
+    "title": "1  Glossary",
+    "section": "1.2 Abstraction",
+    "text": "1.2 Abstraction\n\nDefined as: a) expression of quality apart from the object; b) having only the intrinsic nature rather than the form\nAbstraction can be used in both function and form\nAbstraction can be used to characterize and hide non-essential details, allowing simpler representation\nExample: “cup” can be an abstraction while “a red cup with MU logo” is an object",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Glossary</span>"
+    ]
+  },
+  {
+    "objectID": "intro_arch.html",
+    "href": "intro_arch.html",
+    "title": "2  Architecture",
+    "section": "",
+    "text": "2.1 Architecture as Function-Form Mapping\nDespite the varying definitions of “Architectures”, they all consist of “Function”, related by “Concept”, and maps to “Form”",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Architecture</span>"
+    ]
+  },
+  {
+    "objectID": "intro_arch.html#architecture-as-function-form-mapping",
+    "href": "intro_arch.html#architecture-as-function-form-mapping",
+    "title": "2  Architecture",
+    "section": "",
+    "text": "2.1.1 Form = Elements/Objects + Structure\n\n\n\n\n\n\n\nForm - Defined\nForm - Described\n\n\n\n\n\nThe physical/informational embodiment which exists, or has the potential to exist;\nIt is what the system “is”\nThe sum of the elements, which are segments (of the whole of) the form\nThe elements of form - smallest useful “atomic unit”\nThe structure of form - the formal relationships among the elements\n\nspatial/topological structural connections\nassembly/implementation structural connections\n\nIt is a system/product attribute created by the architect\n\n\nIs created by the architect\nIs in a solution specific domain\nCan be decomposed into physical/informational elements -the decompositional view\nElements are connected at interfaces. The interfaces define the structure -the structural view\nIs the thing that executes function\nIs the thing that is eventually implemented (built, written, composed, manufactured, etc.)\nIs the thing that is eventually operated (run, repaired, updated, retired, etc.)\n\n\n\n\n\n\n2.1.2 Decompositional View\nDecompositional View uses tree structure to decompose a system into sub-systems and evetually elements (in leaf nodes). It is a useful representation to place a particular system of interests (SoI) within Use Context, which defines the architectural vision that informs: a) the core function of the SoI; b) the Boundaries separating the SoI from other supporting systems; and c) the interfaces connecting the SoI to other supporting systems. Take “a pad of paper” as an example,\n\n\n\nFigure 1. Decompositional View of a Pad of Paper\n\n\n\n\n2.1.3 Function = Process + Operand/Object\n\n\n\n\n\n\n\nFunction - Defined\nFunction - Described\n\n\n\n\n\nThe activities, operations and transformations that cause, create or contribute to performance (i.e. meeting goals)\nThe actions for which a thing exists or is employed\nIs a product/system attribute\nSystem defined as: “A set of interrelated elements that perform a function, whose functionality is greater than the sum of the parts”\n\n\nIs conceived by the architect\nMust be conceived so that goalscan be achieved\nIs what the system eventually does, the activities and transformations which emergeas sub-function aggregate (i.e., Emergence)\nShould initially be stated in solution neutral language\n\n\n\n\n\n\n2.1.4 Structural View\nThe structural view represents the static, enduring aspects of a system—its components, relationships, and organization—independent of how those components behave over time. There are two typical representations:\n\nGraphical representation: Object-Process Modeling (OPM)\nList representation: Design Structure Matrix (DSM)",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Architecture</span>"
+    ]
+  },
+  {
+    "objectID": "intro_arch.html#architect-and-architecting",
+    "href": "intro_arch.html#architect-and-architecting",
+    "title": "2  Architecture",
+    "section": "2.2 Architect and Architecting",
+    "text": "2.2 Architect and Architecting\nAn architect works by applying:\n\nRelevant modes of thought, including creative and critical thinking\nThe approaches of architecting, including holism, reductionism, heuristic, agile, ecosystem, etc.\n\nHolism: emphasizes the design of systems based on the interrelationships, interactions, and emergent properties of all elements considered as a whole, rather than optimizing isolated components, with the objective of ensuring systemic coherence, resilience, and alignment with the broader environment.\nReductionism: decomposes a system into its constituent parts for analysis and optimization, based on the assumption that the behavior and performance of the whole system can be explained and engineered through the aggregation of its individual components.\nHeuristic: or pattern-based approach, which applies established architectural patterns, reference models, and heuristics as reusable design abstractions, with the intent of leveraging proven structural solutions to recurrent problems while reducing design risk and accelerating development.\nAgile: or incremental approach, which is an iterative and adaptive method that incrementally evolves architectural structures in synchrony with system development cycles, emphasizing responsiveness to emergent requirements, stakeholder feedback, and evolving environmental conditions.\nEcosystem: or service-dominant approach, which is to structure systems around modular services and value exchanges, prioritizing interoperability, composability, and ecosystem growth through well-defined interfaces, contracts, and governance mechanisms.\n\nThe principles, processes and tools of architecting\n\nPrinciples: are the underlying and long enduring fundamentals that are always (or almost always) valid.\nMethods: are the organization of approaches and tasks to achieve a concrete end, which should be solidly grounded on principles, and which are usually or often applicable.\nTools: are the contemporary ways to facilitate process, and sometimes applicable\n\nAnd a lot of wisdom and experience!\n\n\n2.2.1 Three Roles of the Architect\n\nReduce ambiguity: to incorporate strategy and technology insertion by defining the context and boundaries of the system\nEmploy creativity: to create the concept for the system, managing in the spectrum of solution neutral thinking\nManagement complexity: so that the system is comprehensible to all during its design, implementation, and evolution",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Architecture</span>"
+    ]
+  },
+  {
+    "objectID": "intro_arch.html#section",
+    "href": "intro_arch.html#section",
+    "title": "2  Architecture",
+    "section": "2.3 ————————————————————————",
+    "text": "2.3 ————————————————————————",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Architecture</span>"
+    ]
+  },
+  {
+    "objectID": "intro_arch.html#section-1",
+    "href": "intro_arch.html#section-1",
+    "title": "2  Architecture",
+    "section": "3.1 ————————————————————————",
+    "text": "3.1 ————————————————————————",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Architecture</span>"
+    ]
+  },
+  {
+    "objectID": "intro_arch.html#section-2",
+    "href": "intro_arch.html#section-2",
+    "title": "2  Architecture",
+    "section": "4.1 ————————————————————————",
+    "text": "4.1 ————————————————————————",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Architecture</span>"
+    ]
+  },
+  {
+    "objectID": "intro_arch.html#programmed-vs.-non-programmed-decisions",
+    "href": "intro_arch.html#programmed-vs.-non-programmed-decisions",
+    "title": "2  Architecture",
+    "section": "5.1 Programmed vs. Non-programmed decisions",
+    "text": "5.1 Programmed vs. Non-programmed decisions\n\nProgrammed decisions: routine, structured, and repetitive decisions made by applying established rules, procedures, or standard operating policies\nNon-programmed decisions: unique, unstructured, and non-routine decisions that require judgment, creativity, or problem-solving because no pre-established procedures exist.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Architecture</span>"
+    ]
+  },
+  {
+    "objectID": "intro_arch.html#quadrant-decision-matrix",
+    "href": "intro_arch.html#quadrant-decision-matrix",
+    "title": "2  Architecture",
+    "section": "5.2 4-Quadrant Decision Matrix",
+    "text": "5.2 4-Quadrant Decision Matrix\n\nSensitivity: does this decision strongly influence metrics (?\nConnectivity: would substantial rework be required to change this decision? Could we make this decision downstream without regards for other decisions?\n\n\n\n\nFigure 3. Architectural Decision Matrix",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Architecture</span>"
+    ]
+  },
+  {
+    "objectID": "intro_arch.html#six-patterns-of-architectural-decisions",
+    "href": "intro_arch.html#six-patterns-of-architectural-decisions",
+    "title": "2  Architecture",
+    "section": "5.3 Six Patterns of Architectural Decisions",
+    "text": "5.3 Six Patterns of Architectural Decisions\n\n\n\n\n\n\n\nPattern\nDescription\n\n\n\n\nDECISION-OPTION\nA group of decisions where each decision has its own discrete set of options.\n\n\nDOWN-SELECTING\nA group of binary decisions representing a subset from a set of candidate entities.\n\n\nASSIGNING\nGiven two different sets of entities, a group of decisions assigning each element from one set to any subset of entities from the other set.\n\n\nPARTITIONING\nA group of decisions representing a partitioning of a set of entities into subsets that are mutually exclusive and exhaustive.\n\n\nPERMUTING\nA group of decisions representing a one-to-one mapping between a set of entities and a set of positions.\n\n\nCONNECTING\nGiven a set of entities that are nodes in a graph, a group of decisions representing the connections between those nodes.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Architecture</span>"
+    ]
+  },
+  {
+    "objectID": "intro_arch.html#section-3",
+    "href": "intro_arch.html#section-3",
+    "title": "2  Architecture",
+    "section": "5.4 ————————————————————————",
+    "text": "5.4 ————————————————————————",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Architecture</span>"
+    ]
+  },
+  {
+    "objectID": "intro_it.html",
+    "href": "intro_it.html",
+    "title": "3  Introduction to Information Technology",
+    "section": "",
+    "text": "4 Basic Computing Concepts, Including History",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
+    ]
+  },
+  {
+    "objectID": "intro_it.html#definitions-descriptions-and-elements",
+    "href": "intro_it.html#definitions-descriptions-and-elements",
+    "title": "3  Introduction to Information Technology",
+    "section": "4.1 Definitions, Descriptions, and Elements",
+    "text": "4.1 Definitions, Descriptions, and Elements\nComputing refers to the use of electronic devices and algorithms to process, store, and transmit information. At its core, a computer system consists of hardware (physical components), software (instructions and programs), and data (the information being processed). Key elements include input, processing, storage, and output, which together define the flow of information in digital systems.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
+    ]
+  },
+  {
+    "objectID": "intro_it.html#selecting-a-new-computer",
+    "href": "intro_it.html#selecting-a-new-computer",
+    "title": "3  Introduction to Information Technology",
+    "section": "4.2 Selecting a New Computer",
+    "text": "4.2 Selecting a New Computer\nSelecting a computer involves evaluating performance factors (CPU speed, RAM capacity, storage type), form factors (desktop, laptop, tablet, server), and intended use cases (general office work, scientific computing, gaming, data analysis). Criteria such as battery life, expandability, operating system compatibility, and budget also shape the decision.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
+    ]
+  },
+  {
+    "objectID": "intro_it.html#history-of-computers",
+    "href": "intro_it.html#history-of-computers",
+    "title": "3  Introduction to Information Technology",
+    "section": "4.3 History of Computers",
+    "text": "4.3 History of Computers\nThe history of computers can be divided into generations: - First Generation (1940s–1950s): Vacuum tubes, large mainframes, limited reliability. - Second Generation (1950s–1960s): Transistors replaced tubes, smaller and more efficient. - Third Generation (1960s–1970s): Integrated circuits allowed miniaturization. - Fourth Generation (1970s–1980s): Microprocessors enabled personal computers. - Fifth Generation (1980s–present): Parallel processing, networking, and AI-enabled systems.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
+    ]
+  },
+  {
+    "objectID": "intro_it.html#the-growth-of-personal-computers-and-the-internet",
+    "href": "intro_it.html#the-growth-of-personal-computers-and-the-internet",
+    "title": "3  Introduction to Information Technology",
+    "section": "4.4 The Growth of Personal Computers and the Internet",
+    "text": "4.4 The Growth of Personal Computers and the Internet\nThe 1980s marked the rise of personal computers (PCs) through companies like Apple, IBM, and Microsoft. The 1990s saw the commercial expansion of the Internet, revolutionizing communication, commerce, and research. The transition from dial-up modems to broadband, and later to wireless networking, underpinned the global digital economy.\nReadings:\n\nHealth IT Curriculum Resources for Educators - 4.1",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
+    ]
+  },
+  {
+    "objectID": "intro_it.html#components-and-peripherals",
+    "href": "intro_it.html#components-and-peripherals",
+    "title": "3  Introduction to Information Technology",
+    "section": "5.1 Components and Peripherals",
+    "text": "5.1 Components and Peripherals\nCore components include the central processing unit (CPU), memory (RAM), motherboard, power supply, and storage devices. Peripherals—such as keyboards, mice, monitors, and printers—extend usability. External devices like scanners and external drives provide additional input/output functionality.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
+    ]
+  },
+  {
+    "objectID": "intro_it.html#ports-memory-and-secondary-storage",
+    "href": "intro_it.html#ports-memory-and-secondary-storage",
+    "title": "3  Introduction to Information Technology",
+    "section": "5.2 Ports, Memory, and Secondary Storage",
+    "text": "5.2 Ports, Memory, and Secondary Storage\nPorts (USB, HDMI, Ethernet) serve as physical interfaces for connectivity. Primary memory (RAM) provides temporary data storage during processing, while secondary storage (hard drives, SSDs, optical discs) provides long-term data retention. Modern trends emphasize solid-state storage for speed and reliability.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
+    ]
+  },
+  {
+    "objectID": "intro_it.html#data-types-data-addresses-and-the-cpu-gpu",
+    "href": "intro_it.html#data-types-data-addresses-and-the-cpu-gpu",
+    "title": "3  Introduction to Information Technology",
+    "section": "5.3 Data Types, Data Addresses, and the CPU, GPU",
+    "text": "5.3 Data Types, Data Addresses, and the CPU, GPU\nComputers process data types such as integers, floating-point numbers, characters, and logical values. Memory addressing allows precise data retrieval. The CPU performs general-purpose processing, while the GPU accelerates parallel computations, crucial for graphics rendering, AI, and scientific simulations.\nReadings:\n\nHealth IT Curriculum Resources for Educators - 4.2",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
+    ]
+  },
+  {
+    "objectID": "intro_it.html#identify-major-classifications-of-software",
+    "href": "intro_it.html#identify-major-classifications-of-software",
+    "title": "3  Introduction to Information Technology",
+    "section": "6.1 Identify major classifications of software",
+    "text": "6.1 Identify major classifications of software",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
+    ]
+  },
+  {
+    "objectID": "intro_it.html#what-an-operating-system-is-and-what-it-does",
+    "href": "intro_it.html#what-an-operating-system-is-and-what-it-does",
+    "title": "3  Introduction to Information Technology",
+    "section": "6.2 What an operating system is and what it does",
+    "text": "6.2 What an operating system is and what it does",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
+    ]
+  },
+  {
+    "objectID": "intro_it.html#files-and-file-management",
+    "href": "intro_it.html#files-and-file-management",
+    "title": "3  Introduction to Information Technology",
+    "section": "6.3 Files and file management",
+    "text": "6.3 Files and file management\nReadings:\n\n[]\n[]",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
+    ]
+  },
+  {
+    "objectID": "intro_it.html#programming-languages",
+    "href": "intro_it.html#programming-languages",
+    "title": "3  Introduction to Information Technology",
+    "section": "7.1 Programming Languages",
+    "text": "7.1 Programming Languages",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
+    ]
+  },
+  {
+    "objectID": "intro_it.html#compiling-and-interpreting-process-for-computer-programs",
+    "href": "intro_it.html#compiling-and-interpreting-process-for-computer-programs",
+    "title": "3  Introduction to Information Technology",
+    "section": "7.2 Compiling and Interpreting Process for Computer Programs",
+    "text": "7.2 Compiling and Interpreting Process for Computer Programs",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
+    ]
+  },
+  {
+    "objectID": "intro_it.html#programming-language-constructs",
+    "href": "intro_it.html#programming-language-constructs",
+    "title": "3  Introduction to Information Technology",
+    "section": "7.3 Programming Language Constructs",
+    "text": "7.3 Programming Language Constructs",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
+    ]
+  },
+  {
+    "objectID": "intro_it.html#basic-programming-concepts",
+    "href": "intro_it.html#basic-programming-concepts",
+    "title": "3  Introduction to Information Technology",
+    "section": "7.4 Basic Programming Concepts",
+    "text": "7.4 Basic Programming Concepts",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
+    ]
+  },
+  {
+    "objectID": "intro_it.html#advanced-programming-concepts",
+    "href": "intro_it.html#advanced-programming-concepts",
+    "title": "3  Introduction to Information Technology",
+    "section": "7.5 Advanced Programming Concepts",
+    "text": "7.5 Advanced Programming Concepts\nReadings:\n\n[]\n[]",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
+    ]
+  },
+  {
+    "objectID": "intro_it.html#how-databases-store-data",
+    "href": "intro_it.html#how-databases-store-data",
+    "title": "3  Introduction to Information Technology",
+    "section": "8.1 How Databases Store Data",
+    "text": "8.1 How Databases Store Data",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
+    ]
+  },
+  {
+    "objectID": "intro_it.html#data-modeling-and-normalization",
+    "href": "intro_it.html#data-modeling-and-normalization",
+    "title": "3  Introduction to Information Technology",
+    "section": "8.2 Data Modeling and Normalization",
+    "text": "8.2 Data Modeling and Normalization",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
+    ]
+  },
+  {
+    "objectID": "intro_it.html#structured-query-language",
+    "href": "intro_it.html#structured-query-language",
+    "title": "3  Introduction to Information Technology",
+    "section": "8.3 Structured Query Language",
+    "text": "8.3 Structured Query Language",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
+    ]
+  },
+  {
+    "objectID": "intro_it.html#structure-of-clinical-databases",
+    "href": "intro_it.html#structure-of-clinical-databases",
+    "title": "3  Introduction to Information Technology",
+    "section": "8.4 Structure of Clinical Databases",
+    "text": "8.4 Structure of Clinical Databases\nReadings:\n\n[]\n[]",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
+    ]
+  },
+  {
+    "objectID": "intro_it.html#introduction-to-networks-and-the-internet",
+    "href": "intro_it.html#introduction-to-networks-and-the-internet",
+    "title": "3  Introduction to Information Technology",
+    "section": "9.1 Introduction to Networks and the Internet",
+    "text": "9.1 Introduction to Networks and the Internet",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
+    ]
+  },
+  {
+    "objectID": "intro_it.html#basics-of-internet-addressing-and-network-classification",
+    "href": "intro_it.html#basics-of-internet-addressing-and-network-classification",
+    "title": "3  Introduction to Information Technology",
+    "section": "9.2 Basics of Internet Addressing and Network Classification",
+    "text": "9.2 Basics of Internet Addressing and Network Classification",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
+    ]
+  },
+  {
+    "objectID": "intro_it.html#network-topologies-protocols-and-standards",
+    "href": "intro_it.html#network-topologies-protocols-and-standards",
+    "title": "3  Introduction to Information Technology",
+    "section": "9.3 Network Topologies, Protocols, and Standards",
+    "text": "9.3 Network Topologies, Protocols, and Standards",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
+    ]
+  },
+  {
+    "objectID": "intro_it.html#wireless-communication-and-network-hardware",
+    "href": "intro_it.html#wireless-communication-and-network-hardware",
+    "title": "3  Introduction to Information Technology",
+    "section": "9.4 Wireless Communication and Network Hardware",
+    "text": "9.4 Wireless Communication and Network Hardware",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
+    ]
+  },
+  {
+    "objectID": "intro_it.html#networking-logical-models-and-the-open-systems-interconnection-model",
+    "href": "intro_it.html#networking-logical-models-and-the-open-systems-interconnection-model",
+    "title": "3  Introduction to Information Technology",
+    "section": "9.5 Networking Logical Models and the Open Systems Interconnection Model",
+    "text": "9.5 Networking Logical Models and the Open Systems Interconnection Model\nReadings:\n\n[]\n[]",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
+    ]
+  },
+  {
+    "objectID": "intro_it.html#cybercrime-and-it-security",
+    "href": "intro_it.html#cybercrime-and-it-security",
+    "title": "3  Introduction to Information Technology",
+    "section": "10.1 Cybercrime and IT Security",
+    "text": "10.1 Cybercrime and IT Security",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
+    ]
+  },
+  {
+    "objectID": "intro_it.html#hackers-methods",
+    "href": "intro_it.html#hackers-methods",
+    "title": "3  Introduction to Information Technology",
+    "section": "10.2 Hackers Methods",
+    "text": "10.2 Hackers Methods",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
+    ]
+  },
+  {
+    "objectID": "intro_it.html#protecting-against-cybercrime",
+    "href": "intro_it.html#protecting-against-cybercrime",
+    "title": "3  Introduction to Information Technology",
+    "section": "10.3 Protecting Against Cybercrime",
+    "text": "10.3 Protecting Against Cybercrime",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
+    ]
+  },
+  {
+    "objectID": "intro_it.html#minimizing-risk-of-a-successful-cyberattack",
+    "href": "intro_it.html#minimizing-risk-of-a-successful-cyberattack",
+    "title": "3  Introduction to Information Technology",
+    "section": "10.4 Minimizing Risk of a Successful cyberattack",
+    "text": "10.4 Minimizing Risk of a Successful cyberattack",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
+    ]
+  },
+  {
+    "objectID": "intro_it.html#cybercrime-and-electronic-health-records-including-ethical-online-behavior-concepts",
+    "href": "intro_it.html#cybercrime-and-electronic-health-records-including-ethical-online-behavior-concepts",
+    "title": "3  Introduction to Information Technology",
+    "section": "10.5 Cybercrime and Electronic Health Records, including Ethical Online Behavior Concepts",
+    "text": "10.5 Cybercrime and Electronic Health Records, including Ethical Online Behavior Concepts\nReadings:\n\n[]\n[]",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
+    ]
+  },
+  {
+    "objectID": "intro_it.html#what-is-an-information-system",
+    "href": "intro_it.html#what-is-an-information-system",
+    "title": "3  Introduction to Information Technology",
+    "section": "11.1 What is an Information System?",
+    "text": "11.1 What is an Information System?",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
+    ]
+  },
+  {
+    "objectID": "intro_it.html#the-systems-development-process",
+    "href": "intro_it.html#the-systems-development-process",
+    "title": "3  Introduction to Information Technology",
+    "section": "11.2 The Systems Development Process",
+    "text": "11.2 The Systems Development Process",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
+    ]
+  },
+  {
+    "objectID": "intro_it.html#specialized-information-systems",
+    "href": "intro_it.html#specialized-information-systems",
+    "title": "3  Introduction to Information Technology",
+    "section": "11.3 Specialized Information Systems",
+    "text": "11.3 Specialized Information Systems\nReadings:\n\n[]\n[]",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Introduction to Information Technology</span>"
+    ]
+  },
+  {
+    "objectID": "hist_hit.html",
+    "href": "hist_hit.html",
+    "title": "4  History of Health Information Technology in the US",
+    "section": "",
+    "text": "5 Evolution of Health IT: The Early Years\n\n\n6 Evolution of Health IT: The Modern Era\n\n\n7 Evolution of Health IT: The HITECH Act\n\n\n8 Evolution of Public Health Informatics\n\n\n9 Evolution of Nursing Informatics and HIT Tools Used By Nursing\n\n\n10 History of Electronic Health Records (EHRs)\n\n\n11 History of Clinical Decision Support Systems\n\n\n12 History of CPOE and E-Prescribing\n\n\n13 History of Health Information Exchange\n\n\n14 History of Privacy and Security Legislation\n\n\n15 Software Certification and Regulation\n\n\n16 History of Mobile Computing\n\n\n17 History of Telemedicine\n\n\n18 History of Quality Improvement and Patient Safety\n\n\n19 History of Health IT Organizations",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>History of Health Information Technology in the US</span>"
     ]
   }
 ]

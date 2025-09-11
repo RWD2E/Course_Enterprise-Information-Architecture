@@ -28,5 +28,20 @@
   },
   "pbl6_open.qmd": {
     "pbl6_open.html": "3f1a92e7"
+  },
+  "glossary.qmd": {
+    "glossary.html": "e286c87c"
+  },
+  "intro_arch.qmd": {
+    "intro_arch.html": "e5f57dc0"
+  },
+  "intro_it.qmd": {
+    "intro_it.html": "08196c28"
+  },
+  "hist_hit.qmd": {
+    "hist_hit.html": "0df09e96"
+  },
+  "hmis.qmd": {
+    "hmis.html": "c9b9301a"
   }
 }

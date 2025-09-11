@@ -1,0 +1,20 @@
+---
+title: "Glossary"
+---
+
+## Objects
+
+-   An object is that which has the potential of stable, unconditional existence for some positive duration of time
+-   Can be physical (visible or tangible and stable in form) or informational (anything that can be apprehended intellectually)
+-   Objects have states (can be changed by processes)
+-   Example: system objects vs. element objects vs. attribute object
+
+## Abstraction
+
+-   Defined as: a) expression of quality apart from the object; b) having only the intrinsic nature rather than the form
+
+-   Abstraction can be used in both function and form
+
+-   Abstraction can be used to characterize and hide non-essential details, allowing simpler representation
+
+-   Example: "cup" can be an abstraction while "a red cup with MU logo" is an object

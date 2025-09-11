@@ -20,7 +20,7 @@ At the end of the class, students will be able to:
 
 ## Textbook
 
-We will primarily use this living eBook which evolves over time. This eBook integrates content adapted from both public and proprietary sources, including but not limited to: [@ONC_HealthIT_Curriculum_Resources], [@NASA_Systems_Engineering_Handbook_Rev2], [@Maier_Rechtin_ArtOfSystemsArchitecting_2000], and [@Ulrich_Eppinger_ProductDesignAndDevelopment_2015], among others.
+We will primarily use this living eBook which evolves over time. This eBook integrates content adapted from both public and proprietary sources, including but not limited to: [@ONC_HealthIT_Curriculum_Resources], [@NASA_Systems_Engineering_Handbook_Rev2], [@Maier_Rechtin_ArtOfSystemsArchitecting_2000],[@Ulrich_Eppinger_ProductDesignAndDevelopment_2015], [@INCOSE2017ArtSystems], and among others.
 
 ## Class Format
 
@@ -35,3 +35,7 @@ Every 2–3 weeks, students will be randomly assigned to teams to identify or de
 ### Final Project Design Brief
 
 At the end of the semester, students will be assigned an open-ended EIA problem. Each student will propose a potential solution in the form of a Design Brief—a two-page executive summary of their design project. The brief should be written for a multi-disciplinary audience of engineers, policy makers, clinicians, executives, and etc., who may not be as familiar as you are with your clinical and solution space.
+
+## Disclaimer of GenAI Use
+
+Portions of the course content were developed with the assistance of GenAI tools (ChatGPT 5.0). These tools were used to support tasks such as drafting, summarizing, reformatting, or suggesting examples. All materials have been subsequently reviewed, edited, and validated by the course instructor for accuracy, appropriateness, and alignment with the intended learning objectives. The use of GenAI tools in content creation does not substitute for faculty expertise, academic rigor, or the responsibility of the instructor. Any errors, omissions, or limitations are the responsibility of the instructor, not the GenAI tool provider.

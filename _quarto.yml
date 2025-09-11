@@ -8,14 +8,11 @@ book:
   date: "8/20/2025"
   chapters:
     - index.qmd
-    - intro.qmd
-    - pbl1_ls.qmd
-    - pbl2_ds.qmd
-    - pbl3_hb.qmd
-    - pbl4_dq.qmd
-    - pbl5_ai.qmd
-    - pbl6_open.qmd
-    - references.qmd
+    - glossary.qmd
+    - intro_arch.qmd
+    - intro_it.qmd
+    - hist_hit.qmd
+    - hmis.qmd
 
 bibliography: references.bib
 
