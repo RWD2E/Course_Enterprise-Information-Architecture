@@ -13,6 +13,7 @@ book:
     - hist_hit.qmd
     - hmis.qmd
     - glossary.qmd
+    - pbl1_id.qmd
 
 bibliography: references.bib
 

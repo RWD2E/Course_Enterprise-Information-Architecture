@@ -48,7 +48,15 @@ Despite the varying definitions of "Architectures", they all consist of **"Funct
 
 ### Decompositional View
 
-Decompositional View uses tree structure to decompose a system into sub-systems and evetually elements (in leaf nodes). It is a useful representation to place a particular system of interests (SoI) within **Use Context**, which defines the architectural vision that informs: a) the core **function** of the SoI; b) the **Boundaries** separating the SoI from other supporting systems; and c) the **interfaces** connecting the SoI to other supporting systems. Take "a pad of paper" as an example,
+Decompositional View uses tree structure to decompose a system into sub-systems and evetually elements (in leaf nodes). It is a useful representation to place a particular system of interests (SoI) within **Use Context**, which defines the architectural vision that informs:
+
+a\) the core **Function** of the SoI;
+
+b\) the **Boundaries** separating the SoI from other supporting systems; and
+
+c\) the **Interfaces** connecting the SoI to other supporting systems.
+
+Take a look at the following decompositional view of "a pad of paper" as an example. In this simple 1-level system, the **elements** are: paper sheets, covers, and spiral.
 
 ![Figure 1. Decompositional View of a Pad of Paper](img/pad_of_paper.png)
 
@@ -58,21 +66,41 @@ Decompositional View uses tree structure to decompose a system into sub-systems 
 | Function - Defined                                                                                                                            | Function - Described                                                                                                                   |
 +===============================================================================================================================================+========================================================================================================================================+
 | -   The activities, operations and transformations that cause, create or contribute to performance (i.e. meeting goals)                       | -   Is conceived by the architect                                                                                                      |
+|                                                                                                                                               | -   Must be conceived so that goals can be achieved                                                                                    |
+| -   The actions for which a thing exists or is employed                                                                                       | -   Is what the system eventually does, the activities and transformations which emergeas sub-function aggregate (i.e., **Emergence**) |
+|                                                                                                                                               | -   Should initially be stated in solution neutral language                                                                            |
+| -   Is a product/system attribute                                                                                                             |                                                                                                                                        |
 |                                                                                                                                               |                                                                                                                                        |
-| -   The actions for which a thing exists or is employed                                                                                       | -   Must be conceived so that goalscan be achieved                                                                                     |
-|                                                                                                                                               |                                                                                                                                        |
-| -   Is a product/system attribute                                                                                                             | -   Is what the system eventually does, the activities and transformations which emergeas sub-function aggregate (i.e., **Emergence**) |
-|                                                                                                                                               |                                                                                                                                        |
-| -   **System** defined as: "A set of interrelated elements that perform a function, whose functionality is greater than the sum of the parts" | -   Should initially be stated in solution neutral language                                                                            |
+| -   **System** defined as: "A set of interrelated elements that perform a function, whose functionality is greater than the sum of the parts" |                                                                                                                                        |
 +-----------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------+
 
 ### Structural View
 
 The structural view represents the static, enduring aspects of a system—its components, relationships, and organization—independent of how those components behave over time. There are two typical representations:
 
--   Graphical representation: **Object-Process Modeling (OPM)** (will expand in later chapters)
+-   Graphical representation: **Object-Process Modeling (OPM)**
 
--   List representation: **Design Structure Matrix (DSM)** (will expand in later chapters)
+![Figure 2. Basic Schematic of OPM](img/opm_schematic.png){width="870"}
+
++-------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Component                                       | Definition                                                                                                                                                                                           |
++=================================================+======================================================================================================================================================================================================+
+| ![](img/opm_process.png){width="106"}           | is the object which is acted upon by the process, which may be created, destroyed, or altered. The Operand that is associated with the delivered value of the system is called Value-Related Operand |
++-------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| ![](img/opm_processing.png){width="101"}        | is the pattern of transformation applied to one or more objects. A process relies on at least one object in the pre-process set and transforms at least one object in the pre-process set            |
++-------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| ![](img/opm_enabler.png){width="109"}           | is the                                                                                                                                                                                               |
++-------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| ![](img/opm_arrow1.png){width="103"}            |                                                                                                                                                                                                      |
++-------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| ![](img/opm_arrow2.png){width="95" height="44"} |                                                                                                                                                                                                      |
++-------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+For example,
+
+-   List representation: **Design Structure Matrix (DSM)** is a "N-squared" matrix representation gives list-like representation of connectivity
+
+![Figure 3. And example of DSM](img/dsm_sample.png)
 
 ### Design vs. Reverse Engineering
 
@@ -81,7 +109,9 @@ The structural view represents the static, enduring aspects of a system—its co
 -   In bottom up design, you build elements and discover what emerges as they come together
 -   In design knowledge capture, you record the function along with the design of form
 
-![Figure 2. Form-Function Sequence](img/form-function.png)
+![Figure 2. Form-Function Sequence](img/form_function.png)
+
+### Operand
 
 ------------------------------------------------------------------------
 
@@ -192,7 +222,7 @@ There are in general five architectural styles: Centralized, Decentralized, Fede
 
 -   Architectural decisions can be identified and sequenced
 
--   The system architect must help make the complex system less complicated
+-   The system architect must help make the complex system **less complicated**
 
 ------------------------------------------------------------------------
 
@@ -216,21 +246,21 @@ There are in general five architectural styles: Centralized, Decentralized, Fede
 
 ## Six Patterns of Architectural Decisions
 
-+---------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
-| **Pattern**         | **Description**                                                                                                                              |
-+=====================+==============================================================================================================================================+
-| **DECISION-OPTION** | A group of decisions where each decision has its own discrete set of options.                                                                |
-+---------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
-| **DOWN-SELECTING**  | A group of binary decisions representing a subset from a set of candidate entities.                                                          |
-+---------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
-| **ASSIGNING**       | Given two different sets of entities, a group of decisions assigning each element from one set to any subset of entities from the other set. |
-+---------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
-| **PARTITIONING**    | A group of decisions representing a partitioning of a set of entities into subsets that are mutually exclusive and exhaustive.               |
-+---------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
-| **PERMUTING**       | A group of decisions representing a one-to-one mapping between a set of entities and a set of positions.                                     |
-+---------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
-| **CONNECTING**      | Given a set of entities that are nodes in a graph, a group of decisions representing the connections between those nodes.                    |
-+---------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
++-----------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
+| **Pattern**                       | **Description**                                                                                                                              |
++===================================+==============================================================================================================================================+
+| **DECISION-OPTION**               | A group of decisions where each decision has its own discrete set of options.                                                                |
++-----------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
+| **DOWN-SELECTING**                | A group of binary decisions representing a subset from a set of candidate entities.                                                          |
++-----------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
+| **ASSIGNING**                     | Given two different sets of entities, a group of decisions assigning each element from one set to any subset of entities from the other set. |
++-----------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
+| **PARTITIONING**                  | A group of decisions representing a partitioning of a set of entities into subsets that are mutually exclusive and exhaustive.               |
++-----------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
+| **PERMUTING**                     | A group of decisions representing a one-to-one mapping between a set of entities and a set of positions.                                     |
++-----------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
+| **CONNECTING**                    | Given a set of entities that are nodes in a graph, a group of decisions representing the connections between those nodes.                    |
++-----------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
 
 ------------------------------------------------------------------------
 

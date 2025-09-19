@@ -54,7 +54,7 @@
     "href": "index.html#disclaimer-of-genai-use",
     "title": "Enterprise Information Architecture",
     "section": "Disclaimer of GenAI Use",
-    "text": "Disclaimer of GenAI Use\nPortions of the course content were developed with the assistance of GenAI tools (ChatGPT 5.0). These tools were used to support tasks such as drafting, summarizing, reformatting, or suggesting examples. All materials have been subsequently reviewed, edited, and validated by the course instructor for accuracy, appropriateness, and alignment with the intended learning objectives. The use of GenAI tools in content creation does not substitute for faculty expertise, academic rigor, or the responsibility of the instructor. Any errors, omissions, or limitations are the responsibility of the instructor, not the GenAI tool provider.\n\n\n\n\nMark W. Maier, and Eberhardt Rechtin (eds.). 2000. The Art of Systems Architecting, 2nd Edition. 2nd ed. https://sdincose.org/wp-content/uploads/2017/10/TheArtOfSystemsEngineering_inaugural.pdf; CRC Press.\n\n\nNational Aeronautics and Space Administration. 2017. NASA Systems Engineering Handbook, Revision 2 (NASA SP-2016-6105 Rev 2). https://www.nasa.gov/wp-content/uploads/2018/09/nasa_systems_engineering_handbook_0.pdf.\n\n\nOffice of the National Coordinator for Health Information Technology (ONC). 2023. “Health IT Curriculum Resources for Educators.” https://www.healthit.gov/topic/health-it-resources/health-it-curriculum-resources-educators.\n\n\nUlrich, Karl T., and Steven D. Eppinger. 2015. Product Design and Development. 6th ed. https://industri.fatek.unpatti.ac.id/wp-content/uploads/2019/03/202-Product-Design-and-Development-Karl-T.-Ulrich-Steven-D.-Eppinger-Edisi-6-2015.pdf; McGraw-Hill Education.",
+    "text": "Disclaimer of GenAI Use\nPortions of the course content were developed with the assistance of GenAI tools (ChatGPT 5.0). These tools were used to support tasks such as drafting, summarizing, reformatting, or suggesting examples. All materials have been subsequently reviewed, edited, and validated by the course instructor for accuracy, appropriateness, and alignment with the intended learning objectives. The use of GenAI tools in content creation does not substitute for faculty expertise, academic rigor, or the responsibility of the instructor. Any errors, omissions, or limitations are the responsibility of the instructor, not the GenAI tool provider. Additionally, no human subject data or other sensitive information may be entered into public generative AI platforms. Violation of this policy may result in loss of data access privileges and further academic consequences.\n\n\n\n\nMark W. Maier, and Eberhardt Rechtin (eds.). 2000. The Art of Systems Architecting, 2nd Edition. 2nd ed. https://sdincose.org/wp-content/uploads/2017/10/TheArtOfSystemsEngineering_inaugural.pdf; CRC Press.\n\n\nNational Aeronautics and Space Administration. 2017. NASA Systems Engineering Handbook, Revision 2 (NASA SP-2016-6105 Rev 2). https://www.nasa.gov/wp-content/uploads/2018/09/nasa_systems_engineering_handbook_0.pdf.\n\n\nOffice of the National Coordinator for Health Information Technology (ONC). 2023. “Health IT Curriculum Resources for Educators.” https://www.healthit.gov/topic/health-it-resources/health-it-curriculum-resources-educators.\n\n\nUlrich, Karl T., and Steven D. Eppinger. 2015. Product Design and Development. 6th ed. https://industri.fatek.unpatti.ac.id/wp-content/uploads/2019/03/202-Product-Design-and-Development-Karl-T.-Ulrich-Steven-D.-Eppinger-Edisi-6-2015.pdf; McGraw-Hill Education.",
     "crumbs": [
       "Syllabus"
     ]
@@ -74,7 +74,7 @@
     "href": "intro_arch.html#architecture-as-function-form-mapping",
     "title": "Architecture",
     "section": "",
-    "text": "Form = Elements/Objects + Structure\n\n\n\n\n\n\n\nForm - Defined\nForm - Described\n\n\n\n\n\nThe physical/informational embodiment which exists, or has the potential to exist;\nIt is what the system “is”\nThe sum of the elements, which are segments (of the whole of) the form\nThe elements of form - smallest useful “atomic unit”\nThe structure of form - the formal relationships among the elements\n\nspatial/topological structural connections\nassembly/implementation structural connections\n\nIt is a system/product attribute created by the architect\n\n\nIs created by the architect\nIs in a solution specific domain\nCan be decomposed into physical/informational elements -the decompositional view\nElements are connected at interfaces. The interfaces define the structure -the structural view\nIs the thing that executes function\nIs the thing that is eventually implemented (built, written, composed, manufactured, etc.)\nIs the thing that is eventually operated (run, repaired, updated, retired, etc.)\n\n\n\n\n\n\nDecompositional View\nDecompositional View uses tree structure to decompose a system into sub-systems and evetually elements (in leaf nodes). It is a useful representation to place a particular system of interests (SoI) within Use Context, which defines the architectural vision that informs: a) the core function of the SoI; b) the Boundaries separating the SoI from other supporting systems; and c) the interfaces connecting the SoI to other supporting systems. Take “a pad of paper” as an example,\n\n\n\nFigure 1. Decompositional View of a Pad of Paper\n\n\n\n\nFunction = Process + Operand/Object\n\n\n\n\n\n\n\nFunction - Defined\nFunction - Described\n\n\n\n\n\nThe activities, operations and transformations that cause, create or contribute to performance (i.e. meeting goals)\nThe actions for which a thing exists or is employed\nIs a product/system attribute\nSystem defined as: “A set of interrelated elements that perform a function, whose functionality is greater than the sum of the parts”\n\n\nIs conceived by the architect\nMust be conceived so that goalscan be achieved\nIs what the system eventually does, the activities and transformations which emergeas sub-function aggregate (i.e., Emergence)\nShould initially be stated in solution neutral language\n\n\n\n\n\n\nStructural View\nThe structural view represents the static, enduring aspects of a system—its components, relationships, and organization—independent of how those components behave over time. There are two typical representations:\n\nGraphical representation: Object-Process Modeling (OPM) (will expand in later chapters)\nList representation: Design Structure Matrix (DSM) (will expand in later chapters)\n\n\n\nDesign vs. Reverse Engineering\n\nIn (conventional, top down) design, you know the functions (and presumably the goals) and try to create the form to deliver the function\nIn reverse engineering, you know the form, and are trying to infer the function (and presumably eventually the goals)\nIn bottom up design, you build elements and discover what emerges as they come together\nIn design knowledge capture, you record the function along with the design of form\n\n\n\n\nFigure 2. Form-Function Sequence",
+    "text": "Form = Elements/Objects + Structure\n\n\n\n\n\n\n\nForm - Defined\nForm - Described\n\n\n\n\n\nThe physical/informational embodiment which exists, or has the potential to exist;\nIt is what the system “is”\nThe sum of the elements, which are segments (of the whole of) the form\nThe elements of form - smallest useful “atomic unit”\nThe structure of form - the formal relationships among the elements\n\nspatial/topological structural connections\nassembly/implementation structural connections\n\nIt is a system/product attribute created by the architect\n\n\nIs created by the architect\nIs in a solution specific domain\nCan be decomposed into physical/informational elements -the decompositional view\nElements are connected at interfaces. The interfaces define the structure -the structural view\nIs the thing that executes function\nIs the thing that is eventually implemented (built, written, composed, manufactured, etc.)\nIs the thing that is eventually operated (run, repaired, updated, retired, etc.)\n\n\n\n\n\n\nDecompositional View\nDecompositional View uses tree structure to decompose a system into sub-systems and evetually elements (in leaf nodes). It is a useful representation to place a particular system of interests (SoI) within Use Context, which defines the architectural vision that informs:\na) the core Function of the SoI;\nb) the Boundaries separating the SoI from other supporting systems; and\nc) the Interfaces connecting the SoI to other supporting systems.\nTake a look at the following decompositional view of “a pad of paper” as an example. In this simple 1-level system, the elements are: paper sheets, covers, and spiral.\n\n\n\nFigure 1. Decompositional View of a Pad of Paper\n\n\n\n\nFunction = Process + Operand/Object\n\n\n\n\n\n\n\nFunction - Defined\nFunction - Described\n\n\n\n\n\nThe activities, operations and transformations that cause, create or contribute to performance (i.e. meeting goals)\nThe actions for which a thing exists or is employed\nIs a product/system attribute\nSystem defined as: “A set of interrelated elements that perform a function, whose functionality is greater than the sum of the parts”\n\n\nIs conceived by the architect\nMust be conceived so that goals can be achieved\nIs what the system eventually does, the activities and transformations which emergeas sub-function aggregate (i.e., Emergence)\nShould initially be stated in solution neutral language\n\n\n\n\n\n\nStructural View\nThe structural view represents the static, enduring aspects of a system—its components, relationships, and organization—independent of how those components behave over time. There are two typical representations:\n\nGraphical representation: Object-Process Modeling (OPM)\n\n\n\n\nFigure 2. Basic Schematic of OPM\n\n\n\n\n\n\n\n\n\nComponent\nDefinition\n\n\n\n\n\nis the object which is acted upon by the process, which may be created, destroyed, or altered. The Operand that is associated with the delivered value of the system is called Value-Related Operand\n\n\n\nis the pattern of transformation applied to one or more objects. A process relies on at least one object in the pre-process set and transforms at least one object in the pre-process set\n\n\n\nis the\n\n\n\n\n\n\n\n\n\n\n\nFor example,\n\nList representation: Design Structure Matrix (DSM) is a “N-squared” matrix representation gives list-like representation of connectivity\n\n\n\n\nFigure 3. And example of DSM\n\n\n\n\nDesign vs. Reverse Engineering\n\nIn (conventional, top down) design, you know the functions (and presumably the goals) and try to create the form to deliver the function\nIn reverse engineering, you know the form, and are trying to infer the function (and presumably eventually the goals)\nIn bottom up design, you build elements and discover what emerges as they come together\nIn design knowledge capture, you record the function along with the design of form\n\n\n\n\nFigure 2. Form-Function Sequence\n\n\n\n\nOperand",
     "crumbs": [
       "Architecture"
     ]
@@ -104,7 +104,7 @@
     "href": "intro_arch.html#quadrant-decision-matrix",
     "title": "Architecture",
     "section": "4-Quadrant Decision Matrix",
-    "text": "4-Quadrant Decision Matrix\n\nSensitivity: does this decision strongly influence metrics (?\nConnectivity: would substantial rework be required to change this decision? Could we make this decision downstream without regards for other decisions?\n\n\n\n\nFigure 3. Architectural Decision Matrix",
+    "text": "4-Quadrant Decision Matrix\n\nSensitivity: does this decision strongly influence metrics (e.g., value, profit, efficiency)?\nConnectivity: would substantial rework be required to change this decision? Could we make this decision downstream without regards for other decisions?\n\n\n\n\nFigure 3. Architectural Decision Matrix",
     "crumbs": [
       "Architecture"
     ]
@@ -370,33 +370,193 @@
     ]
   },
   {
+    "objectID": "hmis.html",
+    "href": "hmis.html",
+    "title": "Health Management Information Systems",
+    "section": "",
+    "text": "What is Health Informatics?\nHealth Management Information Systems (HMIS) are integrated platforms that collect, manage, and analyze health data to support decision-making at clinical, administrative, and policy levels. They enable monitoring of service delivery, disease trends, and resource allocation, forming the backbone of evidence-based health planning. By linking routine facility reporting, surveillance, and administrative data, HMIS strengthen health system performance and accountability. Key challenges include ensuring data quality, interoperability, and timely reporting, while modern innovations such as mobile tools, cloud platforms, and advanced analytics are expanding their role in achieving universal health coverage and health equity.\nHealth informatics is an interdisciplinary field that integrates healthcare sciences, information technology, and data science to optimize the acquisition, storage, retrieval, and use of health information. It focuses on applying computational and analytical methods to improve patient care, support clinical decision-making, enable population health management, and advance biomedical research. The discipline draws on principles from computer science, cognitive science, public health, and organizational theory, with the goal of improving healthcare quality, safety, efficiency, and equity.",
+    "crumbs": [
+      "Health Management Information Systems"
+    ]
+  },
+  {
+    "objectID": "hmis.html#what-is-health-informatics",
+    "href": "hmis.html#what-is-health-informatics",
+    "title": "Health Management Information Systems",
+    "section": "",
+    "text": "Health IT Curriculum Resources for Educators - 6.1",
+    "crumbs": [
+      "Health Management Information Systems"
+    ]
+  },
+  {
+    "objectID": "hmis.html#health-information-systems-overview",
+    "href": "hmis.html#health-information-systems-overview",
+    "title": "Health Management Information Systems",
+    "section": "Health Information Systems Overview",
+    "text": "Health Information Systems Overview\nHealth information systems (HIS) are socio-technical frameworks that support the systematic collection, processing, and dissemination of health-related data. These systems include both clinical and administrative applications, such as patient records, laboratory information management, billing platforms, and surveillance systems. HIS operate at multiple levels—from local clinical environments to national and global health infrastructures—enabling integration across domains such as care delivery, epidemiological monitoring, and resource planning. Their effectiveness depends on interoperability, usability, data governance, and alignment with regulatory frameworks.\n\nHealth IT Curriculum Resources for Educators - 6.2",
+    "crumbs": [
+      "Health Management Information Systems"
+    ]
+  },
+  {
+    "objectID": "hmis.html#electronic-health-records",
+    "href": "hmis.html#electronic-health-records",
+    "title": "Health Management Information Systems",
+    "section": "Electronic Health Records",
+    "text": "Electronic Health Records\nElectronic Health Records (EHRs) are digital longitudinal collections of patient health information generated by one or more encounters in a healthcare setting. They typically include demographics, clinical notes, medications, laboratory test results, imaging data, and billing information. EHRs provide a central repository for clinical data that supports continuity of care, clinical decision support, and population-level analytics. Scientific research demonstrates that EHR adoption can improve care coordination and reduce medical errors, though challenges such as data quality, interoperability, clinician burden, and privacy protection remain critical areas of focus.\n\nHealth IT Curriculum Resources for Educators - 6.3",
+    "crumbs": [
+      "Health Management Information Systems"
+    ]
+  },
+  {
+    "objectID": "hmis.html#common-commercial-electronic-health-record-ehr-systems-used-in-ambulatory-and-inpatient-care-settings",
+    "href": "hmis.html#common-commercial-electronic-health-record-ehr-systems-used-in-ambulatory-and-inpatient-care-settings",
+    "title": "Health Management Information Systems",
+    "section": "Common Commercial Electronic Health Record (EHR) Systems Used in Ambulatory and Inpatient Care Settings",
+    "text": "Common Commercial Electronic Health Record (EHR) Systems Used in Ambulatory and Inpatient Care Settings\nElectronic Health Records (EHRs) represent the cornerstone of modern health information management, and a number of large commercial vendors dominate their implementation across ambulatory and inpatient care settings. These systems are designed to support diverse clinical workflows, ranging from outpatient encounters and specialty care documentation to complex inpatient admissions, order entry, and multidisciplinary care coordination.In the United States, several vendors are most widely adopted:\n\nEpic Systems: One of the most dominant vendors in both academic medical centers and large health systems. Epic offers an integrated suite of modules covering inpatient and ambulatory care, patient portals, population health, and revenue cycle management. Its extensive interoperability frameworks, such as Care Everywhere, support data exchange across institutions.\nOracle Cerner: Historically strong in hospital and health system markets, Cerner (now under Oracle) provides Millennium and other platforms for inpatient documentation, computerized provider order entry (CPOE), and clinical decision support. Cerner is notable for large-scale implementations, including Department of Defense and Veterans Affairs modernization efforts.\nMEDITECH: Primarily serving community hospitals and regional health systems, MEDITECH offers scalable EHR solutions tailored for inpatient and ambulatory environments. Its newer Expanse platform emphasizes web-based interfaces and interoperability.\nAllscripts (now Veradigm): Traditionally focused on ambulatory practices and physician groups, Allscripts solutions have also been deployed in smaller hospitals and integrated delivery networks. Its offerings emphasize usability and outpatient workflow support.\n\nBeyond these, systems such as athenahealth, NextGen Healthcare, and eClinicalWorks are widely used in ambulatory practices, particularly among small to mid-sized clinics. These platforms often emphasize cloud-based deployment, practice management, and patient engagement tools.\n\nHealth IT Curriculum Resources for Educators - 14.1",
+    "crumbs": [
+      "Health Management Information Systems"
+    ]
+  },
+  {
+    "objectID": "hmis.html#computerized-provider-order-entry-cpoe",
+    "href": "hmis.html#computerized-provider-order-entry-cpoe",
+    "title": "Health Management Information Systems",
+    "section": "Computerized Provider Order Entry (CPOE)",
+    "text": "Computerized Provider Order Entry (CPOE)\nComputerized Provider Order Entry (CPOE) systems enable clinicians to enter medical orders directly into a digital system rather than relying on handwritten or verbal communication. CPOE reduces transcription errors, enforces standardized order sets, and facilitates integration with clinical decision support tools. Empirical studies have shown CPOE to significantly reduce adverse drug events and streamline care processes. However, system design and workflow integration are crucial, as poorly implemented CPOE systems can introduce new types of errors, such as incorrect selections from drop-down menus.\n\nHealth IT Curriculum Resources for Educators - 6.4",
+    "crumbs": [
+      "Health Management Information Systems"
+    ]
+  },
+  {
+    "objectID": "hmis.html#clinical-decision-support-systems",
+    "href": "hmis.html#clinical-decision-support-systems",
+    "title": "Health Management Information Systems",
+    "section": "Clinical Decision Support Systems",
+    "text": "Clinical Decision Support Systems\nClinical Decision Support Systems (CDSS) are computational tools designed to aid healthcare providers in decision-making by presenting evidence-based recommendations, alerts, or predictive insights. CDSS may use rule-based logic, statistical models, or machine learning algorithms to deliver information such as drug interaction alerts, diagnostic suggestions, or prognostic risk scores. Rigorous evaluations show that CDSS can improve adherence to clinical guidelines and reduce preventable errors. Nevertheless, over-alerting, integration with EHRs, and provider trust represent ongoing challenges in their implementation and effectiveness.\n\nHealth IT Curriculum Resources for Educators - 6.5",
+    "crumbs": [
+      "Health Management Information Systems"
+    ]
+  },
+  {
+    "objectID": "hmis.html#patient-monitoring-systems",
+    "href": "hmis.html#patient-monitoring-systems",
+    "title": "Health Management Information Systems",
+    "section": "Patient Monitoring Systems",
+    "text": "Patient Monitoring Systems\nPatient monitoring systems are technological platforms that continuously capture and analyze physiological signals such as heart rate, blood pressure, oxygen saturation, and electrocardiograms. Traditionally confined to intensive care units, these systems have expanded into ambulatory and home-based settings through wearable devices and wireless sensors. Advances in signal processing and real-time analytics allow early detection of deterioration, supporting rapid interventions. Key scientific considerations include accuracy, reliability, alarm fatigue, and data security, particularly as remote monitoring becomes central to telemedicine and chronic disease management.\n\nHealth IT Curriculum Resources for Educators - 6.6",
+    "crumbs": [
+      "Health Management Information Systems"
+    ]
+  },
+  {
+    "objectID": "hmis.html#medical-imaging-systems",
+    "href": "hmis.html#medical-imaging-systems",
+    "title": "Health Management Information Systems",
+    "section": "Medical Imaging Systems",
+    "text": "Medical Imaging Systems\nMedical imaging systems encompass modalities such as radiography, computed tomography (CT), magnetic resonance imaging (MRI), ultrasound, and nuclear medicine. Informatics plays a critical role in image acquisition, storage, retrieval, and interpretation, with Picture Archiving and Communication Systems (PACS) serving as the backbone of digital image management. The integration of artificial intelligence into imaging workflows has accelerated advances in automated segmentation, anomaly detection, and radiomics. Research highlights both the clinical potential and ethical implications of these technologies, including bias, reproducibility, and regulatory oversight.\n\nHealth IT Curriculum Resources for Educators - 6.7",
+    "crumbs": [
+      "Health Management Information Systems"
+    ]
+  },
+  {
+    "objectID": "hmis.html#consumer-health-informatics",
+    "href": "hmis.html#consumer-health-informatics",
+    "title": "Health Management Information Systems",
+    "section": "Consumer Health Informatics",
+    "text": "Consumer Health Informatics\nConsumer health informatics (CHI) focuses on the use of digital tools and applications by patients and the general public to manage personal health. Examples include patient portals, mobile health applications, wearable devices, and online health information resources. CHI promotes patient empowerment, self-management of chronic diseases, and shared decision-making. However, studies emphasize the importance of usability, health literacy, equity of access, and privacy protection to avoid exacerbating disparities. The field increasingly intersects with behavioral science and human-computer interaction.Importantly, advances in digital health technology—such as telemedicine platforms, mobile health (mHealth) apps, connected wearables, and AI-driven virtual assistants—have expanded the reach and effectiveness of consumer health informatics, enabling personalized engagement, remote monitoring, and integration into broader healthcare ecosystems.\n\nHealth IT Curriculum Resources for Educators - 6.8\nWhat is Digital Health Technology\nDHTs for Drug Development - FDA",
+    "crumbs": [
+      "Health Management Information Systems"
+    ]
+  },
+  {
+    "objectID": "hmis.html#administrative-billing-and-financial-systems",
+    "href": "hmis.html#administrative-billing-and-financial-systems",
+    "title": "Health Management Information Systems",
+    "section": "Administrative, Billing and Financial Systems",
+    "text": "Administrative, Billing and Financial Systems\nAdministrative, billing, and financial systems in healthcare are designed to manage operational workflows, resource allocation, insurance claims, and revenue cycles. These systems facilitate compliance with payer requirements, optimize scheduling, and generate financial reports. From a scientific perspective, they provide critical data for cost-effectiveness analyses, healthcare economics, and policy evaluation. Integrating financial and clinical data also supports value-based care models, though challenges such as coding accuracy, fraud detection, and regulatory compliance remain central concerns.\n\nHealth IT Curriculum Resources for Educators - 6.9",
+    "crumbs": [
+      "Health Management Information Systems"
+    ]
+  },
+  {
     "objectID": "glossary.html",
     "href": "glossary.html",
-    "title": "2  Glossary",
+    "title": "1  Glossary",
     "section": "",
-    "text": "2.1 Objects",
+    "text": "1.1 Objects",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Glossary</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Glossary</span>"
     ]
   },
   {
     "objectID": "glossary.html#objects",
     "href": "glossary.html#objects",
-    "title": "2  Glossary",
+    "title": "1  Glossary",
     "section": "",
     "text": "An object is that which has the potential of stable, unconditional existence for some positive duration of time\nCan be physical (visible or tangible and stable in form) or informational (anything that can be apprehended intellectually)\nObjects have states (can be changed by processes)\nExample: system objects vs. element objects vs. attribute object",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Glossary</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Glossary</span>"
     ]
   },
   {
     "objectID": "glossary.html#abstraction",
     "href": "glossary.html#abstraction",
-    "title": "2  Glossary",
-    "section": "2.2 Abstraction",
-    "text": "2.2 Abstraction\n\nDefined as: a) expression of quality apart from the object; b) having only the intrinsic nature rather than the form\nAbstraction can be used in both function and form\nAbstraction can be used to characterize and hide non-essential details, allowing simpler representation\nExample: “cup” can be an abstraction while “a red cup with MU logo” is an object",
+    "title": "1  Glossary",
+    "section": "1.2 Abstraction",
+    "text": "1.2 Abstraction\n\nDefined as: a) expression of quality apart from the object; b) having only the intrinsic nature rather than the form\nAbstraction can be used in both function and form\nAbstraction can be used to characterize and hide non-essential details, allowing simpler representation\nExample: “cup” can be an abstraction while “a red cup with MU logo” is an object",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Glossary</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Glossary</span>"
+    ]
+  },
+  {
+    "objectID": "pbl1_id.html",
+    "href": "pbl1_id.html",
+    "title": "PBL1 - Identify Form and Function of an Information System",
+    "section": "",
+    "text": "Case Background",
+    "crumbs": [
+      "PBL1 - Identify Form and Function of an Information System"
+    ]
+  },
+  {
+    "objectID": "pbl1_id.html#problem-statement",
+    "href": "pbl1_id.html#problem-statement",
+    "title": "PBL1 - Identify Form and Function of an Information System",
+    "section": "Problem Statement",
+    "text": "Problem Statement",
+    "crumbs": [
+      "PBL1 - Identify Form and Function of an Information System"
+    ]
+  },
+  {
+    "objectID": "pbl1_id.html#learning-objectives",
+    "href": "pbl1_id.html#learning-objectives",
+    "title": "PBL1 - Identify Form and Function of an Information System",
+    "section": "Learning Objectives",
+    "text": "Learning Objectives",
+    "crumbs": [
+      "PBL1 - Identify Form and Function of an Information System"
+    ]
+  },
+  {
+    "objectID": "pbl1_id.html#learning-activities",
+    "href": "pbl1_id.html#learning-activities",
+    "title": "PBL1 - Identify Form and Function of an Information System",
+    "section": "Learning Activities",
+    "text": "Learning Activities",
+    "crumbs": [
+      "PBL1 - Identify Form and Function of an Information System"
+    ]
+  },
+  {
+    "objectID": "pbl1_id.html#expected-deliverables",
+    "href": "pbl1_id.html#expected-deliverables",
+    "title": "PBL1 - Identify Form and Function of an Information System",
+    "section": "Expected Deliverables",
+    "text": "Expected Deliverables",
+    "crumbs": [
+      "PBL1 - Identify Form and Function of an Information System"
     ]
   }
 ]
