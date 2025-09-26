@@ -1,22 +1,36 @@
-# PBL1 - Identify Form and Function of an Information System   {.unnumbered}
-
+# PBL1 - Identify Form and Function of a System {.unnumbered}
 
 ## Case Background
 
+Clinical Decision Support Systems (CDSS) are widely used in modern healthcare to improve patient safety and decision-making. Examples include:
 
+-   Drug–drug interaction alerts embedded in EHRs.
+-   Predictive risk calculators for sepsis or readmissions.
+-   Order sets and care pathways for standardizing treatment.
 
 ## Problem Statement
 
+Your team has been asked to select one existing CDSS in healthcare, research its design and purpose, and then decompose it into **forms** and **functions**. The goal is to uncover:
 
-
-## Learning Objectives
-
-
+-   **Functions** → the purposeful transformations (e.g., detect risk, notify clinician, recommend action).
+-   **Forms** → the physical/logical components that provide those functions (e.g., rules engine, knowledge base, EHR interface, APIs).
 
 ## Learning Activities
 
-
+1.  **Select a CDSS**.
+    -   Choose a real-world CDSS (e.g., Epic’s sepsis early warning system, Cerner’s drug–drug interaction checker, or a published AI-based decision support tool).
+    -   Gather public information from vendor sites, case studies, and peer-reviewed literature.
+2.  **Identify Functions**
+    -   What does the CDSS do? (e.g., analyze lab values, compare against thresholds, generate alerts, support clinical decisions, log responses)
+3.  **Identify Forms**
+    -   How is the CDSS built and arranged? (e.g., knowledge base, inference engine, FHIR APIs, alert UI, terminology services.)
+4.  **Architecture Diagram**
+    -   Produce a simple architecture diagram showing data flows, functions, and forms. You may follow the OPM approach to generate the diagram, but it is not required.
+5.  **Reflect**
+    -   Why is distinguishing form and function useful for evaluating CDSS effectiveness and reducing unintended consequences like alert fatigue?
 
 ## Expected Deliverables
 
- 
+-   Short report (1-3 pages) summarizing the chose CDSS, its functions and forms
+
+-   Architecture Diagram

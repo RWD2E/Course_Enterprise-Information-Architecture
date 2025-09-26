@@ -74,7 +74,7 @@
     "href": "intro_arch.html#architecture-as-function-form-mapping",
     "title": "Architecture",
     "section": "",
-    "text": "Form = Elements/Objects + Structure\n\n\n\n\n\n\n\nForm - Defined\nForm - Described\n\n\n\n\n\nThe physical/informational embodiment which exists, or has the potential to exist;\nIt is what the system “is”\nThe sum of the elements, which are segments (of the whole of) the form\nThe elements of form - smallest useful “atomic unit”\nThe structure of form - the formal relationships among the elements\n\nspatial/topological structural connections\nassembly/implementation structural connections\n\nIt is a system/product attribute created by the architect\n\n\nIs created by the architect\nIs in a solution specific domain\nCan be decomposed into physical/informational elements -the decompositional view\nElements are connected at interfaces. The interfaces define the structure -the structural view\nIs the thing that executes function\nIs the thing that is eventually implemented (built, written, composed, manufactured, etc.)\nIs the thing that is eventually operated (run, repaired, updated, retired, etc.)\n\n\n\n\n\n\nDecompositional View\nDecompositional View uses tree structure to decompose a system into sub-systems and evetually elements (in leaf nodes). It is a useful representation to place a particular system of interests (SoI) within Use Context, which defines the architectural vision that informs:\na) the core Function of the SoI;\nb) the Boundaries separating the SoI from other supporting systems; and\nc) the Interfaces connecting the SoI to other supporting systems.\nTake a look at the following decompositional view of “a pad of paper” as an example. In this simple 1-level system, the elements are: paper sheets, covers, and spiral.\n\n\n\nFigure 1. Decompositional View of a Pad of Paper\n\n\n\n\nFunction = Process + Operand/Object\n\n\n\n\n\n\n\nFunction - Defined\nFunction - Described\n\n\n\n\n\nThe activities, operations and transformations that cause, create or contribute to performance (i.e. meeting goals)\nThe actions for which a thing exists or is employed\nIs a product/system attribute\nSystem defined as: “A set of interrelated elements that perform a function, whose functionality is greater than the sum of the parts”\n\n\nIs conceived by the architect\nMust be conceived so that goals can be achieved\nIs what the system eventually does, the activities and transformations which emergeas sub-function aggregate (i.e., Emergence)\nShould initially be stated in solution neutral language\n\n\n\n\n\n\nStructural View\nThe structural view represents the static, enduring aspects of a system—its components, relationships, and organization—independent of how those components behave over time. There are two typical representations:\n\nGraphical representation: Object-Process Modeling (OPM)\n\n\n\n\nFigure 2. Basic Schematic of OPM\n\n\n\n\n\n\n\n\n\nComponent\nDefinition\n\n\n\n\n\nis the object which is acted upon by the process, which may be created, destroyed, or altered. The Operand that is associated with the delivered value of the system is called Value-Related Operand\n\n\n\nis the pattern of transformation applied to one or more objects. A process relies on at least one object in the pre-process set and transforms at least one object in the pre-process set\n\n\n\nis the\n\n\n\n\n\n\n\n\n\n\n\nFor example,\n\nList representation: Design Structure Matrix (DSM) is a “N-squared” matrix representation gives list-like representation of connectivity\n\n\n\n\nFigure 3. And example of DSM\n\n\n\n\nDesign vs. Reverse Engineering\n\nIn (conventional, top down) design, you know the functions (and presumably the goals) and try to create the form to deliver the function\nIn reverse engineering, you know the form, and are trying to infer the function (and presumably eventually the goals)\nIn bottom up design, you build elements and discover what emerges as they come together\nIn design knowledge capture, you record the function along with the design of form\n\n\n\n\nFigure 2. Form-Function Sequence\n\n\n\n\nOperand",
+    "text": "Form = Elements/Objects + Structure\n\n\n\n\n\n\n\nForm - Defined\nForm - Described\n\n\n\n\n\nThe physical/informational embodiment which exists, or has the potential to exist;\nIt is what the system “is”\nThe sum of the elements, which are segments (of the whole of) the form\nThe elements of form - smallest useful “atomic unit”\nThe structure of form - the formal relationships among the elements\n\nspatial/topological structural connections\nassembly/implementation structural connections\n\nIt is a system/product attribute created by the architect\n\n\nIs created by the architect\nIs in a solution specific domain\nCan be decomposed into physical/informational elements -the decompositional view\nElements are connected at interfaces. The interfaces define the structure -the structural view\nIs the thing that executes function\nIs the thing that is eventually implemented (built, written, composed, manufactured, etc.)\nIs the thing that is eventually operated (run, repaired, updated, retired, etc.)\n\n\n\n\n\n\nDecompositional View\nDecompositional View uses tree structure to decompose a system into sub-systems and evetually elements (in leaf nodes). It is a useful representation to place a particular system of interests (SoI) within Use Context, which defines the architectural vision that informs:\na) the core Function of the SoI;\nb) the Boundaries separating the SoI from other supporting systems; and\nc) the Interfaces connecting the SoI to other supporting systems.\nTake a look at the following decompositional view of “a pad of paper” as an example. In this simple 1-level system, the elements are: paper sheets, covers, and spiral.\n\n\n\nFigure 1. Decompositional View of a Pad of Paper\n\n\n\n\nFunction = Process + Operand/Object\n\n\n\n\n\n\n\nFunction - Defined\nFunction - Described\n\n\n\n\n\nThe activities, operations and transformations that cause, create or contribute to performance (i.e. meeting goals)\nThe actions for which a thing exists or is employed\nIs a product/system attribute\nSystem defined as: “A set of interrelated elements that perform a function, whose functionality is greater than the sum of the parts”\n\n\nIs conceived by the architect\nMust be conceived so that goals can be achieved\nIs what the system eventually does, the activities and transformations which emergeas sub-function aggregate (i.e., Emergence)\nShould initially be stated in solution neutral language\n\n\n\n\n\n\nStructural View\nThe structural view represents the static, enduring aspects of a system—its components, relationships, and organization—independent of how those components behave over time. There are two typical representations:\n\nGraphical representation: Object-Process Modeling (OPM)\n\n\n\n\nFigure 2. Basic Schematic of OPM\n\n\n\n\n\n\n\n\n\nComponent\nDefinition\n\n\n\n\n\nis the object which is acted upon by the process, which may be created, destroyed, or altered. The Operand that is associated with the delivered value of the system is called Value-Related Operand\n\n\n\nis the pattern of transformation applied to one or more objects. A process relies on at least one object in the pre-process set and transforms at least one object in the pre-process set\n\n\n\nis the\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDecomposes to\n\n\n\nHas attribute of\n\n\n\nSpecializes to\n\n\n\nFor example,\n\nList representation: Design Structure Matrix (DSM) is a “N-squared” matrix representation gives list-like representation of connectivity. DSM can be used to map relationships among different elements/operands/forms, functions, and relationships between forms and functions.\n\n\n\n\nFigure 3. And example of DSM\n\n\n\n\nDesign vs. Reverse Engineering\n\nIn (conventional, top down) design, you know the functions (and presumably the goals) and try to create the form to deliver the function\nIn reverse engineering, you know the form, and are trying to infer the function (and presumably eventually the goals)\nIn bottom up design, you build elements and discover what emerges as they come together\nIn design knowledge capture, you record the function along with the design of form\n\n\n\n\nFigure 2. Form-Function Sequence\n\n\n\n\nOperand",
     "crumbs": [
       "Architecture"
     ]
@@ -512,51 +512,51 @@
   {
     "objectID": "pbl1_id.html",
     "href": "pbl1_id.html",
-    "title": "PBL1 - Identify Form and Function of an Information System",
+    "title": "PBL1 - Identify Form and Function of a System",
     "section": "",
-    "text": "Case Background",
+    "text": "Case Background\nClinical Decision Support Systems (CDSS) are widely used in modern healthcare to improve patient safety and decision-making. Examples include:",
     "crumbs": [
-      "PBL1 - Identify Form and Function of an Information System"
+      "PBL1 - Identify Form and Function of a System"
+    ]
+  },
+  {
+    "objectID": "pbl1_id.html#case-background",
+    "href": "pbl1_id.html#case-background",
+    "title": "PBL1 - Identify Form and Function of a System",
+    "section": "",
+    "text": "Drug–drug interaction alerts embedded in EHRs.\nPredictive risk calculators for sepsis or readmissions.\nOrder sets and care pathways for standardizing treatment.",
+    "crumbs": [
+      "PBL1 - Identify Form and Function of a System"
     ]
   },
   {
     "objectID": "pbl1_id.html#problem-statement",
     "href": "pbl1_id.html#problem-statement",
-    "title": "PBL1 - Identify Form and Function of an Information System",
+    "title": "PBL1 - Identify Form and Function of a System",
     "section": "Problem Statement",
-    "text": "Problem Statement",
+    "text": "Problem Statement\nYour team has been asked to select one existing CDSS in healthcare, research its design and purpose, and then decompose it into forms and functions. The goal is to uncover:\n\nFunctions → the purposeful transformations (e.g., detect risk, notify clinician, recommend action).\nForms → the physical/logical components that provide those functions (e.g., rules engine, knowledge base, EHR interface, APIs).",
     "crumbs": [
-      "PBL1 - Identify Form and Function of an Information System"
-    ]
-  },
-  {
-    "objectID": "pbl1_id.html#learning-objectives",
-    "href": "pbl1_id.html#learning-objectives",
-    "title": "PBL1 - Identify Form and Function of an Information System",
-    "section": "Learning Objectives",
-    "text": "Learning Objectives",
-    "crumbs": [
-      "PBL1 - Identify Form and Function of an Information System"
+      "PBL1 - Identify Form and Function of a System"
     ]
   },
   {
     "objectID": "pbl1_id.html#learning-activities",
     "href": "pbl1_id.html#learning-activities",
-    "title": "PBL1 - Identify Form and Function of an Information System",
+    "title": "PBL1 - Identify Form and Function of a System",
     "section": "Learning Activities",
-    "text": "Learning Activities",
+    "text": "Learning Activities\n\nSelect a CDSS.\n\nChoose a real-world CDSS (e.g., Epic’s sepsis early warning system, Cerner’s drug–drug interaction checker, or a published AI-based decision support tool).\nGather public information from vendor sites, case studies, and peer-reviewed literature.\n\nIdentify Functions\n\nWhat does the CDSS do? (e.g., analyze lab values, compare against thresholds, generate alerts, support clinical decisions, log responses)\n\nIdentify Forms\n\nHow is the CDSS built and arranged? (e.g., knowledge base, inference engine, FHIR APIs, alert UI, terminology services.)\n\nArchitecture Diagram\n\nProduce a simple architecture diagram showing data flows, functions, and forms. You may follow the OPM approach to generate the diagram, but it is not required.\n\nReflect\n\nWhy is distinguishing form and function useful for evaluating CDSS effectiveness and reducing unintended consequences like alert fatigue?",
     "crumbs": [
-      "PBL1 - Identify Form and Function of an Information System"
+      "PBL1 - Identify Form and Function of a System"
     ]
   },
   {
     "objectID": "pbl1_id.html#expected-deliverables",
     "href": "pbl1_id.html#expected-deliverables",
-    "title": "PBL1 - Identify Form and Function of an Information System",
+    "title": "PBL1 - Identify Form and Function of a System",
     "section": "Expected Deliverables",
-    "text": "Expected Deliverables",
+    "text": "Expected Deliverables\n\nShort report (1-3 pages) summarizing the chose CDSS, its functions and forms\nArchitecture Diagram",
     "crumbs": [
-      "PBL1 - Identify Form and Function of an Information System"
+      "PBL1 - Identify Form and Function of a System"
     ]
   }
 ]
