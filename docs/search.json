@@ -6,6 +6,7 @@
     "section": "",
     "text": "Syllabus",
     "crumbs": [
+      "Syllabus",
       "Syllabus"
     ]
   },
@@ -16,6 +17,7 @@
     "section": "Course Description",
     "text": "Course Description\nEnterprise Information Architecture (EIA) is the strategic blueprint that defines how information is collected, stored, organized, shared, and governed across an entire enterprise. It provides the structures, standards, and policies that ensure information assets are integrated, consistent, secure, and aligned with business goals. This is a graduate-level, problem-based learning (PBL) course that explores how healthcare organizations design, integrate, govern, and evolve their information environments. In this course, students step into the roles of architects, clinicians, compliance officers, and executives as they tackle authentic, evolving case scenarios drawn from modern healthcare challenges. Over the semester, students will analyze fragmented healthcare information systems, design interoperable solutions using HL7 and FHIR, and transform raw clinical data into Common Data Models for research and quality reporting. They will evaluate workflows, model healthcare ecosystems, and craft business value propositions for strategic IT investments. Building on these foundations, the course may also covers a variety of relevant topics on risk and patient safety analysis, governance and data stewardship, change management strategies, and maturity models used to benchmark organizational progress.\nThe emphasis is on hands-on problem solving, system thinking, and real-world applicability. Students will work in collaborative teams to produce artifacts (such as workflow diagrams, system architecture, Business Process Model and Notation, and risk assessments). Every 2-3 weeks, we will work as a team to identify or develop solutions for a real-world problem related to information system or architecture in healthcare. By the end of the course, students will not only understand the frameworks and standards of enterprise information architecture but also be able to communicate the business, clinical, and governance value of information systems in healthcare.",
     "crumbs": [
+      "Syllabus",
       "Syllabus"
     ]
   },
@@ -26,6 +28,7 @@
     "section": "Course OBjectives",
     "text": "Course OBjectives\nAt the end of the class, students will be able to:\n\nEvaluate and conduct analyses within the information architecture of a healthcare organization\nCreate a basic enterprise architecture plan and/or business model\nModel relationships between information systems, health care quality/safety/regulatory requirements, and business objectives within a health organization\nConduct analysis, design and prototype for enhancing enterprise information systems to advance health care workflows or innovation",
     "crumbs": [
+      "Syllabus",
       "Syllabus"
     ]
   },
@@ -36,6 +39,7 @@
     "section": "Textbook",
     "text": "Textbook\nWe will primarily use this living eBook which evolves over time. This eBook integrates content adapted from both public and proprietary sources, including but not limited to: (Office of the National Coordinator for Health Information Technology (ONC) 2023), (National Aeronautics and Space Administration 2017), (Mark W. Maier and (eds.) 2000),(Ulrich and Eppinger 2015), (INCOSE2017ArtSystems?), and among others.",
     "crumbs": [
+      "Syllabus",
       "Syllabus"
     ]
   },
@@ -46,6 +50,7 @@
     "section": "Class Format",
     "text": "Class Format\n\nSynchronous and Asynchronous participation\nThis course does not have a fixed meeting time or location and will be conducted entirely online. Most participation will be asynchronous, particularly for group discussions focused on developing solutions to the real-world problems assigned every 2–3 weeks. To track progress, students are strongly encouraged to maintain journals or meeting logs. Project management tools and platforms (e.g., GitHub, Jira) may also be used and will be introduced during the first two weeks of the course. Periodic synchronous meetings may be scheduled as needed to address common topics.\n\n\nPBL Solution Artifacts\nEvery 2–3 weeks, students will be randomly assigned to teams to identify or develop solutions to a real-world problem related to healthcare information systems or architecture. Each team will submit one deliverable artifact per project, with the contributions of all team members clearly documented. Projects will be scheduled to align closely with the course material, and at least five projects will be assigned over the semester. Each student is expected to take the lead in project management for at least one project.\n\n\nFinal Project Design Brief\nAt the end of the semester, students will be assigned an open-ended EIA problem. Each student will propose a potential solution in the form of a Design Brief—a two-page executive summary of their design project. The brief should be written for a multi-disciplinary audience of engineers, policy makers, clinicians, executives, and etc., who may not be as familiar as you are with your clinical and solution space.",
     "crumbs": [
+      "Syllabus",
       "Syllabus"
     ]
   },
@@ -56,67 +61,74 @@
     "section": "Disclaimer of GenAI Use",
     "text": "Disclaimer of GenAI Use\nPortions of the course content were developed with the assistance of GenAI tools (ChatGPT 5.0). These tools were used to support tasks such as drafting, summarizing, reformatting, or suggesting examples. All materials have been subsequently reviewed, edited, and validated by the course instructor for accuracy, appropriateness, and alignment with the intended learning objectives. The use of GenAI tools in content creation does not substitute for faculty expertise, academic rigor, or the responsibility of the instructor. Any errors, omissions, or limitations are the responsibility of the instructor, not the GenAI tool provider. Additionally, no human subject data or other sensitive information may be entered into public generative AI platforms. Violation of this policy may result in loss of data access privileges and further academic consequences.\n\n\n\n\nMark W. Maier, and Eberhardt Rechtin (eds.). 2000. The Art of Systems Architecting, 2nd Edition. 2nd ed. https://sdincose.org/wp-content/uploads/2017/10/TheArtOfSystemsEngineering_inaugural.pdf; CRC Press.\n\n\nNational Aeronautics and Space Administration. 2017. NASA Systems Engineering Handbook, Revision 2 (NASA SP-2016-6105 Rev 2). https://www.nasa.gov/wp-content/uploads/2018/09/nasa_systems_engineering_handbook_0.pdf.\n\n\nOffice of the National Coordinator for Health Information Technology (ONC). 2023. “Health IT Curriculum Resources for Educators.” https://www.healthit.gov/topic/health-it-resources/health-it-curriculum-resources-educators.\n\n\nUlrich, Karl T., and Steven D. Eppinger. 2015. Product Design and Development. 6th ed. https://industri.fatek.unpatti.ac.id/wp-content/uploads/2019/03/202-Product-Design-and-Development-Karl-T.-Ulrich-Steven-D.-Eppinger-Edisi-6-2015.pdf; McGraw-Hill Education.",
     "crumbs": [
+      "Syllabus",
       "Syllabus"
     ]
   },
   {
     "objectID": "intro_arch.html",
     "href": "intro_arch.html",
-    "title": "Architecture",
+    "title": "Introduction to Architecture",
     "section": "",
     "text": "Architecture as Function-Form Mapping\nDespite the varying definitions of “Architectures”, they all consist of “Function”, related by “Concept”, and maps to “Form”",
     "crumbs": [
-      "Architecture"
+      "Overviews",
+      "Introduction to Architecture"
     ]
   },
   {
     "objectID": "intro_arch.html#architecture-as-function-form-mapping",
     "href": "intro_arch.html#architecture-as-function-form-mapping",
-    "title": "Architecture",
+    "title": "Introduction to Architecture",
     "section": "",
-    "text": "Form = Elements/Objects + Structure\n\n\n\n\n\n\n\nForm - Defined\nForm - Described\n\n\n\n\n\nThe physical/informational embodiment which exists, or has the potential to exist;\nIt is what the system “is”\nThe sum of the elements, which are segments (of the whole of) the form\nThe elements of form - smallest useful “atomic unit”\nThe structure of form - the formal relationships among the elements\n\nspatial/topological structural connections\nassembly/implementation structural connections\n\nIt is a system/product attribute created by the architect\n\n\nIs created by the architect\nIs in a solution specific domain\nCan be decomposed into physical/informational elements -the decompositional view\nElements are connected at interfaces. The interfaces define the structure -the structural view\nIs the thing that executes function\nIs the thing that is eventually implemented (built, written, composed, manufactured, etc.)\nIs the thing that is eventually operated (run, repaired, updated, retired, etc.)\n\n\n\n\n\n\nDecompositional View\nDecompositional View uses tree structure to decompose a system into sub-systems and evetually elements (in leaf nodes). It is a useful representation to place a particular system of interests (SoI) within Use Context, which defines the architectural vision that informs:\na) the core Function of the SoI;\nb) the Boundaries separating the SoI from other supporting systems; and\nc) the Interfaces connecting the SoI to other supporting systems.\nTake a look at the following decompositional view of “a pad of paper” as an example. In this simple 1-level system, the elements are: paper sheets, covers, and spiral.\n\n\n\nFigure 1. Decompositional View of a Pad of Paper\n\n\n\n\nFunction = Process + Operand/Object\n\n\n\n\n\n\n\nFunction - Defined\nFunction - Described\n\n\n\n\n\nThe activities, operations and transformations that cause, create or contribute to performance (i.e. meeting goals)\nThe actions for which a thing exists or is employed\nIs a product/system attribute\nSystem defined as: “A set of interrelated elements that perform a function, whose functionality is greater than the sum of the parts”\n\n\nIs conceived by the architect\nMust be conceived so that goals can be achieved\nIs what the system eventually does, the activities and transformations which emergeas sub-function aggregate (i.e., Emergence)\nShould initially be stated in solution neutral language\n\n\n\n\n\n\nStructural View\nThe structural view represents the static, enduring aspects of a system—its components, relationships, and organization—independent of how those components behave over time. There are two typical representations:\n\nGraphical representation: Object-Process Modeling (OPM)\n\n\n\n\nFigure 2. Basic Schematic of OPM\n\n\n\n\n\n\n\n\n\nComponent\nDefinition\n\n\n\n\n\nis the object which is acted upon by the process, which may be created, destroyed, or altered. The Operand that is associated with the delivered value of the system is called Value-Related Operand\n\n\n\nis the pattern of transformation applied to one or more objects. A process relies on at least one object in the pre-process set and transforms at least one object in the pre-process set\n\n\n\nis the\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDecomposes to\n\n\n\nHas attribute of\n\n\n\nSpecializes to\n\n\n\nFor example,\n\nList representation: Design Structure Matrix (DSM) is a “N-squared” matrix representation gives list-like representation of connectivity. DSM can be used to map relationships among different elements/operands/forms, functions, and relationships between forms and functions.\n\n\n\n\nFigure 3. And example of DSM\n\n\n\n\nDesign vs. Reverse Engineering\n\nIn (conventional, top down) design, you know the functions (and presumably the goals) and try to create the form to deliver the function\nIn reverse engineering, you know the form, and are trying to infer the function (and presumably eventually the goals)\nIn bottom up design, you build elements and discover what emerges as they come together\nIn design knowledge capture, you record the function along with the design of form\n\n\n\n\nFigure 2. Form-Function Sequence\n\n\n\n\nOperand",
+    "text": "Form = Elements/Objects + Structure\n\n\n\n\n\n\n\nForm - Defined\nForm - Described\n\n\n\n\n\nThe physical/informational embodiment which exists, or has the potential to exist;\nIt is what the system “is”\nThe sum of the elements, which are segments (of the whole of) the form\nThe elements of form - smallest useful “atomic unit”\nThe structure of form - the formal relationships among the elements\n\nspatial/topological structural connections\nassembly/implementation structural connections\n\nIt is a system/product attribute created by the architect\n\n\nIs created by the architect\nIs in a solution specific domain\nCan be decomposed into physical/informational elements -the decompositional view\nElements are connected at interfaces. The interfaces define the structure -the structural view\nIs the thing that executes function\nIs the thing that is eventually implemented (built, written, composed, manufactured, etc.)\nIs the thing that is eventually operated (run, repaired, updated, retired, etc.)\n\n\n\n\n\n\nDecompositional View\nDecompositional View uses tree structure to decompose a system into sub-systems and evetually elements (in leaf nodes). It is a useful representation to place a particular system of interests (SoI) within Use Context, which defines the architectural vision that informs:\na) the core Function of the SoI;\nb) the Boundaries separating the SoI from other supporting systems; and\nc) the Interfaces connecting the SoI to other supporting systems.\nTake a look at the following decompositional view of “a pad of paper” as an example. In this simple 1-level system, the elements are: paper sheets, covers, and spiral.\n\n\n\nFigure 1. Decompositional View of a Pad of Paper\n\n\n\nTable 1. Basic Schematic Components\n\n\nCol1\nCol2\nCol3\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFunction = Process + Operand/Object\n\n\n\n\n\n\n\nFunction - Defined\nFunction - Described\n\n\n\n\n\nThe activities, operations and transformations that cause, create or contribute to performance (i.e. meeting goals)\nThe actions for which a thing exists or is employed\nIs a product/system attribute\nSystem defined as: “A set of interrelated elements that perform a function, whose functionality is greater than the sum of the parts”\n\n\nIs conceived by the architect\nMust be conceived so that goals can be achieved\nIs what the system eventually does, the activities and transformations which emergeas sub-function aggregate (i.e., Emergence)\nShould initially be stated in solution neutral language\n\n\n\n\n\n\nStructural View\nThe structural view represents the static, enduring aspects of a system—its components, relationships, and organization—independent of how those components behave over time. There are two typical representations:\n\nGraphical representation: Object-Process Modeling (OPM)\n\n\n\n\nFigure 2. Basic Schematic of OPM\n\n\n\n\n\n\n\n\n\nComponent\nDefinition\n\n\n\n\n\nis the object which is acted upon by the process, which may be created, destroyed, or altered. The Operand that is associated with the delivered value of the system is called Value-Related Operand\n\n\n\nis the pattern of transformation applied to one or more objects. A process relies on at least one object in the pre-process set and transforms at least one object in the pre-process set\n\n\n\nis a special type of operand that enable a particular process\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nList representation: Design Structure Matrix (DSM) is a “N-squared” matrix representation gives list-like representation of connectivity. DSM can be used to map relationships among different elements/operands/forms, functions, and relationships between forms and functions.\n\n\n\n\nFigure 3. And example of DSM\n\n\n\n\nDesign vs. Reverse Engineering\n\nIn (conventional, top down) design, you know the functions (and presumably the goals) and try to create the form to deliver the function\nIn reverse engineering, you know the form, and are trying to infer the function (and presumably eventually the goals)\nIn bottom up design, you build elements and discover what emerges as they come together\nIn design knowledge capture, you record the function along with the design of form\n\n\n\n\nFigure 2. Form-Function Sequence\n\n\n\n\nOperand",
     "crumbs": [
-      "Architecture"
+      "Overviews",
+      "Introduction to Architecture"
     ]
   },
   {
     "objectID": "intro_arch.html#architect-and-architecting",
     "href": "intro_arch.html#architect-and-architecting",
-    "title": "Architecture",
+    "title": "Introduction to Architecture",
     "section": "Architect and Architecting",
     "text": "Architect and Architecting\nAn architect works by applying:\n\nRelevant modes of thought, including creative and critical thinking\nThe approaches of architecting, including holism, reductionism, heuristic, agile, ecosystem, etc.\n\nHolism: emphasizes the design of systems based on the interrelationships, interactions, and emergent properties of all elements considered as a whole, rather than optimizing isolated components, with the objective of ensuring systemic coherence, resilience, and alignment with the broader environment.\nReductionism: decomposes a system into its constituent parts for analysis and optimization, based on the assumption that the behavior and performance of the whole system can be explained and engineered through the aggregation of its individual components.\nHeuristic: or pattern-based approach, which applies established architectural patterns, reference models, and heuristics as reusable design abstractions, with the intent of leveraging proven structural solutions to recurrent problems while reducing design risk and accelerating development.\nAgile: or incremental approach, which is an iterative and adaptive method that incrementally evolves architectural structures in synchrony with system development cycles, emphasizing responsiveness to emergent requirements, stakeholder feedback, and evolving environmental conditions.\nEcosystem: or service-dominant approach, which is to structure systems around modular services and value exchanges, prioritizing interoperability, composability, and ecosystem growth through well-defined interfaces, contracts, and governance mechanisms.\n\nThe principles, processes and tools of architecting\n\nPrinciples: are the underlying and long enduring fundamentals that are always (or almost always) valid.\nMethods: are the organization of approaches and tasks to achieve a concrete end, which should be solidly grounded on principles, and which are usually or often applicable.\nTools: are the contemporary ways to facilitate process, and sometimes applicable\n\nAnd a lot of wisdom and experience!\n\n\nThree Roles of the Architect\n\nReduce ambiguity: to incorporate strategy and technology insertion by defining the context and boundaries of the system\nEmploy creativity: to create the concept for the system, managing in the spectrum of solution neutral thinking\nManagement complexity: so that the system is comprehensible to all during its design, implementation, and evolution",
     "crumbs": [
-      "Architecture"
+      "Overviews",
+      "Introduction to Architecture"
     ]
   },
   {
     "objectID": "intro_arch.html#programmed-vs.-non-programmed-decisions",
     "href": "intro_arch.html#programmed-vs.-non-programmed-decisions",
-    "title": "Architecture",
+    "title": "Introduction to Architecture",
     "section": "Programmed vs. Non-programmed decisions",
     "text": "Programmed vs. Non-programmed decisions\n\nProgrammed decisions: routine, structured, and repetitive decisions made by applying established rules, procedures, or standard operating policies\nNon-programmed decisions: unique, unstructured, and non-routine decisions that require judgment, creativity, or problem-solving because no pre-established procedures exist.",
     "crumbs": [
-      "Architecture"
+      "Overviews",
+      "Introduction to Architecture"
     ]
   },
   {
     "objectID": "intro_arch.html#quadrant-decision-matrix",
     "href": "intro_arch.html#quadrant-decision-matrix",
-    "title": "Architecture",
+    "title": "Introduction to Architecture",
     "section": "4-Quadrant Decision Matrix",
     "text": "4-Quadrant Decision Matrix\n\nSensitivity: does this decision strongly influence metrics (e.g., value, profit, efficiency)?\nConnectivity: would substantial rework be required to change this decision? Could we make this decision downstream without regards for other decisions?\n\n\n\n\nFigure 3. Architectural Decision Matrix",
     "crumbs": [
-      "Architecture"
+      "Overviews",
+      "Introduction to Architecture"
     ]
   },
   {
     "objectID": "intro_arch.html#six-patterns-of-architectural-decisions",
     "href": "intro_arch.html#six-patterns-of-architectural-decisions",
-    "title": "Architecture",
+    "title": "Introduction to Architecture",
     "section": "Six Patterns of Architectural Decisions",
     "text": "Six Patterns of Architectural Decisions\n\n\n\n\n\n\n\nPattern\nDescription\n\n\n\n\nDECISION-OPTION\nA group of decisions where each decision has its own discrete set of options.\n\n\nDOWN-SELECTING\nA group of binary decisions representing a subset from a set of candidate entities.\n\n\nASSIGNING\nGiven two different sets of entities, a group of decisions assigning each element from one set to any subset of entities from the other set.\n\n\nPARTITIONING\nA group of decisions representing a partitioning of a set of entities into subsets that are mutually exclusive and exhaustive.\n\n\nPERMUTING\nA group of decisions representing a one-to-one mapping between a set of entities and a set of positions.\n\n\nCONNECTING\nGiven a set of entities that are nodes in a graph, a group of decisions representing the connections between those nodes.",
     "crumbs": [
-      "Architecture"
+      "Overviews",
+      "Introduction to Architecture"
     ]
   },
   {
@@ -126,6 +138,7 @@
     "section": "",
     "text": "Basic Computing Concepts, Including History",
     "crumbs": [
+      "Overviews",
       "Introduction to Information Technology"
     ]
   },
@@ -136,6 +149,7 @@
     "section": "",
     "text": "Definitions, Descriptions, and Elements\nComputing refers to the use of electronic devices and algorithms to process, store, and transmit information. At its core, a computer system consists of hardware (physical components), software (instructions and programs), and data (the information being processed). Key elements include input, processing, storage, and output, which together define the flow of information in digital systems.\n\n\nSelecting a New Computer\nSelecting a computer involves evaluating performance factors (CPU speed, RAM capacity, storage type), form factors (desktop, laptop, tablet, server), and intended use cases (general office work, scientific computing, gaming, data analysis). Criteria such as battery life, expandability, operating system compatibility, and budget also shape the decision.\n\n\nHistory of Computers\nThe history of computers can be divided into generations: - First Generation (1940s–1950s): Vacuum tubes, large mainframes, limited reliability. - Second Generation (1950s–1960s): Transistors replaced tubes, smaller and more efficient. - Third Generation (1960s–1970s): Integrated circuits allowed miniaturization. - Fourth Generation (1970s–1980s): Microprocessors enabled personal computers. - Fifth Generation (1980s–present): Parallel processing, networking, and AI-enabled systems.\n\n\nThe Growth of Personal Computers and the Internet\nThe 1980s marked the rise of personal computers (PCs) through companies like Apple, IBM, and Microsoft. The 1990s saw the commercial expansion of the Internet, revolutionizing communication, commerce, and research. The transition from dial-up modems to broadband, and later to wireless networking, underpinned the global digital economy.\nReadings:\n\nHealth IT Curriculum Resources for Educators - 4.1",
     "crumbs": [
+      "Overviews",
       "Introduction to Information Technology"
     ]
   },
@@ -146,6 +160,7 @@
     "section": "Computer Hardware",
     "text": "Computer Hardware\n\nComponents and Peripherals\nCore components include the central processing unit (CPU), memory (RAM), motherboard, power supply, and storage devices. Peripherals—such as keyboards, mice, monitors, and printers—extend usability. External devices like scanners and external drives provide additional input/output functionality.\n\n\nPorts, Memory, and Secondary Storage\nPorts (USB, HDMI, Ethernet) serve as physical interfaces for connectivity. Primary memory (RAM) provides temporary data storage during processing, while secondary storage (hard drives, SSDs, optical discs) provides long-term data retention. Modern trends emphasize solid-state storage for speed and reliability.\n\n\nData Types, Data Addresses, and the CPU, GPU\nComputers process data types such as integers, floating-point numbers, characters, and logical values. Memory addressing allows precise data retrieval. The CPU performs general-purpose processing, while the GPU accelerates parallel computations, crucial for graphics rendering, AI, and scientific simulations.\nReadings:\n\nHealth IT Curriculum Resources for Educators - 4.2",
     "crumbs": [
+      "Overviews",
       "Introduction to Information Technology"
     ]
   },
@@ -156,6 +171,7 @@
     "section": "Computer Software",
     "text": "Computer Software\n\nIdentify major classifications of software\nSoftware is classified into system software (operating systems, utilities), application software (word processors, databases, web browsers), and middleware (tools facilitating communication between applications and operating systems).\n\n\nWhat an operating system is and what it does\nAn operating system (OS) manages hardware resources, provides a user interface, and enables application execution. Functions include process scheduling, memory management, file system organization, and device driver support.\n\n\nFiles and file management\nFiles represent structured units of data stored on secondary devices. File management involves naming, organizing, accessing, and securing files, often within a hierarchical directory system. Modern systems support file compression, encryption, and metadata tagging.\nReadings:\n\nHealth IT Curriculum Resources for Educators - 4.3",
     "crumbs": [
+      "Overviews",
       "Introduction to Information Technology"
     ]
   },
@@ -166,6 +182,7 @@
     "section": "Computer Programming",
     "text": "Computer Programming\n\nProgramming Languages\nProgramming languages (e.g., Python, Java, C++) provide structured syntax for expressing algorithms. They are categorized into low-level languages (assembly, machine code) and high-level languages (object-oriented, scripting, functional).\n\n\nCompiling and Interpreting Process for Computer Programs\nCompilers translate high-level code into machine code before execution, while interpreters translate line-by-line during execution. Hybrid approaches (e.g., Java with bytecode and the Java Virtual Machine [JVM]) combine both strategies.\n\n\nProgramming Language Constructs\nConstructs include variables, data types, control structures (loops, conditionals), functions, and classes. Together, they form the building blocks of software development.\n\n\nBasic Programming Concepts\nBasic concepts include syntax versus semantics, modularity, debugging, and algorithmic thinking. Emphasis is placed on clarity, maintainability, and correctness of code.\n\n\nAdvanced Programming Concepts\nAdvanced concepts cover concurrency, recursion, memory management, error handling, and design patterns. Contemporary trends include functional programming paradigms and parallel programming for high-performance computing (HPC).\nReadings:\n\nHealth IT Curriculum Resources for Educators - 4.4",
     "crumbs": [
+      "Overviews",
       "Introduction to Information Technology"
     ]
   },
@@ -176,6 +193,7 @@
     "section": "Database Management System",
     "text": "Database Management System\n\nHow Databases Store Data\nDatabases organize data into tables (rows and columns), with relational models dominating. Data is stored using indexes for fast retrieval, often supported by transaction management systems for consistency.\n\n\nData Modeling and Normalization\nData modeling uses Entity-Relationship Diagrams (ERD) to represent data structures. Normalization ensures data integrity by minimizing redundancy, typically through First Normal Form (1NF), Second Normal Form (2NF), and Third Normal Form (3NF).\n\n\nStructured Query Language\nStructured Query Language (SQL) is the standard language for managing relational databases, supporting data definition (DDL), data manipulation (DML), and data control (DCL) operations.\n\n\nStructure of Clinical Databases\nClinical databases integrate patient records, laboratory results, imaging data, and genomic information. They must comply with Health Insurance Portability and Accountability Act (HIPAA), General Data Protection Regulation (GDPR), and Institutional Review Board (IRB) requirements for security and privacy.\nReadings:\n\nHealth IT Curriculum Resources for Educators - 4.5",
     "crumbs": [
+      "Overviews",
       "Introduction to Information Technology"
     ]
   },
@@ -186,6 +204,7 @@
     "section": "Networks",
     "text": "Networks\n\nIntroduction to Networks and the Internet\nA network is a set of interconnected devices that exchange data. The Internet is the global network of networks built on the Transmission Control Protocol/Internet Protocol (TCP/IP) suite.\n\n\nBasics of Internet Addressing and Network Classification\nInternet addressing includes Internet Protocol (IP) addresses (Internet Protocol version 4 [IPv4], Internet Protocol version 6 [IPv6]), domain names, and Media Access Control (MAC) addresses. Networks are classified into Local Area Networks (LANs), Metropolitan Area Networks (MANs), Wide Area Networks (WANs), and Personal Area Networks (PANs) based on geographic scope.\n\n\nNetwork Topologies, Protocols, and Standards\nInternet addressing includes Internet Protocol (IP) addresses (Internet Protocol version 4 [IPv4], Internet Protocol version 6 [IPv6]), domain names, and Media Access Control (MAC) addresses. Networks are classified into Local Area Networks (LANs), Metropolitan Area Networks (MANs), Wide Area Networks (WANs), and Personal Area Networks (PANs) based on geographic scope.\n\n\nWireless Communication and Network Hardware\nWireless communication uses radio frequencies, Wi-Fi (Wireless Fidelity), Bluetooth, and cellular technologies. Essential hardware includes routers, switches, access points, and modems.\n\n\nNetworking Logical Models and the Open Systems Interconnection Model\nThe Open Systems Interconnection (OSI) model defines seven layers (physical to application) for networking functions. The Transmission Control Protocol/Internet Protocol (TCP/IP) model simplifies this into four layers (network interface, internet, transport, and application).\nReadings:\n\nHealth IT Curriculum Resources for Educators - 4.6",
     "crumbs": [
+      "Overviews",
       "Introduction to Information Technology"
     ]
   },
@@ -196,6 +215,7 @@
     "section": "Security and Privacy",
     "text": "Security and Privacy\n\nCybercrime and IT Security\nCybercrime involves unauthorized access, data theft, fraud, and disruption of services. Information Technology (IT) security encompasses technical, administrative, and physical controls to prevent such threats.\n\n\nHackers Methods\nMethods include phishing, malware (malicious software), denial-of-service (DoS) attacks, Structured Query Language (SQL) injection, and social engineering.\n\n\nProtecting Against Cybercrime\nDefensive strategies include firewalls, intrusion detection systems (IDS), multifactor authentication (MFA), and regular patching.\n\n\nMinimizing Risk of a Successful cyberattack\nOrganizations employ risk assessments, employee training, encryption, and incident response planning to reduce vulnerabilities.\n\n\nHealth Insurance Portability and Accountability Act (HIPAA)\n\nPurpose and Scope\n\nU.S. law enacted in 1996\nProtecting privacy and security of PHI (Protected Health Information)\nRegulations to streamline administrative processes within healthcare organizations\n\nHIPAA Privacy Rule (2003)\n\nUse/disclosure of PHI in research\nDe-identification methods\nLimited Data Set & Data Use Agreements\n\nHIPAA Security Rule (2005) Safeguards for electronic PHI (ePHI)\n\nReadings:\n\nHealth IT Curriculum Resources for Educators - 4.7",
     "crumbs": [
+      "Overviews",
       "Introduction to Information Technology"
     ]
   },
@@ -206,6 +226,7 @@
     "section": "Information Systems",
     "text": "Information Systems\n\nWhat is an Information System?\nAn information system integrates people, technology, processes, and data to support decision-making, coordination, and analysis.\n\n\nThe Systems Development Process\nDevelopment follows structured models such as waterfall, agile, or Development and Operations (DevOps). Core stages include requirements analysis, design, implementation, testing, deployment, and maintenance.\n\n\nSpecialized Information Systems\nExamples include Decision Support Systems (DSS), expert systems, Geographic Information Systems (GIS), and Clinical Decision Support Systems (CDSS). These are tailored for domain-specific applications.\nReadings:\n\nHealth IT Curriculum Resources for Educators - 4.8",
     "crumbs": [
+      "Overviews",
       "Introduction to Information Technology"
     ]
   },
@@ -216,6 +237,7 @@
     "section": "",
     "text": "Evolution of Health IT: The Early Years\nThe history of Health Information Technology (HIT) in the United States is marked by gradual adoption, policy-driven acceleration, and ongoing challenges in interoperability. Early computing in healthcare began in the 1960s with mainframe-based hospital information systems. By the 1980s, academic centers such as Regenstrief Institute pioneered computerized medical records. The 1990s saw the rise of electronic billing and early electronic health records (EHRs), influenced by managed care and regulatory requirements. After 2000, federal initiatives—culminating in the Health Information Technology for Economic and Clinical Health (HITECH) Act of 2009—catalyzed widespread adoption, transforming HIT into a central pillar of U.S. healthcare delivery.\nIn the early years (1960s–1980s), HIT primarily supported administrative and financial tasks rather than clinical workflows. The Massachusetts General Hospital Utility Multi-Programming System (MUMPS) and the Regenstrief Medical Record System were pioneering platforms. Data storage was limited and proprietary, and clinical systems lacked interoperability. During this period, the focus was proof-of-concept—demonstrating that computers could store, retrieve, and manage patient data.\nReadings:",
     "crumbs": [
+      "Overviews",
       "History of Health Information Technology in the US"
     ]
   },
@@ -226,6 +248,7 @@
     "section": "",
     "text": "Health IT Curriculum Resources for Educators - 5.1",
     "crumbs": [
+      "Overviews",
       "History of Health Information Technology in the US"
     ]
   },
@@ -236,6 +259,7 @@
     "section": "Evolution of Health IT: The Modern Era",
     "text": "Evolution of Health IT: The Modern Era\nThe modern era of HIT (1990s–present) is defined by digitization, standardization, and integration into clinical practice. Innovations include the widespread deployment of EHRs, the emergence of clinical decision support (CDS), and the adoption of standards like HL7 (Health Level 7) and SNOMED CT (Systematized Nomenclature of Medicine–Clinical Terms). The 21st Century Cures Act (2016) reinforced interoperability mandates and information-blocking prohibitions, pushing HIT towards greater transparency, patient access, and data exchange across systems.\nReadings:\n\nHealth IT Curriculum Resources for Educators - 5.2",
     "crumbs": [
+      "Overviews",
       "History of Health Information Technology in the US"
     ]
   },
@@ -246,6 +270,7 @@
     "section": "Evolution of Health IT: The HITECH Act",
     "text": "Evolution of Health IT: The HITECH Act\nThe HITECH Act (Health Information Technology for Economic and Clinical Health Act) of 2009 was a turning point, allocating $30+ billion for EHR adoption through the Meaningful Use (MU) program. Hospitals and providers received incentives for implementing certified EHR technology that met defined standards for electronic prescribing, structured data capture, and patient engagement. This act not only drove adoption rates above 80% in hospitals but also introduced the foundation for modern health information exchange (HIE) and quality reporting systems.\nReadings:\n\nHealth IT Curriculum Resources for Educators - 5.3",
     "crumbs": [
+      "Overviews",
       "History of Health Information Technology in the US"
     ]
   },
@@ -256,6 +281,7 @@
     "section": "Evolution of Public Health Informatics",
     "text": "Evolution of Public Health Informatics\nPublic Health Informatics emerged in the 1990s, combining epidemiology with information science. Systems like the National Electronic Disease Surveillance System (NEDSS) and immunization registries provided data for outbreak monitoring, chronic disease tracking, and bioterrorism preparedness. With COVID-19, public health informatics gained renewed visibility, as EHR-linked reporting and real-time dashboards became essential for situational awareness, reinforcing the need for integrated HIT and public health infrastructure.\nReadings:\n\nHealth IT Curriculum Resources for Educators - 5.4",
     "crumbs": [
+      "Overviews",
       "History of Health Information Technology in the US"
     ]
   },
@@ -266,6 +292,7 @@
     "section": "Evolution of Nursing Informatics and HIT Tools Used By Nursing",
     "text": "Evolution of Nursing Informatics and HIT Tools Used By Nursing\nNursing informatics grew from documentation systems in the 1980s to sophisticated clinical decision support tools today. Early efforts included standardized nursing terminologies (NANDA-North American Nursing Diagnosis Association International, NIC-Nursing Interventions Classification, NOC-Nursing Outcomes Classification) and computerized charting. By the 2000s, tools like barcode medication administration (BCMA) and mobile documentation systems reduced errors and enhanced efficiency. Today, nursing informatics integrates predictive analytics, mobile apps, and workflow optimization to improve patient safety and evidence-based care.\nReadings:\n\nHealth IT Curriculum Resources for Educators - 5.5",
     "crumbs": [
+      "Overviews",
       "History of Health Information Technology in the US"
     ]
   },
@@ -276,6 +303,7 @@
     "section": "History of Electronic Health Records (EHRs)",
     "text": "History of Electronic Health Records (EHRs)\nThe EHR traces back to academic prototypes like the Regenstrief system (1970s). Commercial vendors entered in the 1990s (e.g., Epic, Cerner, MEDITECH), offering enterprise solutions. Initially, adoption was slow due to cost and workflow disruption. Post-HITECH Act, adoption surged, transforming EHRs into the backbone of care coordination, billing, and compliance. Challenges persist in usability, clinician burnout, and achieving full interoperability.\nReadings:\n\nHealth IT Curriculum Resources for Educators - 5.6",
     "crumbs": [
+      "Overviews",
       "History of Health Information Technology in the US"
     ]
   },
@@ -286,6 +314,7 @@
     "section": "History of Clinical Decision Support Systems",
     "text": "History of Clinical Decision Support Systems\nClinical Decision Support System, or CDSS development began in the 1970s with systems like MYCIN, which provided antibiotic recommendations. Early CDSS were rule-based and limited by computational power. In the 1990s and 2000s, CDSS became embedded in EHRs, offering drug–drug interaction alerts, reminders, and order sets. Today, CDSS integrates artificial intelligence (AI), machine learning, and natural language processing, expanding into predictive analytics and precision medicine.\nReadings:\n\nHealth IT Curriculum Resources for Educators - 5.7",
     "crumbs": [
+      "Overviews",
       "History of Health Information Technology in the US"
     ]
   },
@@ -296,6 +325,7 @@
     "section": "History of CPOE and E-Prescribing",
     "text": "History of CPOE and E-Prescribing\nComputerized Provider Order Entry (CPOE) originated in the 1970s at academic centers but gained traction in the 1990s with improved interfaces. By the 2000s, regulatory pressures and safety concerns (e.g., reducing medication errors) drove adoption. E-prescribing, formalized under the Medicare Modernization Act (2003), became widespread with incentives for electronic medication transmission, improving accuracy, and enabling real-time formulary checks.\nReadings:\n\nHealth IT Curriculum Resources for Educators - 5.8",
     "crumbs": [
+      "Overviews",
       "History of Health Information Technology in the US"
     ]
   },
@@ -306,6 +336,7 @@
     "section": "History of Health Information Exchange",
     "text": "History of Health Information Exchange\nHealth Information Exchange, or HIE began in the late 1990s as community-based health information networks (CHINs), but most failed due to sustainability challenges. The 2000s saw renewed federal support through Regional Health Information Organizations (RHIOs). The HITECH Act further accelerated HIE adoption by funding state-level initiatives. Today, networks like eHealth Exchange and CommonWell enable nationwide data exchange, though interoperability challenges remain.\nReadings:\n\nHealth IT Curriculum Resources for Educators - 5.9",
     "crumbs": [
+      "Overviews",
       "History of Health Information Technology in the US"
     ]
   },
@@ -316,6 +347,7 @@
     "section": "History of Privacy and Security Legislation",
     "text": "History of Privacy and Security Legislation\nKey milestones include:\n\nHIPAA (1996): Established national standards for privacy, security, and electronic transactions.\nHITECH Act (2009): Introduced breach notification requirements and extended HIPAA provisions to business associates.\n21st Century Cures Act (2016): Prohibited information blocking and mandated API-based data sharing. Collectively, these laws shaped the balance between innovation, patient privacy, and data security in HIT.\n\nReadings:\n\nHealth IT Curriculum Resources for Educators - 5.10",
     "crumbs": [
+      "Overviews",
       "History of Health Information Technology in the US"
     ]
   },
@@ -326,6 +358,7 @@
     "section": "Software Certification and Regulation",
     "text": "Software Certification and Regulation\nThe Office of the National Coordinator (ONC) oversees EHR certification through the ONC Health IT Certification Program, ensuring software meets standards for interoperability, security, and clinical quality measures. Certification requirements evolved from Meaningful Use to the Promoting Interoperability program. Additionally, the FDA regulates certain software as medical devices (SaMD), particularly clinical decision-support systems that influence patient care.\nReadings:\n\nHealth IT Curriculum Resources for Educators - 5.11",
     "crumbs": [
+      "Overviews",
       "History of Health Information Technology in the US"
     ]
   },
@@ -336,6 +369,7 @@
     "section": "History of Mobile Computing",
     "text": "History of Mobile Computing\nMobile computing in healthcare started with laptops and personal digital assistants (PDAs) in the 1990s (e.g., Palm Pilots for drug references). The 2007 launch of the iPhone and subsequent Android platforms revolutionized access to health apps, telemonitoring, and mobile EHR interfaces. Today, mobile computing underpins patient engagement tools, wearable device integration, and remote patient monitoring.\nReadings:\n\nHealth IT Curriculum Resources for Educators - 5.12",
     "crumbs": [
+      "Overviews",
       "History of Health Information Technology in the US"
     ]
   },
@@ -346,6 +380,7 @@
     "section": "History of Telemedicine",
     "text": "History of Telemedicine\nTelemedicine dates back to NASA’s space medicine experiments in the 1960s and early telepsychiatry projects. By the 1990s, rural telehealth pilots expanded specialty access. In the 2000s, broadband expansion facilitated wider adoption. The COVID-19 pandemic (2020) triggered unprecedented telemedicine growth, supported by temporary reimbursement flexibilities and HIPAA enforcement discretion. Telemedicine is now integral to hybrid care models.\nReadings:\n\nHealth IT Curriculum Resources for Educators - 5.13",
     "crumbs": [
+      "Overviews",
       "History of Health Information Technology in the US"
     ]
   },
@@ -356,6 +391,7 @@
     "section": "History of Quality Improvement and Patient Safety",
     "text": "History of Quality Improvement and Patient Safety\nQuality improvement in healthcare predates HIT, rooted in Florence Nightingale’s 19th-century statistical work. In the U.S., the Institute of Medicine’s reports—To Err is Human (1999) and Crossing the Quality Chasm (2001)—spotlighted safety failures, catalyzing HIT adoption. Tools like EHRs, CPOE, and clinical decision support became central to reducing adverse events, enabling measurement, and advancing evidence-based care.\nReadings:\n\nHealth IT Curriculum Resources for Educators - 5.14",
     "crumbs": [
+      "Overviews",
       "History of Health Information Technology in the US"
     ]
   },
@@ -366,6 +402,7 @@
     "section": "History of Health IT Organizations",
     "text": "History of Health IT Organizations\nProfessional and policy organizations shaped the trajectory of HIT:\n\nAMIA (American Medical Informatics Association): Established in 1989 to advance biomedical informatics research and education.\nHIMSS (Healthcare Information and Management Systems Society): Founded in 1961, now a global convener for HIT standards and conferences.\nONC (Office of the National Coordinator for Health IT): Established in 2004, it sets federal HIT policy and certification standards.\nNCVHS (National Committee on Vital and Health Statistics): Provides advisory recommendations on health data policy. Together, these organizations influence governance, research, and adoption of HIT nationwide.\n\nReadings:\n\nHealth IT Curriculum Resources for Educators - 5.15",
     "crumbs": [
+      "Overviews",
       "History of Health Information Technology in the US"
     ]
   },
@@ -376,6 +413,7 @@
     "section": "",
     "text": "What is Health Informatics?\nHealth Management Information Systems (HMIS) are integrated platforms that collect, manage, and analyze health data to support decision-making at clinical, administrative, and policy levels. They enable monitoring of service delivery, disease trends, and resource allocation, forming the backbone of evidence-based health planning. By linking routine facility reporting, surveillance, and administrative data, HMIS strengthen health system performance and accountability. Key challenges include ensuring data quality, interoperability, and timely reporting, while modern innovations such as mobile tools, cloud platforms, and advanced analytics are expanding their role in achieving universal health coverage and health equity.\nHealth informatics is an interdisciplinary field that integrates healthcare sciences, information technology, and data science to optimize the acquisition, storage, retrieval, and use of health information. It focuses on applying computational and analytical methods to improve patient care, support clinical decision-making, enable population health management, and advance biomedical research. The discipline draws on principles from computer science, cognitive science, public health, and organizational theory, with the goal of improving healthcare quality, safety, efficiency, and equity.",
     "crumbs": [
+      "Overviews",
       "Health Management Information Systems"
     ]
   },
@@ -386,6 +424,7 @@
     "section": "",
     "text": "Health IT Curriculum Resources for Educators - 6.1",
     "crumbs": [
+      "Overviews",
       "Health Management Information Systems"
     ]
   },
@@ -396,6 +435,7 @@
     "section": "Health Information Systems Overview",
     "text": "Health Information Systems Overview\nHealth information systems (HIS) are socio-technical frameworks that support the systematic collection, processing, and dissemination of health-related data. These systems include both clinical and administrative applications, such as patient records, laboratory information management, billing platforms, and surveillance systems. HIS operate at multiple levels—from local clinical environments to national and global health infrastructures—enabling integration across domains such as care delivery, epidemiological monitoring, and resource planning. Their effectiveness depends on interoperability, usability, data governance, and alignment with regulatory frameworks.\n\nHealth IT Curriculum Resources for Educators - 6.2",
     "crumbs": [
+      "Overviews",
       "Health Management Information Systems"
     ]
   },
@@ -406,6 +446,7 @@
     "section": "Electronic Health Records",
     "text": "Electronic Health Records\nElectronic Health Records (EHRs) are digital longitudinal collections of patient health information generated by one or more encounters in a healthcare setting. They typically include demographics, clinical notes, medications, laboratory test results, imaging data, and billing information. EHRs provide a central repository for clinical data that supports continuity of care, clinical decision support, and population-level analytics. Scientific research demonstrates that EHR adoption can improve care coordination and reduce medical errors, though challenges such as data quality, interoperability, clinician burden, and privacy protection remain critical areas of focus.\n\nHealth IT Curriculum Resources for Educators - 6.3",
     "crumbs": [
+      "Overviews",
       "Health Management Information Systems"
     ]
   },
@@ -416,6 +457,7 @@
     "section": "Common Commercial Electronic Health Record (EHR) Systems Used in Ambulatory and Inpatient Care Settings",
     "text": "Common Commercial Electronic Health Record (EHR) Systems Used in Ambulatory and Inpatient Care Settings\nElectronic Health Records (EHRs) represent the cornerstone of modern health information management, and a number of large commercial vendors dominate their implementation across ambulatory and inpatient care settings. These systems are designed to support diverse clinical workflows, ranging from outpatient encounters and specialty care documentation to complex inpatient admissions, order entry, and multidisciplinary care coordination.In the United States, several vendors are most widely adopted:\n\nEpic Systems: One of the most dominant vendors in both academic medical centers and large health systems. Epic offers an integrated suite of modules covering inpatient and ambulatory care, patient portals, population health, and revenue cycle management. Its extensive interoperability frameworks, such as Care Everywhere, support data exchange across institutions.\nOracle Cerner: Historically strong in hospital and health system markets, Cerner (now under Oracle) provides Millennium and other platforms for inpatient documentation, computerized provider order entry (CPOE), and clinical decision support. Cerner is notable for large-scale implementations, including Department of Defense and Veterans Affairs modernization efforts.\nMEDITECH: Primarily serving community hospitals and regional health systems, MEDITECH offers scalable EHR solutions tailored for inpatient and ambulatory environments. Its newer Expanse platform emphasizes web-based interfaces and interoperability.\nAllscripts (now Veradigm): Traditionally focused on ambulatory practices and physician groups, Allscripts solutions have also been deployed in smaller hospitals and integrated delivery networks. Its offerings emphasize usability and outpatient workflow support.\n\nBeyond these, systems such as athenahealth, NextGen Healthcare, and eClinicalWorks are widely used in ambulatory practices, particularly among small to mid-sized clinics. These platforms often emphasize cloud-based deployment, practice management, and patient engagement tools.\n\nHealth IT Curriculum Resources for Educators - 14.1",
     "crumbs": [
+      "Overviews",
       "Health Management Information Systems"
     ]
   },
@@ -426,6 +468,7 @@
     "section": "Computerized Provider Order Entry (CPOE)",
     "text": "Computerized Provider Order Entry (CPOE)\nComputerized Provider Order Entry (CPOE) systems enable clinicians to enter medical orders directly into a digital system rather than relying on handwritten or verbal communication. CPOE reduces transcription errors, enforces standardized order sets, and facilitates integration with clinical decision support tools. Empirical studies have shown CPOE to significantly reduce adverse drug events and streamline care processes. However, system design and workflow integration are crucial, as poorly implemented CPOE systems can introduce new types of errors, such as incorrect selections from drop-down menus.\n\nHealth IT Curriculum Resources for Educators - 6.4",
     "crumbs": [
+      "Overviews",
       "Health Management Information Systems"
     ]
   },
@@ -436,6 +479,7 @@
     "section": "Clinical Decision Support Systems",
     "text": "Clinical Decision Support Systems\nClinical Decision Support Systems (CDSS) are computational tools designed to aid healthcare providers in decision-making by presenting evidence-based recommendations, alerts, or predictive insights. CDSS may use rule-based logic, statistical models, or machine learning algorithms to deliver information such as drug interaction alerts, diagnostic suggestions, or prognostic risk scores. Rigorous evaluations show that CDSS can improve adherence to clinical guidelines and reduce preventable errors. Nevertheless, over-alerting, integration with EHRs, and provider trust represent ongoing challenges in their implementation and effectiveness.\n\nHealth IT Curriculum Resources for Educators - 6.5",
     "crumbs": [
+      "Overviews",
       "Health Management Information Systems"
     ]
   },
@@ -446,6 +490,7 @@
     "section": "Patient Monitoring Systems",
     "text": "Patient Monitoring Systems\nPatient monitoring systems are technological platforms that continuously capture and analyze physiological signals such as heart rate, blood pressure, oxygen saturation, and electrocardiograms. Traditionally confined to intensive care units, these systems have expanded into ambulatory and home-based settings through wearable devices and wireless sensors. Advances in signal processing and real-time analytics allow early detection of deterioration, supporting rapid interventions. Key scientific considerations include accuracy, reliability, alarm fatigue, and data security, particularly as remote monitoring becomes central to telemedicine and chronic disease management.\n\nHealth IT Curriculum Resources for Educators - 6.6",
     "crumbs": [
+      "Overviews",
       "Health Management Information Systems"
     ]
   },
@@ -456,6 +501,7 @@
     "section": "Medical Imaging Systems",
     "text": "Medical Imaging Systems\nMedical imaging systems encompass modalities such as radiography, computed tomography (CT), magnetic resonance imaging (MRI), ultrasound, and nuclear medicine. Informatics plays a critical role in image acquisition, storage, retrieval, and interpretation, with Picture Archiving and Communication Systems (PACS) serving as the backbone of digital image management. The integration of artificial intelligence into imaging workflows has accelerated advances in automated segmentation, anomaly detection, and radiomics. Research highlights both the clinical potential and ethical implications of these technologies, including bias, reproducibility, and regulatory oversight.\n\nHealth IT Curriculum Resources for Educators - 6.7",
     "crumbs": [
+      "Overviews",
       "Health Management Information Systems"
     ]
   },
@@ -466,6 +512,7 @@
     "section": "Consumer Health Informatics",
     "text": "Consumer Health Informatics\nConsumer health informatics (CHI) focuses on the use of digital tools and applications by patients and the general public to manage personal health. Examples include patient portals, mobile health applications, wearable devices, and online health information resources. CHI promotes patient empowerment, self-management of chronic diseases, and shared decision-making. However, studies emphasize the importance of usability, health literacy, equity of access, and privacy protection to avoid exacerbating disparities. The field increasingly intersects with behavioral science and human-computer interaction.Importantly, advances in digital health technology—such as telemedicine platforms, mobile health (mHealth) apps, connected wearables, and AI-driven virtual assistants—have expanded the reach and effectiveness of consumer health informatics, enabling personalized engagement, remote monitoring, and integration into broader healthcare ecosystems.\n\nHealth IT Curriculum Resources for Educators - 6.8\nWhat is Digital Health Technology\nDHTs for Drug Development - FDA",
     "crumbs": [
+      "Overviews",
       "Health Management Information Systems"
     ]
   },
@@ -476,37 +523,8 @@
     "section": "Administrative, Billing and Financial Systems",
     "text": "Administrative, Billing and Financial Systems\nAdministrative, billing, and financial systems in healthcare are designed to manage operational workflows, resource allocation, insurance claims, and revenue cycles. These systems facilitate compliance with payer requirements, optimize scheduling, and generate financial reports. From a scientific perspective, they provide critical data for cost-effectiveness analyses, healthcare economics, and policy evaluation. Integrating financial and clinical data also supports value-based care models, though challenges such as coding accuracy, fraud detection, and regulatory compliance remain central concerns.\n\nHealth IT Curriculum Resources for Educators - 6.9",
     "crumbs": [
+      "Overviews",
       "Health Management Information Systems"
-    ]
-  },
-  {
-    "objectID": "glossary.html",
-    "href": "glossary.html",
-    "title": "1  Glossary",
-    "section": "",
-    "text": "1.1 Objects",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Glossary</span>"
-    ]
-  },
-  {
-    "objectID": "glossary.html#objects",
-    "href": "glossary.html#objects",
-    "title": "1  Glossary",
-    "section": "",
-    "text": "An object is that which has the potential of stable, unconditional existence for some positive duration of time\nCan be physical (visible or tangible and stable in form) or informational (anything that can be apprehended intellectually)\nObjects have states (can be changed by processes)\nExample: system objects vs. element objects vs. attribute object",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Glossary</span>"
-    ]
-  },
-  {
-    "objectID": "glossary.html#abstraction",
-    "href": "glossary.html#abstraction",
-    "title": "1  Glossary",
-    "section": "1.2 Abstraction",
-    "text": "1.2 Abstraction\n\nDefined as: a) expression of quality apart from the object; b) having only the intrinsic nature rather than the form\nAbstraction can be used in both function and form\nAbstraction can be used to characterize and hide non-essential details, allowing simpler representation\nExample: “cup” can be an abstraction while “a red cup with MU logo” is an object",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Glossary</span>"
     ]
   },
   {
@@ -516,6 +534,7 @@
     "section": "",
     "text": "Case Background\nClinical Decision Support Systems (CDSS) are widely used in modern healthcare to improve patient safety and decision-making. Examples include:",
     "crumbs": [
+      "PBL Assignments",
       "PBL1 - Identify Form and Function of a System"
     ]
   },
@@ -526,6 +545,7 @@
     "section": "",
     "text": "Drug–drug interaction alerts embedded in EHRs.\nPredictive risk calculators for sepsis or readmissions.\nOrder sets and care pathways for standardizing treatment.",
     "crumbs": [
+      "PBL Assignments",
       "PBL1 - Identify Form and Function of a System"
     ]
   },
@@ -536,6 +556,7 @@
     "section": "Problem Statement",
     "text": "Problem Statement\nYour team has been asked to select one existing CDSS in healthcare, research its design and purpose, and then decompose it into forms and functions. The goal is to uncover:\n\nFunctions → the purposeful transformations (e.g., detect risk, notify clinician, recommend action).\nForms → the physical/logical components that provide those functions (e.g., rules engine, knowledge base, EHR interface, APIs).",
     "crumbs": [
+      "PBL Assignments",
       "PBL1 - Identify Form and Function of a System"
     ]
   },
@@ -546,6 +567,7 @@
     "section": "Learning Activities",
     "text": "Learning Activities\n\nSelect a CDSS.\n\nChoose a real-world CDSS (e.g., Epic’s sepsis early warning system, Cerner’s drug–drug interaction checker, or a published AI-based decision support tool).\nGather public information from vendor sites, case studies, and peer-reviewed literature.\n\nIdentify Functions\n\nWhat does the CDSS do? (e.g., analyze lab values, compare against thresholds, generate alerts, support clinical decisions, log responses)\n\nIdentify Forms\n\nHow is the CDSS built and arranged? (e.g., knowledge base, inference engine, FHIR APIs, alert UI, terminology services.)\n\nArchitecture Diagram\n\nProduce a simple architecture diagram showing data flows, functions, and forms. You may follow the OPM approach to generate the diagram, but it is not required.\n\nReflect\n\nWhy is distinguishing form and function useful for evaluating CDSS effectiveness and reducing unintended consequences like alert fatigue?",
     "crumbs": [
+      "PBL Assignments",
       "PBL1 - Identify Form and Function of a System"
     ]
   },
@@ -556,7 +578,41 @@
     "section": "Expected Deliverables",
     "text": "Expected Deliverables\n\nShort report (1-3 pages) summarizing the chose CDSS, its functions and forms\nArchitecture Diagram",
     "crumbs": [
+      "PBL Assignments",
       "PBL1 - Identify Form and Function of a System"
+    ]
+  },
+  {
+    "objectID": "glossary.html",
+    "href": "glossary.html",
+    "title": "1  Glossary",
+    "section": "",
+    "text": "1.1 Objects",
+    "crumbs": [
+      "Supplemental",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Glossary</span>"
+    ]
+  },
+  {
+    "objectID": "glossary.html#objects",
+    "href": "glossary.html#objects",
+    "title": "1  Glossary",
+    "section": "",
+    "text": "An object is that which has the potential of stable, unconditional existence for some positive duration of time\nCan be physical (visible or tangible and stable in form) or informational (anything that can be apprehended intellectually)\nObjects have states (can be changed by processes)\nExample: system objects vs. element objects vs. attribute object",
+    "crumbs": [
+      "Supplemental",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Glossary</span>"
+    ]
+  },
+  {
+    "objectID": "glossary.html#abstraction",
+    "href": "glossary.html#abstraction",
+    "title": "1  Glossary",
+    "section": "1.2 Abstraction",
+    "text": "1.2 Abstraction\n\nDefined as: a) expression of quality apart from the object; b) having only the intrinsic nature rather than the form\nAbstraction can be used in both function and form\nAbstraction can be used to characterize and hide non-essential details, allowing simpler representation\nExample: “cup” can be an abstraction while “a red cup with MU logo” is an object",
+    "crumbs": [
+      "Supplemental",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Glossary</span>"
     ]
   }
 ]

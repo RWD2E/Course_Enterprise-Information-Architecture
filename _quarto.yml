@@ -7,13 +7,21 @@ book:
   author: "Xing Song"
   date: "8/20/2025"
   chapters:
-    - index.qmd
-    - intro_arch.qmd
-    - intro_it.qmd
-    - hist_hit.qmd
-    - hmis.qmd
-    - glossary.qmd
-    - pbl1_id.qmd
+    - part: "Syllabus"
+      chapters: 
+        - index.qmd
+    - part: "Overviews"
+      chapters: 
+        - intro_arch.qmd
+        - intro_it.qmd
+        - hist_hit.qmd
+        - hmis.qmd
+    - part: "PBL Assignments"
+      chapters: 
+        - pbl1_id.qmd
+    - part: "Supplemental"
+      chapters: 
+        - glossary.qmd
 
 bibliography: references.bib
 
