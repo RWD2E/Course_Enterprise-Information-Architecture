@@ -1,6 +1,4 @@
----
-title: "Glossary"
----
+# Glossary  {.unnumbered}
 
 ## Objects
 
@@ -12,9 +10,6 @@ title: "Glossary"
 ## Abstraction
 
 -   Defined as: a) expression of quality apart from the object; b) having only the intrinsic nature rather than the form
-
 -   Abstraction can be used in both function and form
-
 -   Abstraction can be used to characterize and hide non-essential details, allowing simpler representation
-
 -   Example: "cup" can be an abstraction while "a red cup with MU logo" is an object

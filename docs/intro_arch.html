@@ -102,7 +102,7 @@ div.csl-indent {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./intro_arch.html">Overviews</a></li><li class="breadcrumb-item"><a href="./intro_arch.html">Introduction to Architecture</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./intro_arch.html">Chapters</a></li><li class="breadcrumb-item"><a href="./intro_arch.html">Introduction to Architecture</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -147,7 +147,7 @@ div.csl-indent {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
- <span class="menu-text">Overviews</span></a>
+ <span class="menu-text">Chapters</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -208,7 +208,7 @@ div.csl-indent {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./glossary.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Glossary</span></span></a>
+ <span class="menu-text">Glossary</span></a>
   </div>
 </li>
       </ul>
@@ -230,7 +230,7 @@ div.csl-indent {
   <li><a href="#function-process-operandobject" id="toc-function-process-operandobject" class="nav-link" data-scroll-target="#function-process-operandobject">Function = Process + Operand/Object</a></li>
   <li><a href="#structural-view" id="toc-structural-view" class="nav-link" data-scroll-target="#structural-view">Structural View</a></li>
   <li><a href="#design-vs.-reverse-engineering" id="toc-design-vs.-reverse-engineering" class="nav-link" data-scroll-target="#design-vs.-reverse-engineering">Design vs.&nbsp;Reverse Engineering</a></li>
-  <li><a href="#operand" id="toc-operand" class="nav-link" data-scroll-target="#operand">Operand</a></li>
+  <li><a href="#types-of-vertical-thinking" id="toc-types-of-vertical-thinking" class="nav-link" data-scroll-target="#types-of-vertical-thinking">Types of “Vertical” Thinking</a></li>
   </ul></li>
   <li><a href="#architect-and-architecting" id="toc-architect-and-architecting" class="nav-link" data-scroll-target="#architect-and-architecting">Architect and Architecting</a>
   <ul class="collapse">
@@ -251,7 +251,7 @@ div.csl-indent {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./intro_arch.html">Overviews</a></li><li class="breadcrumb-item"><a href="./intro_arch.html">Introduction to Architecture</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./intro_arch.html">Chapters</a></li><li class="breadcrumb-item"><a href="./intro_arch.html">Introduction to Architecture</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">Introduction to Architecture</h1>
 </div>
@@ -344,40 +344,20 @@ div.csl-indent {
 <p>a) the core <strong>Function</strong> of the SoI;</p>
 <p>b) the <strong>Boundaries</strong> separating the SoI from other supporting systems; and</p>
 <p>c) the <strong>Interfaces</strong> connecting the SoI to other supporting systems.</p>
-<p>Take a look at the following decompositional view of “a pad of paper” as an example. In this simple 1-level system, the <strong>elements</strong> are: paper sheets, covers, and spiral.</p>
+<p>Take a look at the following decompositional view of “a pad of paper” as an example. In this simple 1-level system, the <strong>atomic</strong> <strong>elements</strong> are: paper sheets, covers, and spiral.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="img/pad_of_paper.png" class="img-fluid figure-img"></p>
+<p><img src="img/opm_simple.png" class="img-fluid figure-img" width="665"></p>
 <figcaption>Figure 1. Decompositional View of a Pad of Paper</figcaption>
 </figure>
 </div>
-<table class="caption-top table">
-<caption>Table 1. Basic Schematic Components</caption>
-<thead>
-<tr class="header">
-<th>Col1</th>
-<th>Col2</th>
-<th>Col3</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+<p>Here is a more complex decompositional view of a “hospital information system” with multiple level of sub-systems. The <strong>atomic</strong> <strong>elements</strong> in this system are: System for Clinical Services, System for Patient Management, Laboratory information system, clinical imaging information system, pharmacy information system, blood bank information system, food&amp;beverage information system, operation theatre information system, sterile supplies information system, and information system for other support services.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/opm_complex.png" class="img-fluid figure-img" width="736"></p>
+<figcaption>Figure 2. Decompositional View of a Hospital Management System</figcaption>
+</figure>
+</div>
 </section>
 <section id="function-process-operandobject" class="level3">
 <h3 class="anchored" data-anchor-id="function-process-operandobject">Function = Process + Operand/Object</h3>
@@ -414,18 +394,18 @@ div.csl-indent {
 <h3 class="anchored" data-anchor-id="structural-view">Structural View</h3>
 <p>The structural view represents the static, enduring aspects of a system—its components, relationships, and organization—independent of how those components behave over time. There are two typical representations:</p>
 <ul>
-<li>Graphical representation: <strong>Object-Process Modeling (OPM)</strong></li>
+<li>Graphical representation: <strong>Object-Process Modeling (OPM)</strong>. The decompositional view introduced above is a special type of OPM.</li>
 </ul>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="img/opm_schematic.png" class="img-fluid figure-img" width="870"></p>
-<figcaption>Figure 2. Basic Schematic of OPM</figcaption>
+<p><img src="img/opm_schematic.png" class="img-fluid figure-img" width="646"></p>
+<figcaption>Figure 3. Basic Schematic of OPM</figcaption>
 </figure>
 </div>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 20%">
-<col style="width: 79%">
+<col style="width: 16%">
+<col style="width: 83%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -444,55 +424,52 @@ div.csl-indent {
 </tr>
 <tr class="odd">
 <td><img src="img/opm_enabler.png" class="img-fluid" width="109"></td>
-<td>is a special type of operand that enable a particular process</td>
+<td>is an object that must be present for that process to occur, but does not change as a result of the occurrence of the processis an object that must be present for that process to occur, but does not change as a result of the occurrence of the process</td>
 </tr>
 <tr class="even">
-<td><img src="img/opm_link1.png" width="211" height="40"></td>
-<td></td>
+<td><img src="img/opm_link1.png" width="223" height="45"></td>
+<td><strong>Change</strong> link: Process changes Operand. For example, “transporting” will change the state of a “person” from “here” to “there”</td>
 </tr>
 <tr class="odd">
-<td><img src="img/opm_link2.png" class="img-fluid"></td>
-<td></td>
+<td><img src="img/opm_link2.png" width="218" height="41"></td>
+<td><strong>Affect</strong> link: Process affects Operand. For example, “transporting” will affect the state of a “person”</td>
 </tr>
 <tr class="even">
-<td></td>
-<td></td>
+<td><img src="img/opm_link3.png" class="img-fluid"></td>
+<td><strong>Create</strong> link: Process yields or creates Operand. For example, “transporting” will yield or create “entropy”</td>
 </tr>
 <tr class="odd">
-<td></td>
-<td></td>
+<td><img src="img/opm_link4.png" class="img-fluid"></td>
+<td><strong>Consume</strong> link: Process consumes or destroys Operand. For example, “transporting” will consume “energy”</td>
 </tr>
 <tr class="even">
-<td></td>
-<td></td>
+<td><img src="img/opm_link5.png" class="img-fluid"></td>
+<td><strong>Agent</strong> link: Operand is an agent of Process. For example, “operator” is the agent for “transporting”</td>
 </tr>
 <tr class="odd">
-<td></td>
-<td></td>
+<td><img src="img/opm_link6.png" class="img-fluid"></td>
+<td><strong>Enabler</strong> link: Operand is the enabler of Process. For example, “skakeboard” enables “transporting”</td>
 </tr>
 <tr class="even">
-<td></td>
-<td></td>
+<td><img src="img/opm_link7.png" class="img-fluid"></td>
+<td><strong>Conditional</strong> link: Process occurs if Operand is in certain state. For example, “purchasing” can only occur if you have enough “money”</td>
 </tr>
 <tr class="odd">
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
-<td></td>
+<td><img src="img/opm_link8.png" class="img-fluid"></td>
+<td><strong>Invoke</strong> link: Process A invokes Process B directly. For example, “purchasing” ticket will invoke “transporting”</td>
 </tr>
 </tbody>
 </table>
 <ul>
-<li>List representation: <strong>Design Structure Matrix (DSM)</strong> is a “N-squared” matrix representation gives list-like representation of connectivity. DSM can be used to map relationships among different elements/operands/forms, functions, and relationships between forms and functions.</li>
+<li>List representation: <strong>Design Structure Matrix (DSM), or Decision Structure Matrix or Dependency Structure Matrix</strong>, is a “N-squared” matrix representation that is used to map the connections between one element of a system an others. It’s called N-Squared because it is contructed with N rows and N columns, where N is the number of <strong>elements</strong>. The normal convention, used in this text, is that one reads down the column to the relationship to the row heading, and that things “flow” from column heading to row heading. The types of relationships shown in a DSM can vary, including but not limited to spatial/topological and connectivity relationships.</li>
 </ul>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="img/dsm_sample.png" class="img-fluid figure-img"></p>
-<figcaption>Figure 3. And example of DSM</figcaption>
+<p><img src="img/dsm_sample.png" class="img-fluid figure-img" width="610"></p>
+<figcaption>Figure 4. A schematic of DSM.</figcaption>
 </figure>
 </div>
+<p>In Figure 4, we present a schematic of the DSM with tasks (A, B, C, …) arranged in temporal order. Marks located below the diagonal line represent forward information transfer to subsequent, dependent tasks, whereas marks above the diagonal denote cyclical loops where information may flow backward to earlier tasks. Such cyclic dependencies often signal the potential for rework, feedback iterations, or coordinated bottlenecks within the process. The “X” marks can be further specified as 1 (strong dependency), 2 (medium dependency), 3 (low dependency)</p>
 </section>
 <section id="design-vs.-reverse-engineering" class="level3">
 <h3 class="anchored" data-anchor-id="design-vs.-reverse-engineering">Design vs.&nbsp;Reverse Engineering</h3>
@@ -504,13 +481,20 @@ div.csl-indent {
 </ul>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="img/form_function.png" class="img-fluid figure-img" width="1017"></p>
+<p><img src="img/form_function.png" class="img-fluid figure-img" width="853"></p>
 <figcaption>Figure 2. Form-Function Sequence</figcaption>
 </figure>
 </div>
 </section>
-<section id="operand" class="level3">
-<h3 class="anchored" data-anchor-id="operand">Operand</h3>
+<section id="types-of-vertical-thinking" class="level3">
+<h3 class="anchored" data-anchor-id="types-of-vertical-thinking">Types of “Vertical” Thinking</h3>
+<p>When examining complex systems, there are several ways of thinking through them:</p>
+<ul>
+<li><p><strong>Top down</strong>: start at the “highest”level and reason down through the system</p></li>
+<li><p><strong>Bottom up</strong>: start at a lower level and reason up</p></li>
+<li><p><strong>Middle out</strong>: start at a middle level, and reason toward the top and bottom</p></li>
+<li><p><strong>Outer in</strong>: start at a the top and bottom, and reason toward the middle</p></li>
+</ul>
 <hr>
 </section>
 </section>

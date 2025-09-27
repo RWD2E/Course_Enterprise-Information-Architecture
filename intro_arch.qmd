@@ -56,17 +56,13 @@ b\) the **Boundaries** separating the SoI from other supporting systems; and
 
 c\) the **Interfaces** connecting the SoI to other supporting systems.
 
-Take a look at the following decompositional view of "a pad of paper" as an example. In this simple 1-level system, the **elements** are: paper sheets, covers, and spiral.
+Take a look at the following decompositional view of "a pad of paper" as an example. In this simple 1-level system, the **atomic** **elements** are: paper sheets, covers, and spiral.
 
-![Figure 1. Decompositional View of a Pad of Paper](img/pad_of_paper.png)
+![Figure 1. Decompositional View of a Pad of Paper](img/opm_simple.png){fig-align="center" width="665"}
 
-| Col1 | Col2 | Col3 |
-|------|------|------|
-|      |      |      |
-|      |      |      |
-|      |      |      |
+Here is a more complex decompositional view of a "hospital information system" with multiple level of sub-systems. The **atomic** **elements** in this system are: System for Clinical Services, System for Patient Management, Laboratory information system, clinical imaging information system, pharmacy information system, blood bank information system, food&beverage information system, operation theatre information system, sterile supplies information system, and information system for other support services.
 
-: Table 1. Basic Schematic Components
+![Figure 2. Decompositional View of a Hospital Management System](img/opm_complex.png){fig-align="center" width="736"}
 
 ### Function = Process + Operand/Object
 
@@ -86,41 +82,41 @@ Take a look at the following decompositional view of "a pad of paper" as an exam
 
 The structural view represents the static, enduring aspects of a system—its components, relationships, and organization—independent of how those components behave over time. There are two typical representations:
 
--   Graphical representation: **Object-Process Modeling (OPM)**
+-   Graphical representation: **Object-Process Modeling (OPM)**. The decompositional view introduced above is a special type of OPM.
 
-![Figure 2. Basic Schematic of OPM](img/opm_schematic.png){width="870"}
+![Figure 3. Basic Schematic of OPM](img/opm_schematic.png){fig-align="center" width="646"}
 
-+-------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Component                                       | Definition                                                                                                                                                                                           |
-+=================================================+======================================================================================================================================================================================================+
-| ![](img/opm_process.png){width="106"}           | is the object which is acted upon by the process, which may be created, destroyed, or altered. The Operand that is associated with the delivered value of the system is called Value-Related Operand |
-+-------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| ![](img/opm_processing.png){width="101"}        | is the pattern of transformation applied to one or more objects. A process relies on at least one object in the pre-process set and transforms at least one object in the pre-process set            |
-+-------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| ![](img/opm_enabler.png){width="109"}           | is a special type of operand that enable a particular process                                                                                                                                        |
-+-------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| ![](img/opm_link1.png){width="211" height="40"} |                                                                                                                                                                                                      |
-+-------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| ![](img/opm_link2.png)                          |                                                                                                                                                                                                      |
-+-------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|                                                 |                                                                                                                                                                                                      |
-+-------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|                                                 |                                                                                                                                                                                                      |
-+-------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|                                                 |                                                                                                                                                                                                      |
-+-------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|                                                 |                                                                                                                                                                                                      |
-+-------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|                                                 |                                                                                                                                                                                                      |
-+-------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|                                                 |                                                                                                                                                                                                      |
-+-------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|                                                 |                                                                                                                                                                                                      |
-+-------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++-------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Component                                       | Definition                                                                                                                                                                                                                                                 |
++=================================================+============================================================================================================================================================================================================================================================+
+| ![](img/opm_process.png){width="106"}           | is the object which is acted upon by the process, which may be created, destroyed, or altered. The Operand that is associated with the delivered value of the system is called Value-Related Operand                                                       |
++-------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| ![](img/opm_processing.png){width="101"}        | is the pattern of transformation applied to one or more objects. A process relies on at least one object in the pre-process set and transforms at least one object in the pre-process set                                                                  |
++-------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| ![](img/opm_enabler.png){width="109"}           | is an object that must be present for that process to occur, but does not change as a result of the occurrence of the processis an object that must be present for that process to occur, but does not change as a result of the occurrence of the process |
++-------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| ![](img/opm_link1.png){width="223" height="45"} | **Change** link: Process changes Operand. For example, "transporting" will change the state of a "person" from "here" to "there"                                                                                                                           |
++-------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| ![](img/opm_link2.png){width="218" height="41"} | **Affect** link: Process affects Operand. For example, "transporting" will affect the state of a "person"                                                                                                                                                  |
++-------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| ![](img/opm_link3.png)                          | **Create** link: Process yields or creates Operand. For example, "transporting" will yield or create "entropy"                                                                                                                                             |
++-------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| ![](img/opm_link4.png)                          | **Consume** link: Process consumes or destroys Operand. For example, "transporting" will consume "energy"                                                                                                                                                  |
++-------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| ![](img/opm_link5.png)                          | **Agent** link: Operand is an agent of Process. For example, "operator" is the agent for "transporting"                                                                                                                                                    |
++-------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| ![](img/opm_link6.png)                          | **Enabler** link: Operand is the enabler of Process. For example, "skakeboard" enables "transporting"                                                                                                                                                      |
++-------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| ![](img/opm_link7.png)                          | **Conditional** link: Process occurs if Operand is in certain state. For example, "purchasing" can only occur if you have enough "money"                                                                                                                   |
++-------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| ![](img/opm_link8.png)                          | **Invoke** link: Process A invokes Process B directly. For example, "purchasing" ticket will invoke "transporting"                                                                                                                                         |
++-------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
--   List representation: **Design Structure Matrix (DSM)** is a "N-squared" matrix representation gives list-like representation of connectivity. DSM can be used to map relationships among different elements/operands/forms, functions, and relationships between forms and functions.
+-   List representation: **Design Structure Matrix (DSM), or Decision Structure Matrix or Dependency Structure Matrix**, is a "N-squared" matrix representation that is used to map the connections between one element of a system an others. It's called N-Squared because it is contructed with N rows and N columns, where N is the number of **elements**. The normal convention, used in this text, is that one reads down the column to the relationship to the row heading, and that things "flow" from column heading to row heading. The types of relationships shown in a DSM can vary, including but not limited to spatial/topological and connectivity relationships.
 
-![Figure 3. And example of DSM](img/dsm_sample.png)
+![Figure 4. A schematic of DSM.](img/dsm_sample.png){fig-align="center" width="610"}
+
+In Figure 4, we present a schematic of the DSM with tasks (A, B, C, …) arranged in temporal order. Marks located below the diagonal line represent forward information transfer to subsequent, dependent tasks, whereas marks above the diagonal denote cyclical loops where information may flow backward to earlier tasks. Such cyclic dependencies often signal the potential for rework, feedback iterations, or coordinated bottlenecks within the process. The "X" marks can be further specified as 1 (strong dependency), 2 (medium dependency), 3 (low dependency)
 
 ### Design vs. Reverse Engineering
 
@@ -129,9 +125,19 @@ The structural view represents the static, enduring aspects of a system—its co
 -   In bottom up design, you build elements and discover what emerges as they come together
 -   In design knowledge capture, you record the function along with the design of form
 
-![Figure 2. Form-Function Sequence](img/form_function.png){width="1017"}
+![Figure 2. Form-Function Sequence](img/form_function.png){width="853"}
 
-### Operand
+### Types of "Vertical" Thinking
+
+When examining complex systems, there are several ways of thinking through them:
+
+-   **Top down**: start at the “highest”level and reason down through the system
+
+-   **Bottom up**: start at a lower level and reason up
+
+-   **Middle out**: start at a middle level, and reason toward the top and bottom
+
+-   **Outer in**: start at a the top and bottom, and reason toward the middle
 
 ------------------------------------------------------------------------
 

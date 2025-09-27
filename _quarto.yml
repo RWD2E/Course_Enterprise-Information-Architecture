@@ -10,7 +10,7 @@ book:
     - part: "Syllabus"
       chapters: 
         - index.qmd
-    - part: "Overviews"
+    - part: "Chapters"
       chapters: 
         - intro_arch.qmd
         - intro_it.qmd
