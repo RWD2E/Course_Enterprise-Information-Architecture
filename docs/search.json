@@ -59,7 +59,18 @@
     "href": "index.html#disclaimer-of-genai-use",
     "title": "Enterprise Information Architecture",
     "section": "Disclaimer of GenAI Use",
-    "text": "Disclaimer of GenAI Use\nPortions of the course content were developed with the assistance of GenAI tools (ChatGPT 5.0). These tools were used to support tasks such as drafting, summarizing, reformatting, or suggesting examples. All materials have been subsequently reviewed, edited, and validated by the course instructor for accuracy, appropriateness, and alignment with the intended learning objectives. The use of GenAI tools in content creation does not substitute for faculty expertise, academic rigor, or the responsibility of the instructor. Any errors, omissions, or limitations are the responsibility of the instructor, not the GenAI tool provider. Additionally, no human subject data or other sensitive information may be entered into public generative AI platforms. Violation of this policy may result in loss of data access privileges and further academic consequences.\n\n\n\n\nMark W. Maier, and Eberhardt Rechtin (eds.). 2000. The Art of Systems Architecting, 2nd Edition. 2nd ed. https://sdincose.org/wp-content/uploads/2017/10/TheArtOfSystemsEngineering_inaugural.pdf; CRC Press.\n\n\nNational Aeronautics and Space Administration. 2017. NASA Systems Engineering Handbook, Revision 2 (NASA SP-2016-6105 Rev 2). https://www.nasa.gov/wp-content/uploads/2018/09/nasa_systems_engineering_handbook_0.pdf.\n\n\nOffice of the National Coordinator for Health Information Technology (ONC). 2023. “Health IT Curriculum Resources for Educators.” https://www.healthit.gov/topic/health-it-resources/health-it-curriculum-resources-educators.\n\n\nUlrich, Karl T., and Steven D. Eppinger. 2015. Product Design and Development. 6th ed. https://industri.fatek.unpatti.ac.id/wp-content/uploads/2019/03/202-Product-Design-and-Development-Karl-T.-Ulrich-Steven-D.-Eppinger-Edisi-6-2015.pdf; McGraw-Hill Education.",
+    "text": "Disclaimer of GenAI Use\nPortions of the course content were developed with the assistance of GenAI tools (ChatGPT 5.0). These tools were used to support tasks such as drafting, summarizing, reformatting, or suggesting examples. All materials have been subsequently reviewed, edited, and validated by the course instructor for accuracy, appropriateness, and alignment with the intended learning objectives. The use of GenAI tools in content creation does not substitute for faculty expertise, academic rigor, or the responsibility of the instructor. Any errors, omissions, or limitations are the responsibility of the instructor, not the GenAI tool provider. Additionally, no human subject data or other sensitive information may be entered into public generative AI platforms. Violation of this policy may result in loss of data access privileges and further academic consequences.",
+    "crumbs": [
+      "Syllabus",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "index.html#references",
+    "href": "index.html#references",
+    "title": "Enterprise Information Architecture",
+    "section": "References",
+    "text": "References\n\n\n\n\nMark W. Maier, and Eberhardt Rechtin (eds.). 2000. The Art of Systems Architecting, 2nd Edition. 2nd ed. https://sdincose.org/wp-content/uploads/2017/10/TheArtOfSystemsEngineering_inaugural.pdf; CRC Press.\n\n\nNational Aeronautics and Space Administration. 2017. NASA Systems Engineering Handbook, Revision 2 (NASA SP-2016-6105 Rev 2). https://www.nasa.gov/wp-content/uploads/2018/09/nasa_systems_engineering_handbook_0.pdf.\n\n\nOffice of the National Coordinator for Health Information Technology (ONC). 2023. “Health IT Curriculum Resources for Educators.” https://www.healthit.gov/topic/health-it-resources/health-it-curriculum-resources-educators.\n\n\nUlrich, Karl T., and Steven D. Eppinger. 2015. Product Design and Development. 6th ed. https://industri.fatek.unpatti.ac.id/wp-content/uploads/2019/03/202-Product-Design-and-Development-Karl-T.-Ulrich-Steven-D.-Eppinger-Edisi-6-2015.pdf; McGraw-Hill Education.",
     "crumbs": [
       "Syllabus",
       "Syllabus"
@@ -114,7 +125,7 @@
     "href": "intro_arch.html#quadrant-decision-matrix",
     "title": "Introduction to Architecture",
     "section": "4-Quadrant Decision Matrix",
-    "text": "4-Quadrant Decision Matrix\n\nSensitivity: does this decision strongly influence metrics (e.g., value, profit, efficiency)?\nConnectivity: would substantial rework be required to change this decision? Could we make this decision downstream without regards for other decisions?\n\n\n\n\nFigure 3. Architectural Decision Matrix",
+    "text": "4-Quadrant Decision Matrix\n\nSensitivity: does this decision strongly influence metrics (e.g., value, profit, efficiency)?\nConnectivity: would substantial rework be required to change this decision? Could we make this decision downstream without regards for other decisions?\n\n\n\n\nFigure 6. Architectural Decision Matrix",
     "crumbs": [
       "Chapters",
       "Introduction to Architecture"
