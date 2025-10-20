@@ -16,9 +16,11 @@ book:
         - intro_it.qmd
         - hist_hit.qmd
         - hmis.qmd
+        - hit_hie.qmd
     - part: "PBL Assignments"
       chapters: 
         - pbl1_id.qmd
+        - pbl2_cd.qmd
     - part: "Supplemental"
       chapters: 
         - glossary.qmd

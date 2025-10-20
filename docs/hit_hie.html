@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.32">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Health Information Technology Systems – Enterprise Information Architecture</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./pbl1_id.html" rel="next">
+<link href="./hmis.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-364982630eef5352dd1537128a8ed5cb.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar floating quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./intro_arch.html">Chapters</a></li><li class="breadcrumb-item"><a href="./hit_hie.html">Health Information Technology Systems</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Enterprise Information Architecture</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Syllabus</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Syllabus</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Chapters</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./intro_arch.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction to Architecture</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./intro_it.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction to Information Technology</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./hist_hit.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">History of Health Information Technology in the US</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./hmis.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Health Management Information Systems</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./hit_hie.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Health Information Technology Systems</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+ <span class="menu-text">PBL Assignments</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./pbl1_id.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">PBL1 - Identify Form and Function of a System</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./pbl2_cd.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">PBL2 - Detecing Coding Irregulatirites in EHR Data</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true">
+ <span class="menu-text">Supplemental</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./glossary.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Glossary</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#introduction-overview-components-of-hit-systems" id="toc-introduction-overview-components-of-hit-systems" class="nav-link active" data-scroll-target="#introduction-overview-components-of-hit-systems">Introduction &amp; Overview: Components of HIT Systems</a></li>
+  <li><a href="#overview-of-information-exchange-in-hit-systems" id="toc-overview-of-information-exchange-in-hit-systems" class="nav-link" data-scroll-target="#overview-of-information-exchange-in-hit-systems">Overview of Information Exchange in HIT Systems</a></li>
+  <li><a href="#the-effectiveness-and-meaningful-use-of-hit-system" id="toc-the-effectiveness-and-meaningful-use-of-hit-system" class="nav-link" data-scroll-target="#the-effectiveness-and-meaningful-use-of-hit-system">The Effectiveness and Meaningful Use of HIT System</a></li>
+  <li><a href="#iso-open-systems-interconnection-osi" id="toc-iso-open-systems-interconnection-osi" class="nav-link" data-scroll-target="#iso-open-systems-interconnection-osi">ISO Open Systems Interconnection (OSI)</a></li>
+  <li><a href="#standard-setting-organizations-ssosstandards-developing-organizations-sdos" id="toc-standard-setting-organizations-ssosstandards-developing-organizations-sdos" class="nav-link" data-scroll-target="#standard-setting-organizations-ssosstandards-developing-organizations-sdos">Standard-setting organizations (SSOs)/Standards Developing Organizations (SDOs)</a></li>
+  <li><a href="#health-information-exchange" id="toc-health-information-exchange" class="nav-link" data-scroll-target="#health-information-exchange">Health Information Exchange</a></li>
+  <li><a href="#basic-health-data-standards" id="toc-basic-health-data-standards" class="nav-link" data-scroll-target="#basic-health-data-standards">Basic Health Data Standards</a></li>
+  <li><a href="#health-data-interchange-standards" id="toc-health-data-interchange-standards" class="nav-link" data-scroll-target="#health-data-interchange-standards">Health Data Interchange Standards</a></li>
+  <li><a href="#ehr-functional-model-standards" id="toc-ehr-functional-model-standards" class="nav-link" data-scroll-target="#ehr-functional-model-standards">EHR Functional Model Standards</a></li>
+  <li><a href="#protecting-privacy-security-and-confidentiality-in-hit-systems" id="toc-protecting-privacy-security-and-confidentiality-in-hit-systems" class="nav-link" data-scroll-target="#protecting-privacy-security-and-confidentiality-in-hit-systems">Protecting Privacy, Security, and Confidentiality in HIT Systems</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./intro_arch.html">Chapters</a></li><li class="breadcrumb-item"><a href="./hit_hie.html">Health Information Technology Systems</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">Health Information Technology Systems</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="introduction-overview-components-of-hit-systems" class="level2">
+<h2 class="anchored" data-anchor-id="introduction-overview-components-of-hit-systems">Introduction &amp; Overview: Components of HIT Systems</h2>
+<p>Healthcare Information Technology (HIT) systems are complex, multi-layered environments designed to capture, store, exchange, and analyze health data to improve patient care and organizational efficiency. Core components include electronic health records (EHRs) for clinical documentation, clinical decision support systems (CDSS) for evidence-based recommendations, picture archiving and communication systems (PACS) for imaging, laboratory and pharmacy systems for diagnostics and medication management, and enterprise data warehouses for analytics and population health. Together, these subsystems form an ecosystem where interoperability, usability, security, and regulatory compliance (e.g., HIPAA) are critical to success.</p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=bMXql32XWkQ&amp;list=PLDfaxga5ba7ADBtq9Wt3n6_zPSsksqNT7">Health IT Curriculum Resources for Educators - 7.1</a></li>
+<li><a href="https://www.youtube.com/watch?v=BnrZk2b3Tyk&amp;list=PLDfaxga5ba7ADBtq9Wt3n6_zPSsksqNT7&amp;index=2">Health IT Curriculum Resources for Educators - 7.2a</a></li>
+<li><a href="https://www.youtube.com/watch?v=O6bLjK3jLXo&amp;list=PLDfaxga5ba7ADBtq9Wt3n6_zPSsksqNT7&amp;index=3">Health IT Curriculum Resources for Educators - 7.2b</a></li>
+</ul>
+</section>
+<section id="overview-of-information-exchange-in-hit-systems" class="level2">
+<h2 class="anchored" data-anchor-id="overview-of-information-exchange-in-hit-systems">Overview of Information Exchange in HIT Systems</h2>
+<p>Information exchange in Health Information Technology (HIT) systems refers to the electronic movement of health-related data across organizations, providers, and patients to support clinical care, public health, and research. Effective exchange requires interoperability, standardization, and governance frameworks to ensure data accuracy, consistency, and timeliness. The integration of electronic health records (EHRs), clinical decision support systems, and patient portals has expanded the scope of exchange. However, challenges persist in semantic alignment, data fragmentation, and balancing data sharing with privacy safeguards.</p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=ioX3RXZ8rhc&amp;list=PLDfaxga5ba7ADBtq9Wt3n6_zPSsksqNT7&amp;index=4">Health IT Curriculum Resources for Educators - 7.3</a></li>
+</ul>
+</section>
+<section id="the-effectiveness-and-meaningful-use-of-hit-system" class="level2">
+<h2 class="anchored" data-anchor-id="the-effectiveness-and-meaningful-use-of-hit-system">The Effectiveness and Meaningful Use of HIT System</h2>
+<p>The concept of “meaningful use” emerged from U.S. policy initiatives (e.g., HITECH Act) to ensure that HIT adoption leads to improved patient outcomes, enhanced care coordination, and reduced disparities rather than just digitization. Effectiveness is measured by improved quality, safety, and efficiency of care; increased patient engagement; and the capacity to support population health. Evidence shows that HIT can reduce medical errors and streamline workflows, but inconsistent implementation, clinician burden, and interoperability gaps remain barriers to realizing full value.</p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=VKdCdub20Rc&amp;list=PLDfaxga5ba7ADBtq9Wt3n6_zPSsksqNT7&amp;index=5">Health IT Curriculum Resources for Educators - 7.4</a></li>
+</ul>
+</section>
+<section id="iso-open-systems-interconnection-osi" class="level2">
+<h2 class="anchored" data-anchor-id="iso-open-systems-interconnection-osi">ISO Open Systems Interconnection (OSI)</h2>
+<p>The Open Systems Interconnection (OSI) model, introduced by the International Organization for Standardization (ISO) in 1984, is a conceptual framework that provides a universal set of standards for communication across networks. Its purpose is to enable interoperability among heterogeneous systems—different devices, software, and applications built by different vendors—by breaking down complex networking processes into manageable, standardized layers. This abstraction makes it possible for systems to communicate seamlessly, regardless of differences in design or implementation. Today, although modern networks often rely on the simpler Transmission Control Protocol/Internet Protocol (TCP/IP) model, the OSI framework remains the most influential reference for understanding, designing, and teaching communication architectures. At its core, the OSI model is divided into <strong>seven abstraction layers</strong>, each representing a specific set of functions:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/osi.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="600"></p>
+</figure>
+</div>
+<ol type="1">
+<li><p><strong>Physical Layer</strong> – Responsible for the raw transmission of bits across a physical medium, such as copper wires, fiber optics, or radio frequencies. It deals with voltages, signal timing, data rates, and hardware specifications.</p></li>
+<li><p><strong>Data Link Layer</strong> – Ensures reliable point-to-point transfer by grouping raw bits into frames, detecting and possibly correcting transmission errors, and managing access to the physical medium. Ethernet is a common example at this layer.</p></li>
+<li><p><strong>Network Layer</strong> – Handles logical addressing, routing, and packet forwarding across interconnected networks. The Internet Protocol (IP) is the most prominent protocol here.</p></li>
+<li><p><strong>Transport Layer</strong> – Provides end-to-end communication, ensuring data integrity, error recovery, sequencing, and flow control. Transmission Control Protocol (TCP) and User Datagram Protocol (UDP) are common transport protocols.</p></li>
+<li><p><strong>Session Layer</strong> – Establishes, manages, and terminates sessions between applications. It coordinates ongoing exchanges and manages dialogue control.</p></li>
+<li><p><strong>Presentation Layer</strong> – Translates data into a format usable by the application layer, ensuring proper syntax, encoding, compression, and encryption. For example, it enables translation between different character sets such as ASCII and Unicode.</p></li>
+<li><p><strong>Application Layer</strong> – The closest layer to the end-user, providing network services to applications such as email, file transfer, web browsing, and electronic health record (EHR) access.</p></li>
+</ol>
+<p>Communication within the OSI model flows in a layered, hierarchical manner. Each layer depends on the functionality of the layer below it while providing enhanced services to the layer above it. Data passed down the stack is <em>encapsulated</em> with headers (and sometimes trailers) appropriate to each layer, while data moving up the stack is decapsulated. Importantly, each layer only communicates <em>directly</em> with its immediate neighbor, but through abstraction, higher layers remain insulated from the complexities of hardware, protocols, and vendor-specific implementations. This separation ensures system independence, scalability, and interoperability.</p>
+<p>The model not only describes communications at the lowest level—transmitting bits across a medium—but also extends to the highest abstraction of data exchange within distributed applications. Each layer has well-defined semantics, functions, and interfaces, creating a modular system architecture. In practice, communication protocols such as Hypertext Transfer Protocol (HTTP), Secure Sockets Layer/Transport Layer Security (SSL/TLS), and Internet Protocol (IP) can be mapped to specific OSI layers, providing developers and engineers with a logical framework for designing and debugging systems.</p>
+<p>Despite its strengths, the OSI model is primarily a theoretical reference, not an exact blueprint for real-world implementation. Many modern protocols blend functions from multiple layers (e.g., HTTP over TLS blurs application and presentation responsibilities), and in practice, the lines between layers are often blurred to reduce overhead and improve efficiency. For instance, the widely used TCP/IP model condenses the OSI layers into four functional groups: Link, Internet, Transport, and Application. Some OSI layers, such as the session and presentation layers, do not have direct counterparts in all implementations.</p>
+<p>Nevertheless, the OSI model’s enduring significance lies in its pedagogical and conceptual clarity. It provides an unparalleled “big picture” view of networking, offering students, researchers, and practitioners a structured way to understand the interactions of hardware, protocols, and applications. In healthcare information technology, the model is particularly useful for conceptualizing how data flows from physical medical devices, through hospital networks, and into interoperable electronic health records (EHRs). Its principles help highlight where privacy and security controls must be applied (e.g., encryption at the presentation layer, authentication at the application layer), and how standards like Health Level Seven (HL7) and Fast Healthcare Interoperability Resources (FHIR) rely on lower-level protocols to function.</p>
+<ul>
+<li><p><a href="https://www.youtube.com/watch?v=fS8tyzviHdY&amp;list=PLDfaxga5ba7DZ-OJXARWOe7arfTitBUCR">Health IT Curriculum Resources for Educators - 9.1a</a></p></li>
+<li><p><a href="https://www.youtube.com/watch?v=uoIb40zV7xM&amp;list=PLDfaxga5ba7DZ-OJXARWOe7arfTitBUCR&amp;index=2">Health IT Curriculum Resources for Educators - 9.1b</a></p></li>
+</ul>
+</section>
+<section id="standard-setting-organizations-ssosstandards-developing-organizations-sdos" class="level2">
+<h2 class="anchored" data-anchor-id="standard-setting-organizations-ssosstandards-developing-organizations-sdos">Standard-setting organizations (SSOs)/Standards Developing Organizations (SDOs)</h2>
+<p>Standard-setting organizations (SSOs)/Standards development organizations (SDOs) are formal bodies that create, maintain, and disseminate technical specifications to ensure interoperability, quality, and consistency in Health Information Technology (HIT). These organizations harmonize global standards, but adoption challenges remain due to overlapping frameworks and varying implementation across healthcare systems. Key examples include:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 66%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>SDO</th>
+<th>Domain / Focus</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Health Level Seven International (HL7)</td>
+<td>Clinical &amp; administrative data exchange standards (e.g., HL7 v2.x, CDA, FHIR)</td>
+</tr>
+<tr class="even">
+<td>Integrating the Healthcare Enterprise (IHE) – <em>not always strictly an SDO but interoperability profile initiative</em></td>
+<td>Develops integration profiles to enable interoperability of systems (vendors, settings)</td>
+</tr>
+<tr class="odd">
+<td>Clinical Data Interchange Standards Consortium (CDISC)</td>
+<td>Standards for clinical research data, interchange, regulatory submission</td>
+</tr>
+<tr class="even">
+<td>American National Standards Institute (ANSI)</td>
+<td>Accreditation of SDOs; coordination of U.S. standards ecosystem including healthcare</td>
+</tr>
+<tr class="odd">
+<td>International Organization for Standardization (ISO)</td>
+<td>International standards; includes health informatics technical committees (e.g., ISO/TC 215)</td>
+</tr>
+<tr class="even">
+<td>Association for the Advancement of Medical Instrumentation (AAMI)</td>
+<td>Standards for medical devices, interoperability, and safety (e.g., infusion pumps, sterilization, device usability)</td>
+</tr>
+<tr class="odd">
+<td>Clinical and Laboratory Standards Institute (CLSI)</td>
+<td>Laboratory testing &amp; diagnostics standards</td>
+</tr>
+<tr class="even">
+<td>Institute of Electrical and Electronics Engineers (IEEE)</td>
+<td>Standards such as IEEE 11073 for medical device communication and interoperability.</td>
+</tr>
+<tr class="odd">
+<td>International Electrotechnical Commission (IEC)</td>
+<td>Global standards for electrical, electronic, and biomedical technologies (e.g., IEC 60601 for medical electrical equipment safety)</td>
+</tr>
+<tr class="even">
+<td>American Society for Testing and Materials International (ASTM International)</td>
+<td>development and delivery of voluntary consensus standards</td>
+</tr>
+<tr class="odd">
+<td>International Health Terminology Standards Development Organisation (IHTSDO) also trading as SNOMED International</td>
+<td>Clinical terminology standard (SNOMED CT) for EHRs</td>
+</tr>
+<tr class="even">
+<td>Health Industry Business Communications Council (HIBCC)</td>
+<td>Standards for supply-chain, device identification, labeling in healthcare</td>
+</tr>
+<tr class="odd">
+<td>Accredited Standards Committee X12 (ASC X12)</td>
+<td>Electronic data interchange (EDI) standards including healthcare claims/transactions</td>
+</tr>
+</tbody>
+</table>
+<p>Designated Standards Maintenance Organizations (DSMOs) are organizations named by the Secretary of Health and Human Services (HHS) to maintain standards adopted under HIPAA and to receive and process requests to adopt new standards or modify existing standards. CMS publishes a list of <a href="https://www.cms.gov/priorities/key-initiatives/burden-reduction/administrative-simplification/hipaa/standard-setting-related-organizations?utm_source=chatgpt.com">advisory groups, DSMOs, and non-DSMOs</a> that help HHS to develop Administrative Simplification standard.</p>
+<ul>
+<li><p><a href="https://www.youtube.com/watch?v=VHx1TJrgWxM&amp;list=PLDfaxga5ba7DZ-OJXARWOe7arfTitBUCR&amp;index=6">Health IT Curriculum Resources for Educators - 9.3a</a></p></li>
+<li><p><a href="https://www.youtube.com/watch?v=xpymNojcazM&amp;list=PLDfaxga5ba7DZ-OJXARWOe7arfTitBUCR&amp;index=7">Health IT Curriculum Resources for Educators - 9.3b</a></p></li>
+</ul>
+</section>
+<section id="health-information-exchange" class="level2">
+<h2 class="anchored" data-anchor-id="health-information-exchange">Health Information Exchange</h2>
+<p>Health Information Exchange (HIE) refers to the electronic sharing of patient health information across organizational, regional, and national boundaries. Exchange models include centralized repositories, federated architectures, and hybrid approaches. HIEs aim to improve continuity of care, reduce duplication of services, and support public health functions such as disease surveillance. Benefits include faster access to patient records, reduced costs, and improved clinical decision-making. Barriers include data quality issues, long-term sustainability, and the need for trust and governance among participating institutions.</p>
+<ul>
+<li><p><a href="https://www.youtube.com/watch?v=11i6pj461yY&amp;list=PLDfaxga5ba7DZ-OJXARWOe7arfTitBUCR&amp;index=25">Health IT Curriculum Resources for Educators - 9.10a</a></p></li>
+<li><p><a href="https://www.youtube.com/watch?v=ZjhHbOarQ0k&amp;list=PLDfaxga5ba7DZ-OJXARWOe7arfTitBUCR&amp;index=26">Health IT Curriculum Resources for Educators - 9.10b</a></p></li>
+</ul>
+</section>
+<section id="basic-health-data-standards" class="level2">
+<h2 class="anchored" data-anchor-id="basic-health-data-standards">Basic Health Data Standards</h2>
+<p>Electronic Health Record (EHR) systems are not stand-alone platforms; they operate within a complex ecosystem of supporting standards that ensure interoperability, reliability, safety, and usability. These standards complement the core EHR functional models by addressing specific domains such as terminology, imaging, laboratory exchange, security, data provenance, and device integration. Together, they allow EHRs to function as integrated hubs of healthcare data, supporting both clinical care and secondary uses such as research, quality improvement, and public health reporting.</p>
+<p><strong>Terminology and Coding Standards</strong>. Standardized vocabularies and classification systems enable consistent recording and interpretation of clinical concepts across systems. Without these, data exchange would be fragmented and prone to semantic errors. Examples include:</p>
+<ul>
+<li><p>Systematized Nomenclature of Medicine – Clinical Terms (SNOMED CT) for standardized clinical terminology.</p></li>
+<li><p>International Classification of Diseases (ICD) for diagnostic coding (maintained by the World Health Organization).</p></li>
+<li><p>Logical Observation Identifiers Names and Codes (LOINC) for laboratory test and clinical observation identifiers.</p></li>
+<li><p>Current Procedural Terminology (CPT) for medical procedures.</p></li>
+<li><p>RxNorm, developed by the U.S. National Library of Medicine, for normalized drug names and codes.</p></li>
+</ul>
+<p><strong>Imaging Standards</strong>. Medical imaging is central to diagnosis and treatment, and its integration with EHRs requires specialized standards.</p>
+<ul>
+<li><p>Digital Imaging and Communications in Medicine (DICOM): Standard for handling, storing, and transmitting medical images (radiology, cardiology, pathology, etc.), along with associated metadata.</p></li>
+<li><p>IHE Radiology Profiles: Build upon DICOM to ensure interoperability across imaging modalities and Picture Archiving and Communication Systems (PACS).</p></li>
+</ul>
+<p><strong>Laboratory and Diagnostic Reporting Standards</strong>. Laboratory data is among the most frequently exchanged categories of health information.Laboratory data is among the most frequently exchanged categories of health information.</p>
+<ul>
+<li><p>HL7 Version 2.x Messaging Standard: Defines message structures for lab orders and results, admission-discharge-transfer (ADT) data, and clinical observations.</p></li>
+<li><p>IHE Laboratory Profiles: Enhance HL7 messaging to enable plug-and-play interoperability between laboratory information systems (LIS) and EHRs.</p></li>
+<li><p>LOINC integration: Ensures that test identifiers are standardized across labs and health systems.</p></li>
+</ul>
+<p><strong>Security and Privacy Standards</strong>. Safeguarding sensitive health data within EHR systems requires adherence to internationally recognized information security standards.These standards collectively ensure that EHR applications are resistant to cyber threats, compliant with regulations (e.g., HIPAA in the U.S., GDPR in the EU), and trusted by patients and providers alike.</p>
+<ul>
+<li><p>ISO/International Electrotechnical Commission (IEC) 27001: International standard for information security management systems.</p></li>
+<li><p>National Institute of Standards and Technology (NIST) Special Publication 800-53: U.S. security and privacy controls for federal information systems.</p></li>
+<li><p>Transport Layer Security (TLS): Protocol ensuring secure data transmission.</p></li>
+<li><p>OAuth 2.0 and OpenID Connect: Authorization and identity management frameworks increasingly used in modern FHIR-based APIs.</p></li>
+</ul>
+<p><strong>Data Provenance and Integrity Standards</strong>. As data moves across systems and is reused for research or clinical decisions, tracking its origin and ensuring integrity is essential.</p>
+<ul>
+<li><p>World Wide Web Consortium (W3C) Provenance (PROV) Standard: Provides a framework for representing and exchanging metadata about data origins, authorship, and transformations.</p></li>
+<li><p>HL7 FHIR Provenance Resource: Defines how provenance metadata is attached to clinical resources, ensuring accountability and auditability.</p></li>
+</ul>
+<p>Together, these standards ensure that EHRs are not isolated data silos but dynamic systems capable of supporting patient care, clinical research, public health, and emerging digital health applications. Harmonization and consistent adoption of these standards remain a critical challenge, but they are essential to building a learning health system that is safe, efficient, and patient-centered.</p>
+<ul>
+<li><p><a href="https://www.youtube.com/watch?v=F4tL4nyKznw&amp;list=PLDfaxga5ba7DZ-OJXARWOe7arfTitBUCR&amp;index=15">Health IT Curriculum Resources for Educators - 9.5a</a></p></li>
+<li><p><a href="https://www.youtube.com/watch?v=FSO_maDegEQ&amp;list=PLDfaxga5ba7DZ-OJXARWOe7arfTitBUCR&amp;index=16">Health IT Curriculum Resources for Educators - 9.5b</a></p></li>
+<li><p><a href="https://www.youtube.com/watch?v=ExwuRed2svA&amp;list=PLDfaxga5ba7DZ-OJXARWOe7arfTitBUCR&amp;index=18">Health IT Curriculum Resources for Educators - 9.7a</a></p></li>
+<li><p><a href="https://www.youtube.com/watch?v=vpCXW_wJ8lk&amp;list=PLDfaxga5ba7DZ-OJXARWOe7arfTitBUCR&amp;index=19">Health IT Curriculum Resources for Educators - 9.7b</a></p></li>
+<li><p><a href="https://www.youtube.com/watch?v=iJMEy46SZg8&amp;list=PLDfaxga5ba7DZ-OJXARWOe7arfTitBUCR&amp;index=20">Health IT Curriculum Resources for Educators - 9.7c</a></p></li>
+<li><p><a href="https://www.youtube.com/watch?v=jLOmfnHBsQc&amp;list=PLDfaxga5ba7DZ-OJXARWOe7arfTitBUCR&amp;index=21">Health IT Curriculum Resources for Educators - 9.7d</a></p></li>
+</ul>
+</section>
+<section id="health-data-interchange-standards" class="level2">
+<h2 class="anchored" data-anchor-id="health-data-interchange-standards">Health Data Interchange Standards</h2>
+<p>These standards support interoperability, clinical decision support, and secondary research. Their utility depends on accurate implementation, regular updates, and consistent mapping across systems.</p>
+<p>Health data interchange standards define structured, computable formats for exchanging healthcare information.</p>
+<ul>
+<li><p>Common Data Models (CDMs), such as the Patient-Centered Outcomes Research Network (PCORnet) CDM and the Observational Medical Outcomes Partnership (OMOP) CDM, provide harmonized schemas for integrating multisite data used in research and quality improvement.</p></li>
+<li><p>Fast Healthcare Interoperability Resources (FHIR), developed by Health Level Seven International (HL7), is a modern web-based standard using Representational State Transfer (RESTful) Application Programming Interfaces (APIs) and modular “resources” for data exchange.</p></li>
+</ul>
+<p>Together, CDMs and FHIR enable cross-institutional collaboration and integration of clinical and research data. Implementation challenges include governance, semantic alignment, and the complexity of mapping legacy datasets.</p>
+<ul>
+<li><p><a href="https://www.youtube.com/watch?v=XWXdU-DMsC0&amp;list=PLDfaxga5ba7DZ-OJXARWOe7arfTitBUCR&amp;index=17">Health IT Curriculum Resources for Educators - 9.6</a></p></li>
+<li><p><a href="docs/m02_clinical-data-model.pdf">Clinical Data Model and Common Data Model</a></p></li>
+<li><p><a href="https://www.youtube.com/playlist?list=PLp4xNHWZ7IQkqH6bHsYVFkh1tX0P1_2VF">Introduction to FHIR</a></p></li>
+</ul>
+</section>
+<section id="ehr-functional-model-standards" class="level2">
+<h2 class="anchored" data-anchor-id="ehr-functional-model-standards">EHR Functional Model Standards</h2>
+<p>The Electronic Health Record System Functional Model (ISO/HL7 10781) provides a standardized reference for the capabilities that EHR systems should support. These include direct care functions (documentation, order management, decision support), administrative functions (billing, scheduling), interoperability functions (data exchange, standards compliance), and compliance functions (privacy, security, auditing). Functional models help guide vendor development, certification programs, and international harmonization. Customization for diverse healthcare settings remains an ongoing challenge.</p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=XWXdU-DMsC0&amp;list=PLDfaxga5ba7DZ-OJXARWOe7arfTitBUCR&amp;index=17">Health IT Curriculum Resources for Educators - 9.6</a></li>
+</ul>
+</section>
+<section id="protecting-privacy-security-and-confidentiality-in-hit-systems" class="level2">
+<h2 class="anchored" data-anchor-id="protecting-privacy-security-and-confidentiality-in-hit-systems">Protecting Privacy, Security, and Confidentiality in HIT Systems</h2>
+<p>Protecting sensitive health information is a core requirement for HIT systems. Regulatory frameworks include the Health Insurance Portability and Accountability Act (HIPAA) in the United States and the General Data Protection Regulation (GDPR) in the European Union. Technical and organizational safeguards include data encryption, multi-factor authentication, role-based access control, and audit logging. Privacy protections extend to de-identification techniques, informed consent management, and data minimization practices. Trust in HIT requires balancing data utility for care and research with confidentiality and patient rights. Key challenges involve cyber threats, insider misuse, and enabling interoperability without compromising compliance.</p>
+<ul>
+<li><p><a href="https://www.youtube.com/watch?v=eTw3N_GR9_w&amp;list=PLDfaxga5ba7ADBtq9Wt3n6_zPSsksqNT7&amp;index=10">Health IT Curriculum Resources for Educators - 7.7a</a></p></li>
+<li><p><a href="https://www.youtube.com/watch?v=XzDmix7DRXg&amp;list=PLDfaxga5ba7ADBtq9Wt3n6_zPSsksqNT7&amp;index=11">Health IT Curriculum Resources for Educators - 7.7b</a></p></li>
+<li><p><a href="https://www.youtube.com/watch?v=WL_TdjVROgM&amp;list=PLDfaxga5ba7DZ-OJXARWOe7arfTitBUCR&amp;index=23">Health IT Curriculum Resources for Educators - 9.9a</a></p></li>
+<li><p><a href="https://www.youtube.com/watch?v=7RLdvzaquqY&amp;list=PLDfaxga5ba7DZ-OJXARWOe7arfTitBUCR&amp;index=24">Health IT Curriculum Resources for Educators - 9.9b</a></p></li>
+</ul>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./hmis.html" class="pagination-link" aria-label="Health Management Information Systems">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Health Management Information Systems</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./pbl1_id.html" class="pagination-link" aria-label="PBL1 - Identify Form and Function of a System">
+        <span class="nav-page-text">PBL1 - Identify Form and Function of a System</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

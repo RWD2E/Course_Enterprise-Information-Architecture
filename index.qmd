@@ -41,4 +41,3 @@ At the end of the semester, students will be assigned an open-ended EIA problem.
 Portions of the course content were developed with the assistance of GenAI tools (ChatGPT 5.0). These tools were used to support tasks such as drafting, summarizing, reformatting, or suggesting examples. All materials have been subsequently reviewed, edited, and validated by the course instructor for accuracy, appropriateness, and alignment with the intended learning objectives. The use of GenAI tools in content creation does not substitute for faculty expertise, academic rigor, or the responsibility of the instructor. Any errors, omissions, or limitations are the responsibility of the instructor, not the GenAI tool provider. Additionally, no human subject data or other sensitive information may be entered into public generative AI platforms. Violation of this policy may result in loss of data access privileges and further academic consequences.
 
 ## References
-

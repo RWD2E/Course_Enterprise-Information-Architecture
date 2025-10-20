@@ -1,5 +1,4 @@
-# PBL3 - Research Honest Broker Workflow Design {.unnumbered}
-
+# PBL3 - Research Honest Broker Workflow {.unnumbered}
 
 ## Case Background
 

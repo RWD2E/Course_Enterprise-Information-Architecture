@@ -1,0 +1,43 @@
+# PBL2 - Detecing Coding Irregulatirites in EHR Data {.unnumbered}
+
+## Case Background
+
+In medical billing, over-coding (or upcoding) refers to using billing codes that exaggerate the complexity or severity of a service to obtain higher reimbursement than warranted [@Friedberg2024PhysicianPracticeScoping]. Under-coding (downcoding) is the opposite – assigning codes that undervalue the service, resulting in lost revenue. Some providers also engage in “mid-coding”, consistently choosing moderate-level codes to avoid extremes. A 2024 Health Affairs analysis of hospital discharges in five states (2011–2019) found that upcoding accounted for roughly two-thirds of the observed growth in high-severity (complex) inpatient cases [@Crespin2024UpcodingGrowth]. Another 2021 report by the HHS Office of Inspector General (OIG) observed a 20% increase (2014–2019) in the proportion of Medicare inpatient stays billed at the highest severity level, despite shorter average lengths of stay – a pattern OIG concluded “reflects upcoding” [@HallRender2021Upcoding]. In terms under-coding, family and internal medicine outpatient visits are frequently cited – for instance, routine office visits (CPT 99213) are often overused in place of higher-complexity codes (CPT 99214) that many Medicare patients actually qualify for, a pattern that can cost a practice thousands of dollars in lost revenue each month [@Revele2023UndercodingFear].
+
+The notable implications of these coding issues extend beyond financial ramifications; they can also result in legal consequences, including penalties under the False Claims Act for improper billing practices. Ethical considerations are paramount, as inaccurate coding can undermine the integrity of the healthcare system, erode trust, and jeopardize patient care quality. As healthcare providers increasingly face scrutiny from government and private insurers, addressing the root causes of mis-coding—such as inadequate documentation, lack of training, and evolving coding systems—is essential for maintaining compliance and optimizing reimbursement.
+
+## Problem Statement
+
+Your team has been asked by the Medical Informatics and Compliance Office at MU Health Care (MUHC) to conduct a data-driven analysis of coding practices using EHR data. The goal is to identify potential patterns of over-coding, under-coding, or mid-coding and hypothesize their likely causes—whether architectural, technical, governance, behavioral, or systemic. The team’s findings will be presented to MUHC’s Enterprise Information Governance Council as part of a broader initiative to improve data quality, compliance, and reimbursement integrity.
+
+## Learning Activities
+
+1.  **Select a topic**. You may select one or multiple of the following topics for the investigation:
+
+-   Outpatient Evaluation and Management (E/M) mid-coding
+-   ED or inpatient visit coding variability
+-   Coding variability for certain chronic condition (e.g., obesity, hypertension, T2DM)
+-   Other topic of interested related to clinical documentation and billing integrity.
+
+2.  **Explore coding irregularities**. You are expected to use the i2b2 query tool to explore potential patterns of over-coding, under-coding, or mid-coding within your selected topic area.
+
+-   You will likely need to construct multiple i2b2 queries to extract relevant counts and stratify results by variables such as department, provider, encounter type, or time period.
+-   After retrieving the data, manually calculate rates, proportions, and basic descriptive statistics (e.g., frequency distributions, averages, or percentages) to compare coding patterns across groups. The analysis is intended to be exploratory rather than complex—your goal is to identify irregularities or trends that merit further investigation, not to perform advanced statistical modeling.
+
+3.  **Hypothesize plausible explanations**. Analyze your results and propose plausible explanations for the observed coding patterns. Consider potential causes from multiple perspectives:
+
+| Category | Examples of Possible Causes |
+|--------------------|----------------------------------------------------|
+| **Workflow-Related** | Copy-forward or templated documentation inflating visit complexity; missing time-based documentation; clinician habit or risk aversion. |
+| **Technical / Architectural** | Auto-suggested code levels; flawed mapping between SNOMED and CPT; missing audit-trail integration; system defaults favoring specific codes. |
+| **Governance / Policy** | Lack of standardized templates or documentation standards; insufficient coder oversight; lack of data stewardship or quality monitoring. |
+| **Behavioral / Cultural** | Fear of audits leading to conservative coding; revenue pressure from administration; misunderstanding of E/M criteria. |
+| **Systemic / Organizational** | Fragmented data architecture; unclear accountability between clinical, billing, and compliance departments. |
+
+## Expected Deliverables
+
+1.  save i2b2 queries to ./Shared folder showing how counts were retrieved
+
+2.  short report (2-4 pages) summarizing the findings and hypotheses
+
+## References

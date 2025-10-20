@@ -539,6 +539,127 @@
     ]
   },
   {
+    "objectID": "hit_hie.html",
+    "href": "hit_hie.html",
+    "title": "Health Information Technology Systems",
+    "section": "",
+    "text": "Introduction & Overview: Components of HIT Systems\nHealthcare Information Technology (HIT) systems are complex, multi-layered environments designed to capture, store, exchange, and analyze health data to improve patient care and organizational efficiency. Core components include electronic health records (EHRs) for clinical documentation, clinical decision support systems (CDSS) for evidence-based recommendations, picture archiving and communication systems (PACS) for imaging, laboratory and pharmacy systems for diagnostics and medication management, and enterprise data warehouses for analytics and population health. Together, these subsystems form an ecosystem where interoperability, usability, security, and regulatory compliance (e.g., HIPAA) are critical to success.",
+    "crumbs": [
+      "Chapters",
+      "Health Information Technology Systems"
+    ]
+  },
+  {
+    "objectID": "hit_hie.html#introduction-overview-components-of-hit-systems",
+    "href": "hit_hie.html#introduction-overview-components-of-hit-systems",
+    "title": "Health Information Technology Systems",
+    "section": "",
+    "text": "Health IT Curriculum Resources for Educators - 7.1\nHealth IT Curriculum Resources for Educators - 7.2a\nHealth IT Curriculum Resources for Educators - 7.2b",
+    "crumbs": [
+      "Chapters",
+      "Health Information Technology Systems"
+    ]
+  },
+  {
+    "objectID": "hit_hie.html#overview-of-information-exchange-in-hit-systems",
+    "href": "hit_hie.html#overview-of-information-exchange-in-hit-systems",
+    "title": "Health Information Technology Systems",
+    "section": "Overview of Information Exchange in HIT Systems",
+    "text": "Overview of Information Exchange in HIT Systems\nInformation exchange in Health Information Technology (HIT) systems refers to the electronic movement of health-related data across organizations, providers, and patients to support clinical care, public health, and research. Effective exchange requires interoperability, standardization, and governance frameworks to ensure data accuracy, consistency, and timeliness. The integration of electronic health records (EHRs), clinical decision support systems, and patient portals has expanded the scope of exchange. However, challenges persist in semantic alignment, data fragmentation, and balancing data sharing with privacy safeguards.\n\nHealth IT Curriculum Resources for Educators - 7.3",
+    "crumbs": [
+      "Chapters",
+      "Health Information Technology Systems"
+    ]
+  },
+  {
+    "objectID": "hit_hie.html#the-effectiveness-and-meaningful-use-of-hit-system",
+    "href": "hit_hie.html#the-effectiveness-and-meaningful-use-of-hit-system",
+    "title": "Health Information Technology Systems",
+    "section": "The Effectiveness and Meaningful Use of HIT System",
+    "text": "The Effectiveness and Meaningful Use of HIT System\nThe concept of “meaningful use” emerged from U.S. policy initiatives (e.g., HITECH Act) to ensure that HIT adoption leads to improved patient outcomes, enhanced care coordination, and reduced disparities rather than just digitization. Effectiveness is measured by improved quality, safety, and efficiency of care; increased patient engagement; and the capacity to support population health. Evidence shows that HIT can reduce medical errors and streamline workflows, but inconsistent implementation, clinician burden, and interoperability gaps remain barriers to realizing full value.\n\nHealth IT Curriculum Resources for Educators - 7.4",
+    "crumbs": [
+      "Chapters",
+      "Health Information Technology Systems"
+    ]
+  },
+  {
+    "objectID": "hit_hie.html#iso-open-systems-interconnection-osi",
+    "href": "hit_hie.html#iso-open-systems-interconnection-osi",
+    "title": "Health Information Technology Systems",
+    "section": "ISO Open Systems Interconnection (OSI)",
+    "text": "ISO Open Systems Interconnection (OSI)\nThe Open Systems Interconnection (OSI) model, introduced by the International Organization for Standardization (ISO) in 1984, is a conceptual framework that provides a universal set of standards for communication across networks. Its purpose is to enable interoperability among heterogeneous systems—different devices, software, and applications built by different vendors—by breaking down complex networking processes into manageable, standardized layers. This abstraction makes it possible for systems to communicate seamlessly, regardless of differences in design or implementation. Today, although modern networks often rely on the simpler Transmission Control Protocol/Internet Protocol (TCP/IP) model, the OSI framework remains the most influential reference for understanding, designing, and teaching communication architectures. At its core, the OSI model is divided into seven abstraction layers, each representing a specific set of functions:\n\n\n\n\n\n\nPhysical Layer – Responsible for the raw transmission of bits across a physical medium, such as copper wires, fiber optics, or radio frequencies. It deals with voltages, signal timing, data rates, and hardware specifications.\nData Link Layer – Ensures reliable point-to-point transfer by grouping raw bits into frames, detecting and possibly correcting transmission errors, and managing access to the physical medium. Ethernet is a common example at this layer.\nNetwork Layer – Handles logical addressing, routing, and packet forwarding across interconnected networks. The Internet Protocol (IP) is the most prominent protocol here.\nTransport Layer – Provides end-to-end communication, ensuring data integrity, error recovery, sequencing, and flow control. Transmission Control Protocol (TCP) and User Datagram Protocol (UDP) are common transport protocols.\nSession Layer – Establishes, manages, and terminates sessions between applications. It coordinates ongoing exchanges and manages dialogue control.\nPresentation Layer – Translates data into a format usable by the application layer, ensuring proper syntax, encoding, compression, and encryption. For example, it enables translation between different character sets such as ASCII and Unicode.\nApplication Layer – The closest layer to the end-user, providing network services to applications such as email, file transfer, web browsing, and electronic health record (EHR) access.\n\nCommunication within the OSI model flows in a layered, hierarchical manner. Each layer depends on the functionality of the layer below it while providing enhanced services to the layer above it. Data passed down the stack is encapsulated with headers (and sometimes trailers) appropriate to each layer, while data moving up the stack is decapsulated. Importantly, each layer only communicates directly with its immediate neighbor, but through abstraction, higher layers remain insulated from the complexities of hardware, protocols, and vendor-specific implementations. This separation ensures system independence, scalability, and interoperability.\nThe model not only describes communications at the lowest level—transmitting bits across a medium—but also extends to the highest abstraction of data exchange within distributed applications. Each layer has well-defined semantics, functions, and interfaces, creating a modular system architecture. In practice, communication protocols such as Hypertext Transfer Protocol (HTTP), Secure Sockets Layer/Transport Layer Security (SSL/TLS), and Internet Protocol (IP) can be mapped to specific OSI layers, providing developers and engineers with a logical framework for designing and debugging systems.\nDespite its strengths, the OSI model is primarily a theoretical reference, not an exact blueprint for real-world implementation. Many modern protocols blend functions from multiple layers (e.g., HTTP over TLS blurs application and presentation responsibilities), and in practice, the lines between layers are often blurred to reduce overhead and improve efficiency. For instance, the widely used TCP/IP model condenses the OSI layers into four functional groups: Link, Internet, Transport, and Application. Some OSI layers, such as the session and presentation layers, do not have direct counterparts in all implementations.\nNevertheless, the OSI model’s enduring significance lies in its pedagogical and conceptual clarity. It provides an unparalleled “big picture” view of networking, offering students, researchers, and practitioners a structured way to understand the interactions of hardware, protocols, and applications. In healthcare information technology, the model is particularly useful for conceptualizing how data flows from physical medical devices, through hospital networks, and into interoperable electronic health records (EHRs). Its principles help highlight where privacy and security controls must be applied (e.g., encryption at the presentation layer, authentication at the application layer), and how standards like Health Level Seven (HL7) and Fast Healthcare Interoperability Resources (FHIR) rely on lower-level protocols to function.\n\nHealth IT Curriculum Resources for Educators - 9.1a\nHealth IT Curriculum Resources for Educators - 9.1b",
+    "crumbs": [
+      "Chapters",
+      "Health Information Technology Systems"
+    ]
+  },
+  {
+    "objectID": "hit_hie.html#standard-setting-organizations-ssosstandards-developing-organizations-sdos",
+    "href": "hit_hie.html#standard-setting-organizations-ssosstandards-developing-organizations-sdos",
+    "title": "Health Information Technology Systems",
+    "section": "Standard-setting organizations (SSOs)/Standards Developing Organizations (SDOs)",
+    "text": "Standard-setting organizations (SSOs)/Standards Developing Organizations (SDOs)\nStandard-setting organizations (SSOs)/Standards development organizations (SDOs) are formal bodies that create, maintain, and disseminate technical specifications to ensure interoperability, quality, and consistency in Health Information Technology (HIT). These organizations harmonize global standards, but adoption challenges remain due to overlapping frameworks and varying implementation across healthcare systems. Key examples include:\n\n\n\n\n\n\n\nSDO\nDomain / Focus\n\n\n\n\nHealth Level Seven International (HL7)\nClinical & administrative data exchange standards (e.g., HL7 v2.x, CDA, FHIR)\n\n\nIntegrating the Healthcare Enterprise (IHE) – not always strictly an SDO but interoperability profile initiative\nDevelops integration profiles to enable interoperability of systems (vendors, settings)\n\n\nClinical Data Interchange Standards Consortium (CDISC)\nStandards for clinical research data, interchange, regulatory submission\n\n\nAmerican National Standards Institute (ANSI)\nAccreditation of SDOs; coordination of U.S. standards ecosystem including healthcare\n\n\nInternational Organization for Standardization (ISO)\nInternational standards; includes health informatics technical committees (e.g., ISO/TC 215)\n\n\nAssociation for the Advancement of Medical Instrumentation (AAMI)\nStandards for medical devices, interoperability, and safety (e.g., infusion pumps, sterilization, device usability)\n\n\nClinical and Laboratory Standards Institute (CLSI)\nLaboratory testing & diagnostics standards\n\n\nInstitute of Electrical and Electronics Engineers (IEEE)\nStandards such as IEEE 11073 for medical device communication and interoperability.\n\n\nInternational Electrotechnical Commission (IEC)\nGlobal standards for electrical, electronic, and biomedical technologies (e.g., IEC 60601 for medical electrical equipment safety)\n\n\nAmerican Society for Testing and Materials International (ASTM International)\ndevelopment and delivery of voluntary consensus standards\n\n\nInternational Health Terminology Standards Development Organisation (IHTSDO) also trading as SNOMED International\nClinical terminology standard (SNOMED CT) for EHRs\n\n\nHealth Industry Business Communications Council (HIBCC)\nStandards for supply-chain, device identification, labeling in healthcare\n\n\nAccredited Standards Committee X12 (ASC X12)\nElectronic data interchange (EDI) standards including healthcare claims/transactions\n\n\n\nDesignated Standards Maintenance Organizations (DSMOs) are organizations named by the Secretary of Health and Human Services (HHS) to maintain standards adopted under HIPAA and to receive and process requests to adopt new standards or modify existing standards. CMS publishes a list of advisory groups, DSMOs, and non-DSMOs that help HHS to develop Administrative Simplification standard.\n\nHealth IT Curriculum Resources for Educators - 9.3a\nHealth IT Curriculum Resources for Educators - 9.3b",
+    "crumbs": [
+      "Chapters",
+      "Health Information Technology Systems"
+    ]
+  },
+  {
+    "objectID": "hit_hie.html#health-information-exchange",
+    "href": "hit_hie.html#health-information-exchange",
+    "title": "Health Information Technology Systems",
+    "section": "Health Information Exchange",
+    "text": "Health Information Exchange\nHealth Information Exchange (HIE) refers to the electronic sharing of patient health information across organizational, regional, and national boundaries. Exchange models include centralized repositories, federated architectures, and hybrid approaches. HIEs aim to improve continuity of care, reduce duplication of services, and support public health functions such as disease surveillance. Benefits include faster access to patient records, reduced costs, and improved clinical decision-making. Barriers include data quality issues, long-term sustainability, and the need for trust and governance among participating institutions.\n\nHealth IT Curriculum Resources for Educators - 9.10a\nHealth IT Curriculum Resources for Educators - 9.10b",
+    "crumbs": [
+      "Chapters",
+      "Health Information Technology Systems"
+    ]
+  },
+  {
+    "objectID": "hit_hie.html#basic-health-data-standards",
+    "href": "hit_hie.html#basic-health-data-standards",
+    "title": "Health Information Technology Systems",
+    "section": "Basic Health Data Standards",
+    "text": "Basic Health Data Standards\nElectronic Health Record (EHR) systems are not stand-alone platforms; they operate within a complex ecosystem of supporting standards that ensure interoperability, reliability, safety, and usability. These standards complement the core EHR functional models by addressing specific domains such as terminology, imaging, laboratory exchange, security, data provenance, and device integration. Together, they allow EHRs to function as integrated hubs of healthcare data, supporting both clinical care and secondary uses such as research, quality improvement, and public health reporting.\nTerminology and Coding Standards. Standardized vocabularies and classification systems enable consistent recording and interpretation of clinical concepts across systems. Without these, data exchange would be fragmented and prone to semantic errors. Examples include:\n\nSystematized Nomenclature of Medicine – Clinical Terms (SNOMED CT) for standardized clinical terminology.\nInternational Classification of Diseases (ICD) for diagnostic coding (maintained by the World Health Organization).\nLogical Observation Identifiers Names and Codes (LOINC) for laboratory test and clinical observation identifiers.\nCurrent Procedural Terminology (CPT) for medical procedures.\nRxNorm, developed by the U.S. National Library of Medicine, for normalized drug names and codes.\n\nImaging Standards. Medical imaging is central to diagnosis and treatment, and its integration with EHRs requires specialized standards.\n\nDigital Imaging and Communications in Medicine (DICOM): Standard for handling, storing, and transmitting medical images (radiology, cardiology, pathology, etc.), along with associated metadata.\nIHE Radiology Profiles: Build upon DICOM to ensure interoperability across imaging modalities and Picture Archiving and Communication Systems (PACS).\n\nLaboratory and Diagnostic Reporting Standards. Laboratory data is among the most frequently exchanged categories of health information.Laboratory data is among the most frequently exchanged categories of health information.\n\nHL7 Version 2.x Messaging Standard: Defines message structures for lab orders and results, admission-discharge-transfer (ADT) data, and clinical observations.\nIHE Laboratory Profiles: Enhance HL7 messaging to enable plug-and-play interoperability between laboratory information systems (LIS) and EHRs.\nLOINC integration: Ensures that test identifiers are standardized across labs and health systems.\n\nSecurity and Privacy Standards. Safeguarding sensitive health data within EHR systems requires adherence to internationally recognized information security standards.These standards collectively ensure that EHR applications are resistant to cyber threats, compliant with regulations (e.g., HIPAA in the U.S., GDPR in the EU), and trusted by patients and providers alike.\n\nISO/International Electrotechnical Commission (IEC) 27001: International standard for information security management systems.\nNational Institute of Standards and Technology (NIST) Special Publication 800-53: U.S. security and privacy controls for federal information systems.\nTransport Layer Security (TLS): Protocol ensuring secure data transmission.\nOAuth 2.0 and OpenID Connect: Authorization and identity management frameworks increasingly used in modern FHIR-based APIs.\n\nData Provenance and Integrity Standards. As data moves across systems and is reused for research or clinical decisions, tracking its origin and ensuring integrity is essential.\n\nWorld Wide Web Consortium (W3C) Provenance (PROV) Standard: Provides a framework for representing and exchanging metadata about data origins, authorship, and transformations.\nHL7 FHIR Provenance Resource: Defines how provenance metadata is attached to clinical resources, ensuring accountability and auditability.\n\nTogether, these standards ensure that EHRs are not isolated data silos but dynamic systems capable of supporting patient care, clinical research, public health, and emerging digital health applications. Harmonization and consistent adoption of these standards remain a critical challenge, but they are essential to building a learning health system that is safe, efficient, and patient-centered.\n\nHealth IT Curriculum Resources for Educators - 9.5a\nHealth IT Curriculum Resources for Educators - 9.5b\nHealth IT Curriculum Resources for Educators - 9.7a\nHealth IT Curriculum Resources for Educators - 9.7b\nHealth IT Curriculum Resources for Educators - 9.7c\nHealth IT Curriculum Resources for Educators - 9.7d",
+    "crumbs": [
+      "Chapters",
+      "Health Information Technology Systems"
+    ]
+  },
+  {
+    "objectID": "hit_hie.html#health-data-interchange-standards",
+    "href": "hit_hie.html#health-data-interchange-standards",
+    "title": "Health Information Technology Systems",
+    "section": "Health Data Interchange Standards",
+    "text": "Health Data Interchange Standards\nThese standards support interoperability, clinical decision support, and secondary research. Their utility depends on accurate implementation, regular updates, and consistent mapping across systems.\nHealth data interchange standards define structured, computable formats for exchanging healthcare information.\n\nCommon Data Models (CDMs), such as the Patient-Centered Outcomes Research Network (PCORnet) CDM and the Observational Medical Outcomes Partnership (OMOP) CDM, provide harmonized schemas for integrating multisite data used in research and quality improvement.\nFast Healthcare Interoperability Resources (FHIR), developed by Health Level Seven International (HL7), is a modern web-based standard using Representational State Transfer (RESTful) Application Programming Interfaces (APIs) and modular “resources” for data exchange.\n\nTogether, CDMs and FHIR enable cross-institutional collaboration and integration of clinical and research data. Implementation challenges include governance, semantic alignment, and the complexity of mapping legacy datasets.\n\nHealth IT Curriculum Resources for Educators - 9.6\nClinical Data Model and Common Data Model\nIntroduction to FHIR",
+    "crumbs": [
+      "Chapters",
+      "Health Information Technology Systems"
+    ]
+  },
+  {
+    "objectID": "hit_hie.html#ehr-functional-model-standards",
+    "href": "hit_hie.html#ehr-functional-model-standards",
+    "title": "Health Information Technology Systems",
+    "section": "EHR Functional Model Standards",
+    "text": "EHR Functional Model Standards\nThe Electronic Health Record System Functional Model (ISO/HL7 10781) provides a standardized reference for the capabilities that EHR systems should support. These include direct care functions (documentation, order management, decision support), administrative functions (billing, scheduling), interoperability functions (data exchange, standards compliance), and compliance functions (privacy, security, auditing). Functional models help guide vendor development, certification programs, and international harmonization. Customization for diverse healthcare settings remains an ongoing challenge.\n\nHealth IT Curriculum Resources for Educators - 9.6",
+    "crumbs": [
+      "Chapters",
+      "Health Information Technology Systems"
+    ]
+  },
+  {
+    "objectID": "hit_hie.html#protecting-privacy-security-and-confidentiality-in-hit-systems",
+    "href": "hit_hie.html#protecting-privacy-security-and-confidentiality-in-hit-systems",
+    "title": "Health Information Technology Systems",
+    "section": "Protecting Privacy, Security, and Confidentiality in HIT Systems",
+    "text": "Protecting Privacy, Security, and Confidentiality in HIT Systems\nProtecting sensitive health information is a core requirement for HIT systems. Regulatory frameworks include the Health Insurance Portability and Accountability Act (HIPAA) in the United States and the General Data Protection Regulation (GDPR) in the European Union. Technical and organizational safeguards include data encryption, multi-factor authentication, role-based access control, and audit logging. Privacy protections extend to de-identification techniques, informed consent management, and data minimization practices. Trust in HIT requires balancing data utility for care and research with confidentiality and patient rights. Key challenges involve cyber threats, insider misuse, and enabling interoperability without compromising compliance.\n\nHealth IT Curriculum Resources for Educators - 7.7a\nHealth IT Curriculum Resources for Educators - 7.7b\nHealth IT Curriculum Resources for Educators - 9.9a\nHealth IT Curriculum Resources for Educators - 9.9b",
+    "crumbs": [
+      "Chapters",
+      "Health Information Technology Systems"
+    ]
+  },
+  {
     "objectID": "pbl1_id.html",
     "href": "pbl1_id.html",
     "title": "PBL1 - Identify Form and Function of a System",
@@ -591,6 +712,61 @@
     "crumbs": [
       "PBL Assignments",
       "PBL1 - Identify Form and Function of a System"
+    ]
+  },
+  {
+    "objectID": "pbl2_cd.html",
+    "href": "pbl2_cd.html",
+    "title": "PBL2 - Detecing Coding Irregulatirites in EHR Data",
+    "section": "",
+    "text": "Case Background\nIn medical billing, over-coding (or upcoding) refers to using billing codes that exaggerate the complexity or severity of a service to obtain higher reimbursement than warranted (Friedberg et al. 2024). Under-coding (downcoding) is the opposite – assigning codes that undervalue the service, resulting in lost revenue. Some providers also engage in “mid-coding”, consistently choosing moderate-level codes to avoid extremes. A 2024 Health Affairs analysis of hospital discharges in five states (2011–2019) found that upcoding accounted for roughly two-thirds of the observed growth in high-severity (complex) inpatient cases (Crespin, Ginsburg, and Lieberman 2024). Another 2021 report by the HHS Office of Inspector General (OIG) observed a 20% increase (2014–2019) in the proportion of Medicare inpatient stays billed at the highest severity level, despite shorter average lengths of stay – a pattern OIG concluded “reflects upcoding” (Hall Render 2021). In terms under-coding, family and internal medicine outpatient visits are frequently cited – for instance, routine office visits (CPT 99213) are often overused in place of higher-complexity codes (CPT 99214) that many Medicare patients actually qualify for, a pattern that can cost a practice thousands of dollars in lost revenue each month (Revele 2023).\nThe notable implications of these coding issues extend beyond financial ramifications; they can also result in legal consequences, including penalties under the False Claims Act for improper billing practices. Ethical considerations are paramount, as inaccurate coding can undermine the integrity of the healthcare system, erode trust, and jeopardize patient care quality. As healthcare providers increasingly face scrutiny from government and private insurers, addressing the root causes of mis-coding—such as inadequate documentation, lack of training, and evolving coding systems—is essential for maintaining compliance and optimizing reimbursement.",
+    "crumbs": [
+      "PBL Assignments",
+      "PBL2 - Detecing Coding Irregulatirites in EHR Data"
+    ]
+  },
+  {
+    "objectID": "pbl2_cd.html#problem-statement",
+    "href": "pbl2_cd.html#problem-statement",
+    "title": "PBL2 - Detecing Coding Irregulatirites in EHR Data",
+    "section": "Problem Statement",
+    "text": "Problem Statement\nYour team has been asked by the Medical Informatics and Compliance Office at MU Health Care (MUHC) to conduct a data-driven analysis of coding practices using EHR data. The goal is to identify potential patterns of over-coding, under-coding, or mid-coding and hypothesize their likely causes—whether architectural, technical, governance, behavioral, or systemic. The team’s findings will be presented to MUHC’s Enterprise Information Governance Council as part of a broader initiative to improve data quality, compliance, and reimbursement integrity.",
+    "crumbs": [
+      "PBL Assignments",
+      "PBL2 - Detecing Coding Irregulatirites in EHR Data"
+    ]
+  },
+  {
+    "objectID": "pbl2_cd.html#learning-activities",
+    "href": "pbl2_cd.html#learning-activities",
+    "title": "PBL2 - Detecing Coding Irregulatirites in EHR Data",
+    "section": "Learning Activities",
+    "text": "Learning Activities\n\nSelect a topic. You may select one or multiple of the following topics for the investigation:\n\n\nOutpatient Evaluation and Management (E/M) mid-coding\nED or inpatient visit coding variability\nCoding variability for certain chronic condition (e.g., obesity, hypertension, T2DM)\nOther topic of interested related to clinical documentation and billing integrity.\n\n\nExplore coding irregularities. You are expected to use the i2b2 query tool to explore potential patterns of over-coding, under-coding, or mid-coding within your selected topic area.\n\n\nYou will likely need to construct multiple i2b2 queries to extract relevant counts and stratify results by variables such as department, provider, encounter type, or time period.\nAfter retrieving the data, manually calculate rates, proportions, and basic descriptive statistics (e.g., frequency distributions, averages, or percentages) to compare coding patterns across groups. The analysis is intended to be exploratory rather than complex—your goal is to identify irregularities or trends that merit further investigation, not to perform advanced statistical modeling.\n\n\nHypothesize plausible explanations. Analyze your results and propose plausible explanations for the observed coding patterns. Consider potential causes from multiple perspectives:\n\n\n\n\n\n\n\n\nCategory\nExamples of Possible Causes\n\n\n\n\nWorkflow-Related\nCopy-forward or templated documentation inflating visit complexity; missing time-based documentation; clinician habit or risk aversion.\n\n\nTechnical / Architectural\nAuto-suggested code levels; flawed mapping between SNOMED and CPT; missing audit-trail integration; system defaults favoring specific codes.\n\n\nGovernance / Policy\nLack of standardized templates or documentation standards; insufficient coder oversight; lack of data stewardship or quality monitoring.\n\n\nBehavioral / Cultural\nFear of audits leading to conservative coding; revenue pressure from administration; misunderstanding of E/M criteria.\n\n\nSystemic / Organizational\nFragmented data architecture; unclear accountability between clinical, billing, and compliance departments.",
+    "crumbs": [
+      "PBL Assignments",
+      "PBL2 - Detecing Coding Irregulatirites in EHR Data"
+    ]
+  },
+  {
+    "objectID": "pbl2_cd.html#expected-deliverables",
+    "href": "pbl2_cd.html#expected-deliverables",
+    "title": "PBL2 - Detecing Coding Irregulatirites in EHR Data",
+    "section": "Expected Deliverables",
+    "text": "Expected Deliverables\n\nsave i2b2 queries to ./Shared folder showing how counts were retrieved\nshort report (2-4 pages) summarizing the findings and hypotheses",
+    "crumbs": [
+      "PBL Assignments",
+      "PBL2 - Detecing Coding Irregulatirites in EHR Data"
+    ]
+  },
+  {
+    "objectID": "pbl2_cd.html#references",
+    "href": "pbl2_cd.html#references",
+    "title": "PBL2 - Detecing Coding Irregulatirites in EHR Data",
+    "section": "References",
+    "text": "References\n\n\n\n\nCrespin, Daniel J., Paul B. Ginsburg, and Steven M. Lieberman. 2024. “Upcoding Linked to up to Two-Thirds of Growth in Highest-Intensity Hospital Discharges in Five States.” National Institute for Health Care Reform (NIHCR). https://www.nihcr.org/wp-content/uploads/crespin-et-al-2024-upcoding-linked-to-up-to-two-thirds-of-growth-in-highest-intensity-hospital-discharges-in-5-states_compressed.pdf.\n\n\nFriedberg, Mark W., Cheryl L. Damberg, Ryan Malsberger, and Emma R. Pedersen. 2024. “Scoping Review of the Research on Physician Practice Arrangements and Organizational Performance.” RRA2683-1. Santa Monica, CA: RAND Corporation. https://doi.org/10.7249/RRA2683-1.\n\n\nHall Render. 2021. “Hospitals Beware: New OIG Report Suggests Rampant Inpatient Upcoding.” https://hallrender.com/2021/03/01/hospitals-beware-new-oig-report-suggests-rampant-inpatient-upcoding/.\n\n\nRevele. 2023. “Are You Undercoding Out of Fear of an Audit?” https://www.revelemd.com/blog/are-you-undercoding-out-of-fear-of-an-audit.",
+    "crumbs": [
+      "PBL Assignments",
+      "PBL2 - Detecing Coding Irregulatirites in EHR Data"
     ]
   },
   {

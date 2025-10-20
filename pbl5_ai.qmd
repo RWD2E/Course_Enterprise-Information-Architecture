@@ -1,3 +1,1 @@
----
-title: "PBL5 - Add AI to Improve Clinical Workflow"
----
+# PBL5 - Add AI to Improve Clinical Workflow {.unnumbered}

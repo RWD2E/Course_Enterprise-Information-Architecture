@@ -1,3 +1,48 @@
----
-title: "PBL4 - Investigate Data Quality Issue"
----
+# PBL4 - Architecting Trust: Building Governance and Security in Healthcare Information System {.unnumbered}
+
+## Case Background
+
+Hospital A has just completed a routine HIPAA security audit conducted by an external firm. The final report raises three major red flags:
+
+Access Control Gaps:
+
+Former employees retained active user accounts for up to 60 days after termination.
+
+Clinicians share login credentials for convenience during busy shifts.
+
+There is no consistent role-based access policy across departments.
+
+Inconsistent Data Retention:
+
+Radiology and Lab departments keep historical data indefinitely “for research,” while other departments purge after 7 years.
+
+Backup retention schedules are unclear, and there’s no documented data destruction policy.
+
+Lack of Governance Oversight:
+
+No designated Data Steward or Governance Council.
+
+Privacy and Security Officers operate separately with limited coordination.
+
+The EHR vendor and hospital IT disagree about responsibilities for access logs and audit trails.
+
+The auditors conclude:
+
+“Hospital A has implemented strong technical safeguards but lacks a coherent governance framework to ensure consistent, compliant, and sustainable information management.”
+
+
+## Problem Statement
+
+You are part of a Governance Task Force assembled by the CIO. Your goal is to design a data governance framework and policy that:
+
+Addresses HIPAA compliance gaps.
+
+Defines clear roles, responsibilities, and decision rights for information governance.
+
+Integrates privacy, legal, and infosec functions within a single governance structure.
+
+Establishes consistent data access and retention policies aligned with regulatory standards and enterprise goals.
+
+## Learning Activities
+
+## Expected Deliverables
