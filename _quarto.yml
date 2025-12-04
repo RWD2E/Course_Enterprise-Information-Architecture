@@ -21,6 +21,8 @@ book:
       chapters: 
         - pbl1_id.qmd
         - pbl2_cd.qmd
+        - pbl3_hb.qmd
+        - pbl4_ai.qmd
     - part: "Supplemental"
       chapters: 
         - glossary.qmd

@@ -770,6 +770,105 @@
     ]
   },
   {
+    "objectID": "pbl3_hb.html",
+    "href": "pbl3_hb.html",
+    "title": "PBL3 - Research Honest Broker Workflow",
+    "section": "",
+    "text": "Case Background\nYour team supports dozens of clinical and translational studies every year. Investigators frequently request clinical data extracts from the enterprise EHR or other sensitive resources. Currently, the process is ad hoc: researchers email data requests to a data analyst on your team; the data analyst will collect necessary regulatory documents to the best of their knowledge, and pull the patient-level data, save it in a csv file and send to researchers. This process is ineffiective, error-prone and lacking a consistent review or approval process. An internal audit has identified several governance and compliance gaps:\nLeadership has now mandated the creation of a standardized, compliant, auditable workflow for research data requests—one that leverages REDCap as the central intake, tracking, and data-delivery platform. You are part of the Enterprise Information Architecture (EIA) Task Force assigned to design this workflow.",
+    "crumbs": [
+      "PBL Assignments",
+      "PBL3 - Research Honest Broker Workflow"
+    ]
+  },
+  {
+    "objectID": "pbl3_hb.html#case-background",
+    "href": "pbl3_hb.html#case-background",
+    "title": "PBL3 - Research Honest Broker Workflow",
+    "section": "",
+    "text": "Inconsistent IRB verification before data extraction.\nNo standard mechanism to document approvals or data transfers.\nVariability in de-identification procedures, depending on who performs the extraction.\nLack of audit trails for who accessed what data and when.\nNo procedures to enforce data disposal upon study completion",
+    "crumbs": [
+      "PBL Assignments",
+      "PBL3 - Research Honest Broker Workflow"
+    ]
+  },
+  {
+    "objectID": "pbl3_hb.html#problem-statement",
+    "href": "pbl3_hb.html#problem-statement",
+    "title": "PBL3 - Research Honest Broker Workflow",
+    "section": "Problem Statement",
+    "text": "Problem Statement\nYour team is responsible for designing a complete, end-to-end Research Data Honest Broker Workflow that leverages REDCap as the central platform for managing all aspects of research data requests. The workflow must support:\n\nRequest intake through a standardized REDCap form.\nCollection and verification of required documentation, including IRB protocols, approval letters, and any relevant data-use agreements.\nApproval routing to the appropriate institutional roles (e.g., PI, IRB office, Honest Broker, Data Steward).\nDetailed documentation of the delivered dataset, including data elements provided, level of de-identification, delivery location/method, and date of release.\nComprehensive audit logging, ensuring traceability of all actions, decisions, and data transfers within the workflow.",
+    "crumbs": [
+      "PBL Assignments",
+      "PBL3 - Research Honest Broker Workflow"
+    ]
+  },
+  {
+    "objectID": "pbl3_hb.html#learning-activities",
+    "href": "pbl3_hb.html#learning-activities",
+    "title": "PBL3 - Research Honest Broker Workflow",
+    "section": "Learning Activities",
+    "text": "Learning Activities\n\nWorkflow Diagram (Flowchart or Swimlane). Students must design a visual representation of the entire process. A strong workflow diagram will include:\n\n\nActors (Researcher, IRB, Honest Broker, Data Steward, IT Security, PI)\nDecision points (IRB valid? Data category? De-identification required? Data Use Agreement needed?)\nAudit points and compliance checks\nNotifications and approvals\n\n\nBuild a REDCap Prototype. Students must design a REDCap project to support the workflow with the following required components:\n\n\nData Request Intake Form (study title, PI, IRB number, dataset needed, justification)\nDocument Upload (IRB approval letter, protocol)\nAutomated Routing Fields (assign requests to Requester, Honest Broker, IRB staff, etc.)\nRole-Based Access Controls\nSurvey or form for researcher to acknowledge data-use policies",
+    "crumbs": [
+      "PBL Assignments",
+      "PBL3 - Research Honest Broker Workflow"
+    ]
+  },
+  {
+    "objectID": "pbl3_hb.html#expected-deliverables",
+    "href": "pbl3_hb.html#expected-deliverables",
+    "title": "PBL3 - Research Honest Broker Workflow",
+    "section": "Expected Deliverables",
+    "text": "Expected Deliverables\n\nProcess Diagram. There are many free or open-source tools for diagramming, such as Lucidchart (https://www.lucidchart.com/pages), Diagrams.net (previously draw.io, https://app.diagrams.net/), etc. You may use whichever tool you are most comfortable with or that best fits your needs.\nPrototyped REDCap Project. You will create a role called “auditor” with read-only priviledge, and assign the instructor to the role to review the REDCap project design.",
+    "crumbs": [
+      "PBL Assignments",
+      "PBL3 - Research Honest Broker Workflow"
+    ]
+  },
+  {
+    "objectID": "pbl4_ai.html",
+    "href": "pbl4_ai.html",
+    "title": "PBL4 - Add AI to Improve Administrative or Clinical Workflow",
+    "section": "",
+    "text": "Case Background\nX Rural Health Network serves a geographically dispersed population across rural areas of Missouri and Kansas, who has been facing increasing operational pressures: - Rising clinician burnout - Expanding documentation requirements - Growing administrative workload - Persistent communication gaps across care teams - Delayed follow-up on abnormal test results - Patient dissatisfaction with slow response times\nRecognizing these challenges, HRHN leadership is exploring whether AI agents (autonomous or semi-autonomous digital assistants) could: - Reduce administrative burden - Improve patient triage - Strengthen remote monitoring workflows - Detect high-risk patients earlier - Enable proactive outreach - Support care teams with limited staff\nYour team has been tasked with conducting the system’s first structured evaluation of where and how AI agents could improve rural healthcare workflows.",
+    "crumbs": [
+      "PBL Assignments",
+      "PBL4 - Add AI to Improve Administrative or Clinical Workflow"
+    ]
+  },
+  {
+    "objectID": "pbl4_ai.html#problem-statement",
+    "href": "pbl4_ai.html#problem-statement",
+    "title": "PBL4 - Add AI to Improve Administrative or Clinical Workflow",
+    "section": "Problem Statement",
+    "text": "Problem Statement\nYour team must select one of the following rural or remote-care workflows and evaluate where AI agents could augment, automate, or support tasks.\nCandidate Workflow 1: Remote Patient Monitoring Esclation Issue: RPM data (glucose, BP, weight, SpO₂) generates thousands of alerts per month that nurses cannot manually triage. Potential AI roles: risk stratification agent, summarization agent, trend-detection agent\nCandidate Workflow 2: Rural Telehealth Intake & Visit Preparation Issue: Patients often join telehealth visits unprepared, with missing vitals or incomplete histories; clinicians spend significant time manually reviewing charts. Potential AI roles: chart summarization, pre-visit questionnaires, technical check agents, patient-prep coaching.\nCandidate Workflow 3: Behavioral Health Crisis Escalation in Remote Areas Issue: Crisis support is limited; waits for tele-psychiatry can be long; patients may not understand when to seek help. Potential AI roles: risk detection, message triage, safety-monitoring agent, supportive conversational AI agent.\nCandidate Workflow 4: Care Coordination for Rural Chronic Disease Management Issue: Communication across primary care, specialists, and pharmacies is fragmented; rural patients often lack frequent touchpoints. Potential AI roles: care-plan summarizer, referral-prioritization agent, cross-team communication facilitator.\nCandidate Workflow 5: Patient Education and Self-Management Support for Rural Communities Issue: Many rural patients lack access to clear, understandable health education. Barriers include: Limited face-to-face time with clinicians, Low digital literacy, Chronic conditions (diabetes, COPD, heart failure) needing continuous self-management, Confusion around medication regimens, Difficulty navigating health information online Potential AI roles:medication explanation agent, self-management coaching agent, appointment prep agent, condition progress check agent, care navigation agent",
+    "crumbs": [
+      "PBL Assignments",
+      "PBL4 - Add AI to Improve Administrative or Clinical Workflow"
+    ]
+  },
+  {
+    "objectID": "pbl4_ai.html#learning-activities",
+    "href": "pbl4_ai.html#learning-activities",
+    "title": "PBL4 - Add AI to Improve Administrative or Clinical Workflow",
+    "section": "Learning Activities",
+    "text": "Learning Activities\n\nIdentify workflow of interests. Select a workflow of interest described above and map its current-state workflow, and determine one specific function within the workflow (e.g., interpret, triage, document, escalate, reconcile, remind) where AI agents may provide meaningful benefit.\nPropose AI-agent solution. Design a conceptual AI agent that supports, augments, or automates the selected function. Your proposal must include:\n\nAI agent purpose: What the agent does and why it improves the workflow.\nInputs and outputs: What data or signals the agent receives (notes, vitals, messages, RPM data, patient questions). What the agent produces (summary, triage score, draft documentation, patient-friendly education content, escalation recommendations).\nIntegration points: Where the AI agent can be integrated within the current enterprise information architecture (e.g., EHR, REDCap, messaging system, RPM dashboard, telehealth system).\nHuman–AI interaction rules: When the AI acts autonomously and when human review is required (e.g., flagged uncertainty).\nConstraints and rural adaptation considerations : What are some other rural-specfic factors that will need to taken into consideration for effective implementation (e.g. , bandwidth, limited staff availability, digital literacy, offline mode).\n\n\n\n\nFuture-state workflow diagram. Building on the current-state workflow digram, create a revised, AI-enabled workflow using a flowchart or swimlane format, to show where the AI agent enters the workflow, what tasks it performs, and how it interacts with humans and other systems.",
+    "crumbs": [
+      "PBL Assignments",
+      "PBL4 - Add AI to Improve Administrative or Clinical Workflow"
+    ]
+  },
+  {
+    "objectID": "pbl4_ai.html#expected-deliverables",
+    "href": "pbl4_ai.html#expected-deliverables",
+    "title": "PBL4 - Add AI to Improve Administrative or Clinical Workflow",
+    "section": "Expected Deliverables",
+    "text": "Expected Deliverables\n\nShort report (3-5 pages) summarizing proposed AI-agent solution\nArchitecture Diagram. There are many free or open-source tools for diagramming, such as Lucidchart (https://www.lucidchart.com/pages), Diagrams.net (previously draw.io, https://app.diagrams.net/), etc. You may use whichever tool you are most comfortable with or that best fits your needs.",
+    "crumbs": [
+      "PBL Assignments",
+      "PBL4 - Add AI to Improve Administrative or Clinical Workflow"
+    ]
+  },
+  {
     "objectID": "glossary.html",
     "href": "glossary.html",
     "title": "Glossary",

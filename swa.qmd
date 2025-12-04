@@ -1,3 +1,10 @@
----
-title: "Software Architecture"
----
+# "Software Architecture" {.unnumbered}
+
+Whiteboarding
+
+- https://www.atlassian.com/work-management/project-management/whiteboard-strategy
+
+
+Unified Modeling Language (UML)
+
+- https://www.atlassian.com/work-management/project-management/uml-diagram

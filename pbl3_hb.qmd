@@ -2,12 +2,45 @@
 
 ## Case Background
 
+Your team supports dozens of clinical and translational studies every year. Investigators frequently request clinical data extracts from the enterprise EHR or other sensitive resources. Currently, the process is ad hoc: researchers email data requests to a data analyst on your team; the data analyst will collect necessary regulatory documents to the best of their knowledge, and pull the patient-level data, save it in a csv file and send to researchers. This process is ineffiective, error-prone and lacking a consistent review or approval process. An internal audit has identified several governance and compliance gaps:
+
+-   Inconsistent IRB verification before data extraction.
+-   No standard mechanism to document approvals or data transfers.
+-   Variability in de-identification procedures, depending on who performs the extraction.
+-   Lack of audit trails for who accessed what data and when.
+-   No procedures to enforce data disposal upon study completion
+
+Leadership has now mandated the creation of a standardized, compliant, auditable workflow for research data requests—one that leverages REDCap as the central intake, tracking, and data-delivery platform. You are part of the Enterprise Information Architecture (EIA) Task Force assigned to design this workflow.
+
 ## Problem Statement
 
-## Roles
+Your team is responsible for designing a complete, end-to-end Research Data Honest Broker Workflow that leverages REDCap as the central platform for managing all aspects of research data requests. The workflow must support:
 
-## Learning Objectives
+-   **Request intake** through a standardized REDCap form.
+-   **Collection and verification of required documentation**, including IRB protocols, approval letters, and any relevant data-use agreements.
+-   **Approval routing** to the appropriate institutional roles (e.g., PI, IRB office, Honest Broker, Data Steward).
+-   **Detailed documentation of the delivered dataset**, including data elements provided, level of de-identification, delivery location/method, and date of release.
+-   **Comprehensive audit logging**, ensuring traceability of all actions, decisions, and data transfers within the workflow.
 
 ## Learning Activities
 
+1.  **Workflow Diagram (Flowchart or Swimlane)**. Students must design a visual representation of the entire process. A strong workflow diagram will include:
+
+-   Actors (Researcher, IRB, Honest Broker, Data Steward, IT Security, PI)
+-   Decision points (IRB valid? Data category? De-identification required? Data Use Agreement needed?)
+-   Audit points and compliance checks
+-   Notifications and approvals
+
+2.  **Build a REDCap Prototype**. Students must design a REDCap project to support the workflow with the following required components:
+
+-   Data Request Intake Form (study title, PI, IRB number, dataset needed, justification)
+-   Document Upload (IRB approval letter, protocol)
+-   Automated Routing Fields (assign requests to Requester, Honest Broker, IRB staff, etc.)
+-   Role-Based Access Controls
+-   Survey or form for researcher to acknowledge data-use policies
+
 ## Expected Deliverables
+
+-   **Process Diagram.** There are many free or open-source tools for diagramming, such as Lucidchart (<https://www.lucidchart.com/pages>), Diagrams.net (previously draw.io, <https://app.diagrams.net/>), etc. You may use whichever tool you are most comfortable with or that best fits your needs.
+
+-   **Prototyped REDCap Project.** You will create a role called "auditor" with read-only priviledge, and assign the instructor to the role to review the REDCap project design.
