@@ -2,9 +2,21 @@
 
 ## Case Background
 
-X Rural Health Network serves a geographically dispersed population across rural areas of Missouri and Kansas, who has been facing increasing operational pressures: - Rising clinician burnout - Expanding documentation requirements - Growing administrative workload - Persistent communication gaps across care teams - Delayed follow-up on abnormal test results - Patient dissatisfaction with slow response times
+X Rural Health Network (XRHN) serves a geographically dispersed population across rural areas of Missouri and Kansas, who has been facing increasing operational pressures:
 
-Recognizing these challenges, HRHN leadership is exploring whether **AI agents** (autonomous or semi-autonomous digital assistants) could: - Reduce administrative burden - Improve patient triage - Strengthen remote monitoring workflows - Detect high-risk patients earlier - Enable proactive outreach - Support care teams with limited staff
+-   Rising clinician burnout - Expanding documentation requirements
+-   Growing administrative workload
+-   Persistent communication gaps across care teams
+-   Delayed follow-up on abnormal test results - Patient dissatisfaction with slow response times
+
+Recognizing these challenges, XRHN leadership is exploring whether **AI agents** (autonomous or semi-autonomous digital assistants) could:
+
+-   Reduce administrative burden
+-   Improve patient triage
+-   Strengthen remote monitoring workflows
+-   Detect high-risk patients earlier
+-   Enable proactive outreach
+-   Support care teams with limited staff
 
 Your team has been tasked with conducting the system’s first structured evaluation of where and how AI agents could improve rural healthcare workflows.
 
@@ -12,15 +24,30 @@ Your team has been tasked with conducting the system’s first structured evalua
 
 Your team must select one of the following rural or remote-care workflows and evaluate where AI agents could augment, automate, or support tasks.
 
-**Candidate Workflow 1: Remote Patient Monitoring Esclation** Issue: RPM data (glucose, BP, weight, SpO₂) generates thousands of alerts per month that nurses cannot manually triage. Potential AI roles: risk stratification agent, summarization agent, trend-detection agent
+**Candidate Workflow 1: Remote Patient Monitoring Esclation**
 
-**Candidate Workflow 2: Rural Telehealth Intake & Visit Preparation** Issue: Patients often join telehealth visits unprepared, with missing vitals or incomplete histories; clinicians spend significant time manually reviewing charts. Potential AI roles: chart summarization, pre-visit questionnaires, technical check agents, patient-prep coaching.
+-   Issue: RPM data (glucose, BP, weight, SpO₂) generates thousands of alerts per month that nurses cannot manually triage.
+-   Potential AI roles: risk stratification agent, summarization agent, trend-detection agent
 
-**Candidate Workflow 3: Behavioral Health Crisis Escalation in Remote Areas** Issue: Crisis support is limited; waits for tele-psychiatry can be long; patients may not understand when to seek help. Potential AI roles: risk detection, message triage, safety-monitoring agent, supportive conversational AI agent.
+**Candidate Workflow 2: Rural Telehealth Intake & Visit Preparation**
 
-**Candidate Workflow 4: Care Coordination for Rural Chronic Disease Management** Issue: Communication across primary care, specialists, and pharmacies is fragmented; rural patients often lack frequent touchpoints. Potential AI roles: care-plan summarizer, referral-prioritization agent, cross-team communication facilitator.
+-   Issue: Patients often join telehealth visits unprepared, with missing vitals or incomplete histories; clinicians spend significant time manually reviewing charts.
+-   Potential AI roles: chart summarization, pre-visit questionnaires, technical check agents, patient-prep coaching.
 
-**Candidate Workflow 5: Patient Education and Self-Management Support for Rural Communities** Issue: Many rural patients lack access to clear, understandable health education. Barriers include: Limited face-to-face time with clinicians, Low digital literacy, Chronic conditions (diabetes, COPD, heart failure) needing continuous self-management, Confusion around medication regimens, Difficulty navigating health information online Potential AI roles:medication explanation agent, self-management coaching agent, appointment prep agent, condition progress check agent, care navigation agent
+**Candidate Workflow 3: Behavioral Health Crisis Escalation in Remote Areas**
+
+-   Issue: Crisis support is limited; waits for tele-psychiatry can be long; patients may not understand when to seek help.
+-   Potential AI roles: risk detection, message triage, safety-monitoring agent, supportive conversational AI agent.
+
+**Candidate Workflow 4: Care Coordination for Rural Chronic Disease Management**
+
+-   Issue: Communication across primary care, specialists, and pharmacies is fragmented; rural patients often lack frequent touchpoints.
+-   Potential AI roles: care-plan summarizer, referral-prioritization agent, cross-team communication facilitator.
+
+**Candidate Workflow 5: Patient Education and Self-Management Support for Rural Communities**
+
+-   Issue: Many rural patients lack access to clear, understandable health education. Barriers include: Limited face-to-face time with clinicians, Low digital literacy, Chronic conditions (diabetes, COPD, heart failure) needing continuous self-management, Confusion around medication regimens, Difficulty navigating health information online
+-   Potential AI roles:medication explanation agent, self-management coaching agent, appointment prep agent, condition progress check agent, care navigation agent
 
 ## Learning Activities
 
@@ -37,8 +64,6 @@ Your team must select one of the following rural or remote-care workflows and ev
     -   [*Human–AI interaction rules*]{.underline}: When the AI acts autonomously and when human review is required (e.g., flagged uncertainty).
 
     -   [*Constraints and rural adaptation considerations*]{.underline} : What are some other rural-specfic factors that will need to taken into consideration for effective implementation (e.g. , bandwidth, limited staff availability, digital literacy, offline mode).
-
-<!-- -->
 
 3.  **Future-state workflow diagram**. Building on the current-state workflow digram, create a revised, AI-enabled workflow using a flowchart or swimlane format, to show where the AI agent enters the workflow, what tasks it performs, and how it interacts with humans and other systems.
 
